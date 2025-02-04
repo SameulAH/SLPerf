@@ -6,6 +6,9 @@ import torch.utils.data
 import logging
 from torch_geometric.nn import global_add_pool
 
+####
+from torch_geometric.data import Data
+
 
 class GraphConv(nn.Module):
     def __init__(self, in_features, out_features, bias=True):

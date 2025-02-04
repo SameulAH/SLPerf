@@ -7,3 +7,6 @@ pandas
 numpy
 pillow
 matplotlib
+torch-geometric
+opencv-python
+opencv-contrib-python

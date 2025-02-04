@@ -1,7 +1,9 @@
 import numpy as np
 import re
 import torch
-from torch.utils.data.dataset import T_co
+#from torch.utils.data.dataset import T_co
+from typing import TypeVar
+T_co = TypeVar('T_co', covariant=True)
 import torchvision.transforms as transforms
 
 import torch.utils.data as data

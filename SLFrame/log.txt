@@ -129,3 +129,49 @@
 2022-09-02 20:13:27,734 - SplitNNClient - INFO - 10712 - phase=train acc=61.425 loss=56.23431368893944 epoch=0 and step=160
 2022-09-02 20:14:23,734 - SplitNNClient - INFO - 8992 - phase=train acc=61.59375 loss=52.7588940091664 epoch=0 and step=160
 2022-09-02 20:15:12,893 - SplitNNClient - INFO - 7292 - phase=train acc=61.575 loss=56.94755396153778 epoch=0 and step=160
+2025-02-04 21:56:24,141 - SplitNN_init - INFO - 29154 - process_id: 0, worker_number: 2
+2025-02-04 21:56:24,141 - SplitNN_init - INFO - 29155 - process_id: 1, worker_number: 2
+2025-02-04 21:56:24,142 - datasetFactory - INFO - 29154 - cifar10
+2025-02-04 21:56:24,142 - datasetFactory - INFO - 29155 - cifar10
+2025-02-04 21:56:24,143 - partitionFactory - INFO - 29154 - dataset is cifar10
+2025-02-04 21:56:24,143 - partitionFactory - INFO - 29155 - dataset is cifar10
+2025-02-04 21:56:24,143 - cifar10Controller - INFO - 29154 - <bound method cifar10Partition.homo of <core.dataset.partition.cifar10Partition.cifar10Partition object at 0x13ecfbd90>>
+2025-02-04 21:56:24,143 - cifar10Controller - INFO - 29155 - <bound method cifar10Partition.homo of <core.dataset.partition.cifar10Partition.cifar10Partition object at 0x14ae65310>>
+2025-02-04 21:56:24,143 - cifar10Partition - INFO - 29154 - homo
+2025-02-04 21:56:24,143 - cifar10Partition - INFO - 29155 - homo
+2025-02-04 21:56:24,143 - cifar10Controller - INFO - 29154 - ./data/
+2025-02-04 21:56:24,143 - cifar10Controller - INFO - 29155 - ./data/
+2025-02-04 21:56:30,209 - cifar10Controller - INFO - 29155 - rank = 1, local_sample_number = 50000
+2025-02-04 21:56:31,690 - cifar10Controller - INFO - 29154 - train_dl_global number = 390
+2025-02-04 21:56:31,691 - cifar10Controller - INFO - 29154 - test_dl_global number = 78
+2025-02-04 21:56:31,704 - SplitNN_distributed - INFO - 29154 - process_id == server_rank : 0
+2025-02-04 21:56:31,740 - cifar10Controller - INFO - 29155 - process_id = 1, batch_num_train_local = 390, batch_num_test_local = 78
+2025-02-04 21:56:31,741 - init_server - INFO - 29154 - Server run begin asy_vanilla
+2025-02-04 21:56:31,755 - SplitNN_distributed - INFO - 29155 - process_id == client_rank : 1
+2025-02-04 21:56:31,791 - init_client - INFO - 29155 - Client 1 run begin
+2025-02-04 22:09:05,540 - SplitNN_init - INFO - 29542 - process_id: 0, worker_number: 1
+2025-02-04 22:09:05,545 - datasetFactory - INFO - 29542 - cifar10
+2025-02-04 22:09:05,545 - partitionFactory - INFO - 29542 - dataset is cifar10
+2025-02-04 22:09:05,546 - cifar10Controller - INFO - 29542 - <bound method cifar10Partition.homo of <core.dataset.partition.cifar10Partition.cifar10Partition object at 0x15a590ac0>>
+2025-02-04 22:09:05,546 - cifar10Partition - INFO - 29542 - homo
+2025-02-04 22:09:05,546 - cifar10Controller - INFO - 29542 - ./data/
+2025-02-04 22:10:16,159 - SplitNN_init - INFO - 29627 - process_id: 0, worker_number: 2
+2025-02-04 22:10:16,159 - SplitNN_init - INFO - 29628 - process_id: 1, worker_number: 2
+2025-02-04 22:10:16,160 - datasetFactory - INFO - 29627 - cifar10
+2025-02-04 22:10:16,161 - datasetFactory - INFO - 29628 - cifar10
+2025-02-04 22:10:16,161 - partitionFactory - INFO - 29627 - dataset is cifar10
+2025-02-04 22:10:16,161 - cifar10Controller - INFO - 29627 - <bound method cifar10Partition.homo of <core.dataset.partition.cifar10Partition.cifar10Partition object at 0x169dd1820>>
+2025-02-04 22:10:16,161 - partitionFactory - INFO - 29628 - dataset is cifar10
+2025-02-04 22:10:16,162 - cifar10Partition - INFO - 29627 - homo
+2025-02-04 22:10:16,162 - cifar10Controller - INFO - 29627 - ./data/
+2025-02-04 22:10:16,162 - cifar10Controller - INFO - 29628 - <bound method cifar10Partition.homo of <core.dataset.partition.cifar10Partition.cifar10Partition object at 0x137bbd820>>
+2025-02-04 22:10:16,162 - cifar10Partition - INFO - 29628 - homo
+2025-02-04 22:10:16,162 - cifar10Controller - INFO - 29628 - ./data/
+2025-02-04 22:10:22,906 - cifar10Controller - INFO - 29628 - rank = 1, local_sample_number = 50000
+2025-02-04 22:10:25,520 - cifar10Controller - INFO - 29627 - train_dl_global number = 390
+2025-02-04 22:10:25,520 - cifar10Controller - INFO - 29627 - test_dl_global number = 78
+2025-02-04 22:10:25,543 - SplitNN_distributed - INFO - 29627 - process_id == server_rank : 0
+2025-02-04 22:10:25,569 - init_server - INFO - 29627 - Server run begin asy_vanilla
+2025-02-04 22:10:25,599 - cifar10Controller - INFO - 29628 - process_id = 1, batch_num_train_local = 390, batch_num_test_local = 78
+2025-02-04 22:10:25,624 - SplitNN_distributed - INFO - 29628 - process_id == client_rank : 1
+2025-02-04 22:10:25,659 - init_client - INFO - 29628 - Client 1 run begin
