@@ -13,6 +13,9 @@ max_rank: 2
 partition_method: homo
 variants_type: asy_vanilla
 
+
+
+
 seed: 0
 partition_alpha: 2
 server_rank: 0
