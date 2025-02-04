@@ -1,0 +1,9 @@
+pyyaml
+#py4mpi
+mpi4py
+torch
+scikit-learn
+pandas
+numpy
+pillow
+matplotlib
