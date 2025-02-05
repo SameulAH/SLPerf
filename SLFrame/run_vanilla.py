@@ -1,125 +1,95 @@
 import torch
 import logging
 import torch.nn as nn
-
-from torchvision import transforms
-from torchvision import datasets
+import torch.nn.functional as F
+from torchvision import transforms, datasets
 from torch.utils.data import DataLoader
-import torch.optim as optim
 
-# import setproctitle
-import sys
-
-sys.path.extend("../")
-sys.path.extend("../../")
-
+# Remove GNN imports and add CNN components
+from core.model.cnn import cifar10_client, cifar10_server  # Use existing CNN components
+from core.splitApi import SplitNN_distributed, SplitNN_init
 from core.log.Log import Log
 from core.dataset.datasetFactory import datasetFactory
-from Parse.parseFactory import parseFactory, JSON, YAML
-from core.model.model_factory import model_factory
-from core.model.GNN import GCN_server, GCN_client
-from core.model.cnn import CNN_OriginalFedAvg, Net, cifar10_client, cifar10_server
-from core.model.models_for_U import LeNetClientNetworkPart1, LeNetClientNetworkPart2, LeNetServerNetwork_U,\
-    adult_LR_U_client1, adult_LR_U_client2, adult_LR_U_server
-from core.model.models import german_LR_client, german_LR_server, LeNetClientNetwork,  LeNetServerNetwork,\
-    adult_LR_client, adult_LR_server, LeNetComplete
-from core.model.Alex_model import AlexNet_client, AlexNet_server
-from core.model.resnet import resnet56, ResNet_client, ResNet_server
-from core.model.EffientNet0 import EfficientNetB0_Client, EfficientNetB0_Server
-from core.model.GNN import DMPNNEncoder, DMPNNEncoder_head
+from Parse.parseFactory import parseFactory, YAML
+### Added  ##################################
+from Parse.parseFactory import parseFactory
+import os
 
+import yaml
 
-from core.variants.vanilla.client import SplitNNClient
-from core.variants.vanilla.server import SplitNNServer
-from core.splitApi import SplitNN_distributed, SplitNN_init
+# Assume parseFactory(fileType=YAML).factory() loads a dictionary (args) from a YAML file
+# This is a simulation of that function loading the YAML (adjust this if you are using a different method):
+with open('config.yaml', 'r') as file:  # Load the YAML file
+    args = yaml.safe_load(file)  # Load as a dictionary
 
-num_epochs = 3
-hidden_size = 300
-depth = 3
-out_dim = 1
+# Access the save_dir from the loaded dictionary
+# Since save_dirs is a list, you probably want the first directory, so access it with args['save_dirs'][0]
+save_dir = args.get("save_dirs", ["./model_save/default"])[0]  # Default to the first directory if not in config
 
-# head = nn.Sequential(
-#     nn.Linear(hidden_size, hidden_size, bias=True),
-#     nn.ReLU(),
-#     nn.Linear(hidden_size, out_dim, bias=True),
-# )
-# model = nn.Sequential(
-#     DMPNNEncoder(
-#         hidden_size,
-#         dataset.num_node_features,
-#         dataset.num_edge_features,
-#         depth,
-#     ),
-#     head,
-# )
-# client_model = [LeNetClientNetworkPart1(), LeNetClientNetworkPart2()]
-client_model = DMPNNEncoder(
-        hidden_size,
-        9,
-        3,
-        depth,
-)
-server_model = DMPNNEncoder_head(300, out_dim, 9, 3, 3, True)
-# client_model = LeNetClientNetwork()
-# server_model = LeNetServerNetwork()
-# model = LeNetComplete()
-# # # cm2 = LeNetClientNetworkPart2()
-# # fc_features = model.fc.in_features
-# # model.fc = nn.Sequential(nn.Flatten(), nn.Linear(fc_features, 10))
-# client_model = nn.Sequential(*nn.ModuleList(model.children())[:2])
-# server_model = nn.Sequential(*nn.ModuleList(model.children())[2:])
-# self.model = args["client_model"]
-# self.model_2 = args["client_model_2"]
+# Now ensure the directory exists, and create it if it doesn't
+os.makedirs(save_dir, exist_ok=True)
 
+##################################
+# Simple CNN Model Definition
+class CNNSplitClient(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.conv1 = nn.Conv2d(3, 6, 5)  # CIFAR-10 has 3 channels
+        self.pool = nn.MaxPool2d(2, 2)
+        self.conv2 = nn.Conv2d(6, 16, 5)
+        
+    def forward(self, x):
+        x = self.pool(F.relu(self.conv1(x)))
+        x = self.pool(F.relu(self.conv2(x)))
+        return x
+
+class CNNSplitServer(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.fc1 = nn.Linear(16*5*5, 120)
+        self.fc2 = nn.Linear(120, 84)
+        self.fc3 = nn.Linear(84, 10)  # 10 classes for CIFAR-10
+        
+    def forward(self, x):
+        x = x.view(-1, 16*5*5)
+        x = F.relu(self.fc1(x))
+        x = F.relu(self.fc2(x))
+        x = self.fc3(x)
+        return x
 
 def init_training_device(process_ID, fl_worker_num, gpu_num_per_machine):
-    # initialize the mapping from process ID to GPU ID: <process ID, GPU ID>
-    # logging = Logging("init_training_device")
-    if process_ID == 0:
-        device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-        return device
-    process_gpu_dict = dict()
-    for client_index in range(fl_worker_num):
-        gpu_index = client_index % gpu_num_per_machine
-        process_gpu_dict[client_index] = gpu_index
-
-    logging.info(process_gpu_dict)
-    device = torch.device("cuda:" + str(process_gpu_dict[process_ID - 1]) if torch.cuda.is_available() else "cpu")
-    logging.info(device)
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     return device
 
-
 if __name__ == '__main__':
-    """
-        尽量让Test.py是可以不需要做任何其他操作直接运行的
-    """
+    # Initialize framework
     args = parseFactory(fileType=YAML).factory()
     args.load('./config.yaml')
-    # comm, process_id, worker_number = SplitNN_init(parse=args)
+    
+    # Initialize communication
     comm, process_id, worker_number = SplitNN_init(args)
-    args["rank"] = process_id  # 设置当前process_id
+    args["rank"] = process_id
 
-    # args["client_model"], args["server_model"] = model_factory(args).create()
-    args["client_model"], args["server_model"] = client_model, server_model
-    # # args["client_model_2"] = cm2
+    # Create CNN models
+    client_model = CNNSplitClient()
+    server_model = CNNSplitServer()
+    
+    # Assign models to args
+    args["client_model"] = client_model
+    args["server_model"] = server_model
 
-    device = init_training_device(process_id, worker_number - 1, args.gpu_num_per_server)
+    # Set device (force CPU for compatibility)
     args["device"] = "cpu"
 
-    dataset = datasetFactory(args).factory()  # loader data and partition method
-
+    # Load dataset
+    dataset = datasetFactory(args).factory()
+    
+    # Get partitioned data
     train_data_num, train_data_global, test_data_global, local_data_num, \
-    train_data_local, test_data_local, class_num = dataset.load_partition_data(process_id)  # 这里的4是process Id
-    # args["trainloader"] = train_data_local
-    # args["testloader"] = test_data_local
-    # args["train_data_num"] = train_data_num
-    # args["train_data_global"] = train_data_global
-    # args["test_data_global"] = test_data_global
-    # args["local_data_num"] = local_data_num
-    # args["class_num"] = class_num
-    log = Log("main", args)
-    # log.info("{}".format(train_data_num))
+    train_data_local, test_data_local, class_num = dataset.load_partition_data(process_id)
 
-    # str_process_name = "SplitNN (distributed):" + str(process_id)
-    # setproctitle.setproctitle(str_process_name
+    # Initialize logging
+    log = Log("main", args)
+
+    # Start distributed training
     SplitNN_distributed(process_id, args)

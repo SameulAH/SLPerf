@@ -6,7 +6,7 @@ device: gpu
 gpu_num_per_server: 1
 download: true
 batch_size: 128
-epochs: 410
+epochs: 20
 log_step: 10
 lr: 0.01
 max_rank: 2
@@ -38,3 +38,11 @@ SGLR_splitLR_alpha: 0.5
 save_acts_step: 0
 save_attack_acts_step: 0
 save_model_epoch: 50
+
+### Added
+# In config.yaml
+
+save_dirs:
+  - "./model_save/attack_acts/PSL/cifar10"
+  - "./logs"
+  - "./results"
