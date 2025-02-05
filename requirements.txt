@@ -10,3 +10,4 @@ matplotlib
 torch-geometric
 opencv-python
 opencv-contrib-python
+torchvision
