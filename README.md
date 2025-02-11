@@ -78,154 +78,117 @@ You can also inherit relevant classes from the process to use some common method
 ## Tree
    
 SLFrame  
-      │  config.yaml  
-      │  dataTest.py  
-      │  log.txt  
-      │  Test.py  # main
-      │            
-      ├─core  
-      │  │  splitApi.py  
-      │  │  splitApiO.py  
-      │  │           
-      │  ├─communication  
-      │  │  │  base_com_manager.py  
-      │  │  │  message.py  
-      │  │  │  msg_manager.py  
-      │  │  │  observer.py  
-      │  │  │  __init__.py  
-      │  │  │    
-      │  │  ├─mpi  
-      │  │  │  │  mpi_com_mananger.py  
-      │  │  │  │  mpi_receive_thread.py  
-      │  │  │  │  mpi_send_thread.py  
-      │  │  │  │  __init__.py  
-      │  │    
-      │  │            
-      │  ├─dataset …… 
-      │  │  │  abstractDataset.py  
-      │  │  │  abstractDatasetFactory.py  
-      │  │  │  baseDataset.py  
-      │  │  │  baseDatasetFactory.py  
-      │  │  │  datasetFactory.py  
-      │  │  │    
-      │  │  ├─controller  
-      │  │  │  │  adultController.py  
-      │  │  │  │  cheXpertController.py  
-      │  │  │  │  cifar10Controller.py  
-      │  │  │  │  fashionmnistController.py  
-      │  │  │  │  germanController.py  
-      │  │  │  │  mnistController.py  
-      │  │  │    
-      │  │  │            
-      │  │  ├─dataset  
-      │  │  │  │  adult.py  
-      │  │  │  │  cheXpert.py  
-      │  │  │  │  cifar10.py  
-      │  │  │  │  fashionmnist.py  
-      │  │  │  │  german.py  
-      │  │  │  │  mnist.py  
-      │  │  │            
-      │  │  ├─partition 
-      │  │  │  │  basePartition.py  
-      │  │  │  │  basePartitionFactory.py  
-      │  │  │  │  cifar10Partition.py  
-      │  │  │  │  partitionFactory.py  
-      │  │  │  │  partitionUtils.py  
-      │  │          
-      │  ├─log  
-      │  │  │  abstractLog.py  
-      │  │  │  baseLog.py  
-      │  │  │  Log.py  
-      │  │    
-      │  │            
-      │  ├─model  
-      │  │  │  Alex_model.py  
-      │  │  │  cnn.py  
-      │  │  │  DenseNet.py  
-      │  │  │  EffientNet0.py  
-      │  │  │  modelFactory.py  
-      │  │  │  models.py  
-      │  │  │  models_for_U.py  
-      │  │  │  model_factory.py  
-      │  │  │  resnet.py  
-      │  │          
-      │  ├─process  
-      │  │      baseClient.py  
-      │  │      baseClientManager.py  
-      │  │      baseServer.py  
-      │  │      baseServerManageger.py  
-      │  │             
-      │  ├─variants  
-      │  │  │  variantsFactory.py  
-      │  │  │    
-      │  │  ├─Asynchronous  
-      │  │  │             
-      │  │  ├─asyVanilla
-      │  │  │  │  client.py  
-      │  │  │  │  client_manager.py  
-      │  │  │  │  message_define.py  
-      │  │  │  │  readme.md  
-      │  │  │  │  server.py  
-      │  │  │  │  server_manager.py  
-      │  │  │  │  __init__.py  
-      │  │  │           
-      │  │  ├─comp_model   
-      │  │  │              
-      │  │  ├─fedavg  
-      │  │  │  
-      │  │  │          
-      │  │  ├─parallel_U_Shape   
-      │  │  │       
-      │  │  ├─SGLR  
-      │  │  │         
-      │  │  ├─SplitFed  
-      │  │  │            
-      │  │  ├─SplitFed2  
-      │  │  │           
-      │  │  ├─synchronization  
-      │  │  │           
-      │  │  ├─TaskAgnostic  
-      │  │  │                 
-      │  │  ├─Ushaped  
-      │  │  │              
-      │  │  ├─vanilla  
-      │  │  │              
-      │  │  ├─vertical  
-      │              
-      │            
-      ├─data  
-      │  ├─adult  
-      │  │      adult.data  
-      │  │      adult.test  
-      │  │      
-      │  ├─CheXpert-v1.0-small  
-      │  ├─cifar10  
-      │  │        
-      │  ├─fashionmnist  
-      │  │  └─FashionMNIST  
-      │  │                
-      │  ├─german  
-      │  │      german.data-numeric  
-      │  │        
-      │  └─mnist  
-      │      │   
-      │      └─MNIST  
-      │                     
-      ├─model_save  
-      │        
-      └─Parse  
-          │  abstractParse.py  
-          │  baseParse.py  
-          │  parseFactory.py  
-          │  utlis.py  
-          │    
-          ├─JSON  
-          │  │  jsonParse.py  
-          │    
-          │            
-          ├─YAML …… YAML
-          │  │  yamlParse.py  
-  
+
+```plaintext
+├── config.yaml
+├── dataTest.py
+├── log.txt
+├── Test.py  # main
+├── core
+│   ├── splitApi.py
+│   ├── splitApiO.py
+│   ├── communication
+│   │   ├── base_com_manager.py
+│   │   ├── message.py
+│   │   ├── msg_manager.py
+│   │   ├── observer.py
+│   │   └── __init__.py
+│   ├── mpi
+│   │   ├── mpi_com_mananger.py
+│   │   ├── mpi_receive_thread.py
+│   │   ├── mpi_send_thread.py
+│   │   └── __init__.py
+│   ├── dataset
+│   │   ├── abstractDataset.py
+│   │   ├── abstractDatasetFactory.py
+│   │   ├── baseDataset.py
+│   │   ├── baseDatasetFactory.py
+│   │   ├── datasetFactory.py
+│   │   ├── controller
+│   │   │   ├── adultController.py
+│   │   │   ├── cheXpertController.py
+│   │   │   ├── cifar10Controller.py
+│   │   │   ├── fashionmnistController.py
+│   │   │   ├── germanController.py
+│   │   │   └── mnistController.py
+│   │   ├── dataset
+│   │   │   ├── adult.py
+│   │   │   ├── cheXpert.py
+│   │   │   ├── cifar10.py
+│   │   │   ├── fashionmnist.py
+│   │   │   ├── german.py
+│   │   │   └── mnist.py
+│   │   ├── partition
+│   │   │   ├── basePartition.py
+│   │   │   ├── basePartitionFactory.py
+│   │   │   ├── cifar10Partition.py
+│   │   │   ├── partitionFactory.py
+│   │   │   └── partitionUtils.py
+│   ├── log
+│   │   ├── abstractLog.py
+│   │   ├── baseLog.py
+│   │   └── Log.py
+│   ├── model
+│   │   ├── Alex_model.py
+│   │   ├── cnn.py
+│   │   ├── DenseNet.py
+│   │   ├── EffientNet0.py
+│   │   ├── modelFactory.py
+│   │   ├── models.py
+│   │   ├── models_for_U.py
+│   │   ├── model_factory.py
+│   │   └── resnet.py
+│   ├── process
+│   │   ├── baseClient.py
+│   │   ├── baseClientManager.py
+│   │   ├── baseServer.py
+│   │   └── baseServerManager.py
+│   ├── variants
+│   │   ├── variantsFactory.py
+│   │   ├── Asynchronous
+│   │   ├── asyVanilla
+│   │   │   ├── client.py
+│   │   │   ├── client_manager.py
+│   │   │   ├── message_define.py
+│   │   │   ├── readme.md
+│   │   │   ├── server.py
+│   │   │   ├── server_manager.py
+│   │   │   └── __init__.py
+│   │   ├── comp_model
+│   │   ├── fedavg
+│   │   ├── parallel_U_Shape
+│   │   ├── SGLR
+│   │   ├── SplitFed
+│   │   ├── SplitFed2
+│   │   ├── synchronization
+│   │   ├── TaskAgnostic
+│   │   ├── Ushaped
+│   │   ├── vanilla
+│   │   └── vertical
+├── data
+│   ├── adult
+│   │   ├── adult.data
+│   │   └── adult.test
+│   ├── CheXpert-v1.0-small
+│   ├── cifar10
+│   ├── fashionmnist
+│   │   └── FashionMNIST
+│   ├── german
+│   │   └── german.data-numeric
+│   └── mnist
+│       └── MNIST
+├── model_save
+├── Parse
+│   ├── abstractParse.py
+│   ├── baseParse.py
+│   ├── parseFactory.py
+│   └── utils.py
+├── JSON
+│   └── jsonParse.py
+└── YAML
+    └── yamlParse.py
+```
+
 
 
 
