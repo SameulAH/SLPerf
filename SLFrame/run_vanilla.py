@@ -57,6 +57,12 @@ class CNNSplitServer(nn.Module):
         x = self.fc3(x)
         return x
 
+
+
+#added by ismail
+torch.serialization.add_safe_globals(['CNNSplitClient'])
+#### 
+# Initialize training device
 def init_training_device(process_ID, fl_worker_num, gpu_num_per_machine):
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     return device
