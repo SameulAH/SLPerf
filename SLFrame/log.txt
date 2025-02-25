@@ -5828,3 +5828,5 @@
 2025-02-25 02:25:10,551 - SplitNNClient - INFO - 35186 - phase=train acc=0.31396039603960396 loss=1.8225111961364746 epoch=4 and step=100
 2025-02-25 02:25:39,854 - SplitNNClient - INFO - 35186 - phase=train acc=0.3181404958677686 loss=1.6762787103652954 epoch=4 and step=120
 2025-02-25 02:25:46,231 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=567093712 epoch_receive=505012904 total_send=567093712 total_receive=505012904
+2025-02-25 02:26:13,898 - SplitNNClient - INFO - 35186 - phase=validation acc=0.3908 loss=1.6470663952827453 epoch=4 and step=50
+2025-02-25 02:26:14,178 - SplitNNClient - INFO - 35187 - phase=train acc=0.265 loss=2.186124801635742 epoch=4 and step=0
