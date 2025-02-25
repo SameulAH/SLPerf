@@ -5,14 +5,15 @@ dataset: cifar10
 device: gpu
 gpu_num_per_server: 1
 download: true
-batch_size: 128
-epochs: 23
-log_step: 10
+batch_size: 200
+epochs: 25
+log_step: 20
 lr: 0.01
 max_rank: 2
 partition_method: homo
-variants_type: asy_vanilla
-
+#variants_type: vanilla
+#variants_type: psl
+variants_type: Ushaped
 
 
 
@@ -46,3 +47,48 @@ save_dirs:
   - "./model_save/attack_acts/PSL/cifar10"
   - "./logs"
   - "./results"
+
+
+
+
+# dataDir: ./data/
+# dataset: cifar10
+# device: gpu
+# gpu_num_per_server: 1
+# download: true
+# batch_size: 64
+# epochs: 23
+# log_step: 10
+# lr: 0.01
+# max_rank: 2
+# partition_method: homo
+# variants_type: vanilla   # Use "vanilla" for a complete vanilla split learning model
+
+# seed: 0
+# partition_alpha: 2
+# server_rank: 0
+# model: LeNet
+# split_layer: 1
+# thred: 0.10
+
+# partition_method_attributes: 7
+# class_number_per_client: 4
+
+# client_split: [1]        # One client; with the server this makes 2 processes
+
+# # The following parameters are specific to vertical-splitting or SGLR variants
+# # and are not used for a complete vanilla model. They have been commented out.
+# # data_vertical_list: [6, 4, 4]
+# # cut_layer_vertical_list: [4, 3, 3]
+# # SGLR_splitAvg_active: 0.5
+# # SGLR_splitLR: True
+# # SGLR_splitLR_alpha: 0.5
+
+# save_acts_step: 0
+# save_attack_acts_step: 0
+# save_model_epoch: 50
+
+# save_dirs:
+#   - "./model_save/attack_acts/PSL/cifar10"
+#   - "./logs"
+#   - "./results"
