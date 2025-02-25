@@ -1,9 +1,20 @@
 from .log.Log import Log
 import time
 from mpi4py import MPI
-
+import torch
 from .variants.variantsFactory import variantsFactory
 from .model.models import LeNetClientNetwork, LeNetServerNetwork
+from .model.models import CNNSplitClient, CNNSplitServer    
+
+
+##################################
+#added by ismail
+torch.serialization.add_safe_globals([CNNSplitClient])
+torch.serialization.add_safe_globals([CNNSplitServer])
+torch.serialization.add_safe_globals([LeNetClientNetwork])
+torch.serialization.add_safe_globals([LeNetServerNetwork])  
+##################################
+
 
 
 def SplitNN_init(parse):
