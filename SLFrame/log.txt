@@ -8678,3 +8678,1106 @@
 2025-02-26 09:39:33,240 - SplitNNClient - INFO - 35187 - phase=train acc=0.6017073170731707 loss=1.1967350244522095 epoch=320 and step=40
 2025-02-26 09:40:13,261 - SplitNNClient - INFO - 35187 - phase=train acc=0.598688524590164 loss=1.1268835067749023 epoch=320 and step=60
 2025-02-26 09:40:37,261 - SplitNNClient - INFO - 35187 - phase=train acc=0.6027777777777777 loss=1.055895209312439 epoch=320 and step=80
+2025-02-26 09:41:17,736 - SplitNNClient - INFO - 35187 - phase=train acc=0.6028217821782178 loss=1.2352765798568726 epoch=320 and step=100
+2025-02-26 09:42:03,345 - SplitNNClient - INFO - 35187 - phase=train acc=0.6023140495867768 loss=1.2290856838226318 epoch=320 and step=120
+2025-02-26 09:42:14,185 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=32912159460 epoch_receive=27945695022 total_send=32912159460 total_receive=27945695022
+2025-02-26 09:42:42,154 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6698 loss=0.9407697463035584 epoch=320 and step=50
+2025-02-26 09:42:42,428 - SplitNNClient - INFO - 35186 - phase=train acc=0.555 loss=1.1865534782409668 epoch=322 and step=0
+2025-02-26 09:43:28,290 - SplitNNClient - INFO - 35186 - phase=train acc=0.5907142857142857 loss=1.2307391166687012 epoch=322 and step=20
+2025-02-26 09:44:13,438 - SplitNNClient - INFO - 35186 - phase=train acc=0.5857317073170731 loss=1.2712370157241821 epoch=322 and step=40
+2025-02-26 09:45:00,093 - SplitNNClient - INFO - 35186 - phase=train acc=0.5908196721311475 loss=1.1297383308410645 epoch=322 and step=60
+2025-02-26 09:45:42,463 - SplitNNClient - INFO - 35186 - phase=train acc=0.5891358024691358 loss=1.072198510169983 epoch=322 and step=80
+2025-02-26 09:46:27,343 - SplitNNClient - INFO - 35186 - phase=train acc=0.5903960396039604 loss=1.085404396057129 epoch=322 and step=100
+2025-02-26 09:47:14,935 - SplitNNClient - INFO - 35186 - phase=train acc=0.5925619834710744 loss=1.0778613090515137 epoch=322 and step=120
+2025-02-26 09:47:27,289 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=33116875066 epoch_receive=28119370022 total_send=33116875066 total_receive=28119370022
+2025-02-26 09:47:55,235 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6607 loss=0.9743886077404023 epoch=322 and step=50
+2025-02-26 09:47:55,591 - SplitNNClient - INFO - 35187 - phase=train acc=0.615 loss=1.0397047996520996 epoch=322 and step=0
+2025-02-26 09:48:41,985 - SplitNNClient - INFO - 35187 - phase=train acc=0.5852380952380952 loss=1.2640488147735596 epoch=322 and step=20
+2025-02-26 09:49:29,131 - SplitNNClient - INFO - 35187 - phase=train acc=0.5913414634146341 loss=1.196527123451233 epoch=322 and step=40
+2025-02-26 09:50:16,161 - SplitNNClient - INFO - 35187 - phase=train acc=0.5978688524590164 loss=1.1260062456130981 epoch=322 and step=60
+2025-02-26 09:51:03,812 - SplitNNClient - INFO - 35187 - phase=train acc=0.5973456790123457 loss=1.0541672706604004 epoch=322 and step=80
+2025-02-26 09:51:51,173 - SplitNNClient - INFO - 35187 - phase=train acc=0.5986633663366336 loss=1.1775941848754883 epoch=322 and step=100
+2025-02-26 09:52:38,354 - SplitNNClient - INFO - 35187 - phase=train acc=0.5999586776859505 loss=1.1111063957214355 epoch=322 and step=120
+2025-02-26 09:52:49,797 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=33116875066 epoch_receive=28119370224 total_send=33116875066 total_receive=28119370224
+2025-02-26 09:53:17,815 - SplitNNClient - INFO - 35187 - phase=validation acc=0.647 loss=1.012260572910309 epoch=322 and step=50
+2025-02-26 09:53:18,013 - SplitNNClient - INFO - 35186 - phase=train acc=0.62 loss=1.045405387878418 epoch=324 and step=0
+2025-02-26 09:54:05,031 - SplitNNClient - INFO - 35186 - phase=train acc=0.5907142857142857 loss=1.1375484466552734 epoch=324 and step=20
+2025-02-26 09:54:54,115 - SplitNNClient - INFO - 35186 - phase=train acc=0.5917073170731707 loss=1.1298753023147583 epoch=324 and step=40
+2025-02-26 09:55:34,138 - SplitNNClient - INFO - 35186 - phase=train acc=0.5954098360655737 loss=1.239859700202942 epoch=324 and step=60
+2025-02-26 09:56:16,489 - SplitNNClient - INFO - 35186 - phase=train acc=0.5924691358024692 loss=1.2711297273635864 epoch=324 and step=80
+2025-02-26 09:57:00,182 - SplitNNClient - INFO - 35186 - phase=train acc=0.5922277227722772 loss=1.141943335533142 epoch=324 and step=100
+2025-02-26 09:57:43,673 - SplitNNClient - INFO - 35186 - phase=train acc=0.5914462809917356 loss=1.1127679347991943 epoch=324 and step=120
+2025-02-26 09:57:55,032 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=33321590672 epoch_receive=28293045224 total_send=33321590672 total_receive=28293045224
+2025-02-26 09:58:22,988 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6592 loss=0.9818338632583619 epoch=324 and step=50
+2025-02-26 09:58:23,360 - SplitNNClient - INFO - 35187 - phase=train acc=0.64 loss=1.0902581214904785 epoch=324 and step=0
+2025-02-26 09:59:10,969 - SplitNNClient - INFO - 35187 - phase=train acc=0.6080952380952381 loss=1.0794976949691772 epoch=324 and step=20
+2025-02-26 09:59:57,650 - SplitNNClient - INFO - 35187 - phase=train acc=0.6048780487804878 loss=1.179793357849121 epoch=324 and step=40
+2025-02-26 10:00:42,814 - SplitNNClient - INFO - 35187 - phase=train acc=0.599344262295082 loss=1.1343722343444824 epoch=324 and step=60
+2025-02-26 10:01:30,644 - SplitNNClient - INFO - 35187 - phase=train acc=0.6035802469135803 loss=1.1730029582977295 epoch=324 and step=80
+2025-02-26 10:02:17,906 - SplitNNClient - INFO - 35187 - phase=train acc=0.6014356435643564 loss=1.137349009513855 epoch=324 and step=100
+2025-02-26 10:03:04,824 - SplitNNClient - INFO - 35187 - phase=train acc=0.6021074380165289 loss=1.1525121927261353 epoch=324 and step=120
+2025-02-26 10:03:16,628 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=33321590672 epoch_receive=28293045426 total_send=33321590672 total_receive=28293045426
+2025-02-26 10:03:44,652 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6561 loss=0.9721694564819336 epoch=324 and step=50
+2025-02-26 10:03:44,867 - SplitNNClient - INFO - 35186 - phase=train acc=0.555 loss=1.2085130214691162 epoch=326 and step=0
+2025-02-26 10:04:30,773 - SplitNNClient - INFO - 35186 - phase=train acc=0.5992857142857143 loss=1.1026395559310913 epoch=326 and step=20
+2025-02-26 10:05:20,016 - SplitNNClient - INFO - 35186 - phase=train acc=0.5960975609756097 loss=1.0144656896591187 epoch=326 and step=40
+2025-02-26 10:06:01,827 - SplitNNClient - INFO - 35186 - phase=train acc=0.5959016393442623 loss=1.1261423826217651 epoch=326 and step=60
+2025-02-26 10:06:48,075 - SplitNNClient - INFO - 35186 - phase=train acc=0.5967901234567902 loss=1.1540189981460571 epoch=326 and step=80
+2025-02-26 10:07:35,360 - SplitNNClient - INFO - 35186 - phase=train acc=0.5973762376237624 loss=1.1366366147994995 epoch=326 and step=100
+2025-02-26 10:08:23,088 - SplitNNClient - INFO - 35186 - phase=train acc=0.5942561983471074 loss=1.074262022972107 epoch=326 and step=120
+2025-02-26 10:08:34,363 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=33526306278 epoch_receive=28466720426 total_send=33526306278 total_receive=28466720426
+2025-02-26 10:09:02,399 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6597 loss=0.9755322098731994 epoch=326 and step=50
+2025-02-26 10:09:02,639 - SplitNNClient - INFO - 35187 - phase=train acc=0.645 loss=1.121466875076294 epoch=326 and step=0
+2025-02-26 10:09:48,516 - SplitNNClient - INFO - 35187 - phase=train acc=0.6080952380952381 loss=0.9959777593612671 epoch=326 and step=20
+2025-02-26 10:10:37,839 - SplitNNClient - INFO - 35187 - phase=train acc=0.5963414634146341 loss=1.1425122022628784 epoch=326 and step=40
+2025-02-26 10:11:24,348 - SplitNNClient - INFO - 35187 - phase=train acc=0.5972131147540983 loss=1.2562363147735596 epoch=326 and step=60
+2025-02-26 10:12:13,237 - SplitNNClient - INFO - 35187 - phase=train acc=0.6014814814814815 loss=1.097854495048523 epoch=326 and step=80
+2025-02-26 10:13:01,488 - SplitNNClient - INFO - 35187 - phase=train acc=0.6021782178217822 loss=1.079035997390747 epoch=326 and step=100
+2025-02-26 10:13:49,285 - SplitNNClient - INFO - 35187 - phase=train acc=0.6020247933884297 loss=1.1550253629684448 epoch=326 and step=120
+2025-02-26 10:14:02,367 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=33526306278 epoch_receive=28466720628 total_send=33526306278 total_receive=28466720628
+2025-02-26 10:14:30,322 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6524 loss=0.9901094925403595 epoch=326 and step=50
+2025-02-26 10:14:30,583 - SplitNNClient - INFO - 35186 - phase=train acc=0.575 loss=1.1244398355484009 epoch=328 and step=0
+2025-02-26 10:15:18,816 - SplitNNClient - INFO - 35186 - phase=train acc=0.5907142857142857 loss=1.1160106658935547 epoch=328 and step=20
+2025-02-26 10:16:04,077 - SplitNNClient - INFO - 35186 - phase=train acc=0.5923170731707317 loss=1.1154232025146484 epoch=328 and step=40
+2025-02-26 10:16:50,195 - SplitNNClient - INFO - 35186 - phase=train acc=0.5938524590163935 loss=1.1799445152282715 epoch=328 and step=60
+2025-02-26 10:17:35,842 - SplitNNClient - INFO - 35186 - phase=train acc=0.5926543209876544 loss=1.112151861190796 epoch=328 and step=80
+2025-02-26 10:18:21,843 - SplitNNClient - INFO - 35186 - phase=train acc=0.5943069306930693 loss=1.0803618431091309 epoch=328 and step=100
+2025-02-26 10:19:08,384 - SplitNNClient - INFO - 35186 - phase=train acc=0.5968181818181818 loss=1.0582650899887085 epoch=328 and step=120
+2025-02-26 10:19:19,818 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=33731021884 epoch_receive=28640395628 total_send=33731021884 total_receive=28640395628
+2025-02-26 10:19:47,745 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6641 loss=0.9681490159034729 epoch=328 and step=50
+2025-02-26 10:19:48,090 - SplitNNClient - INFO - 35187 - phase=train acc=0.625 loss=1.0371392965316772 epoch=328 and step=0
+2025-02-26 10:20:34,224 - SplitNNClient - INFO - 35187 - phase=train acc=0.604047619047619 loss=1.0005989074707031 epoch=328 and step=20
+2025-02-26 10:21:21,780 - SplitNNClient - INFO - 35187 - phase=train acc=0.6073170731707317 loss=1.0845742225646973 epoch=328 and step=40
+2025-02-26 10:22:09,889 - SplitNNClient - INFO - 35187 - phase=train acc=0.6058196721311475 loss=1.2240371704101562 epoch=328 and step=60
+2025-02-26 10:22:59,365 - SplitNNClient - INFO - 35187 - phase=train acc=0.6064814814814815 loss=1.1139633655548096 epoch=328 and step=80
+2025-02-26 10:23:45,876 - SplitNNClient - INFO - 35187 - phase=train acc=0.6013366336633663 loss=1.1762337684631348 epoch=328 and step=100
+2025-02-26 10:24:32,687 - SplitNNClient - INFO - 35187 - phase=train acc=0.5998760330578512 loss=1.2693243026733398 epoch=328 and step=120
+2025-02-26 10:24:46,087 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=33731021884 epoch_receive=28640395830 total_send=33731021884 total_receive=28640395830
+2025-02-26 10:25:14,141 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6452 loss=1.0144996881484984 epoch=328 and step=50
+2025-02-26 10:25:14,486 - SplitNNClient - INFO - 35186 - phase=train acc=0.57 loss=1.1973859071731567 epoch=330 and step=0
+2025-02-26 10:25:57,701 - SplitNNClient - INFO - 35186 - phase=train acc=0.5945238095238096 loss=1.056724190711975 epoch=330 and step=20
+2025-02-26 10:26:41,326 - SplitNNClient - INFO - 35186 - phase=train acc=0.5948780487804878 loss=1.1893515586853027 epoch=330 and step=40
+2025-02-26 10:27:22,103 - SplitNNClient - INFO - 35186 - phase=train acc=0.5931967213114754 loss=1.2043532133102417 epoch=330 and step=60
+2025-02-26 10:28:05,143 - SplitNNClient - INFO - 35186 - phase=train acc=0.5962962962962963 loss=1.0803395509719849 epoch=330 and step=80
+2025-02-26 10:28:52,104 - SplitNNClient - INFO - 35186 - phase=train acc=0.5958910891089109 loss=1.1074683666229248 epoch=330 and step=100
+2025-02-26 10:29:36,507 - SplitNNClient - INFO - 35186 - phase=train acc=0.5978925619834711 loss=1.0283970832824707 epoch=330 and step=120
+2025-02-26 10:29:48,489 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=33935737490 epoch_receive=28814070830 total_send=33935737490 total_receive=28814070830
+2025-02-26 10:30:16,430 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6622 loss=0.9665905439853668 epoch=330 and step=50
+2025-02-26 10:30:16,720 - SplitNNClient - INFO - 35187 - phase=train acc=0.55 loss=1.304795265197754 epoch=330 and step=0
+2025-02-26 10:31:04,365 - SplitNNClient - INFO - 35187 - phase=train acc=0.5930952380952381 loss=1.1979900598526 epoch=330 and step=20
+2025-02-26 10:31:51,726 - SplitNNClient - INFO - 35187 - phase=train acc=0.5921951219512195 loss=1.057611346244812 epoch=330 and step=40
+2025-02-26 10:32:39,940 - SplitNNClient - INFO - 35187 - phase=train acc=0.5915573770491803 loss=1.0677698850631714 epoch=330 and step=60
+2025-02-26 10:33:27,431 - SplitNNClient - INFO - 35187 - phase=train acc=0.5926543209876544 loss=1.1205230951309204 epoch=330 and step=80
+2025-02-26 10:34:13,693 - SplitNNClient - INFO - 35187 - phase=train acc=0.5937128712871287 loss=1.1297557353973389 epoch=330 and step=100
+2025-02-26 10:35:00,528 - SplitNNClient - INFO - 35187 - phase=train acc=0.5950826446280991 loss=1.0374140739440918 epoch=330 and step=120
+2025-02-26 10:35:11,567 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=33935737490 epoch_receive=28814071032 total_send=33935737490 total_receive=28814071032
+2025-02-26 10:35:39,694 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6611 loss=0.9516134178638458 epoch=330 and step=50
+2025-02-26 10:35:39,942 - SplitNNClient - INFO - 35186 - phase=train acc=0.56 loss=1.2564469575881958 epoch=332 and step=0
+2025-02-26 10:36:25,103 - SplitNNClient - INFO - 35186 - phase=train acc=0.5921428571428572 loss=1.2040632963180542 epoch=332 and step=20
+2025-02-26 10:37:11,662 - SplitNNClient - INFO - 35186 - phase=train acc=0.5897560975609756 loss=1.241210699081421 epoch=332 and step=40
+2025-02-26 10:37:57,807 - SplitNNClient - INFO - 35186 - phase=train acc=0.5900819672131148 loss=1.2749733924865723 epoch=332 and step=60
+2025-02-26 10:38:44,745 - SplitNNClient - INFO - 35186 - phase=train acc=0.5904938271604938 loss=1.0691057443618774 epoch=332 and step=80
+2025-02-26 10:39:31,938 - SplitNNClient - INFO - 35186 - phase=train acc=0.5927722772277227 loss=1.1535863876342773 epoch=332 and step=100
+2025-02-26 10:40:16,591 - SplitNNClient - INFO - 35186 - phase=train acc=0.5928099173553719 loss=1.1807066202163696 epoch=332 and step=120
+2025-02-26 10:40:27,846 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=34140453096 epoch_receive=28987746032 total_send=34140453096 total_receive=28987746032
+2025-02-26 10:40:55,900 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6453 loss=1.0118269395828248 epoch=332 and step=50
+2025-02-26 10:40:56,327 - SplitNNClient - INFO - 35187 - phase=train acc=0.595 loss=1.2648334503173828 epoch=332 and step=0
+2025-02-26 10:41:40,341 - SplitNNClient - INFO - 35187 - phase=train acc=0.6028571428571429 loss=1.0980613231658936 epoch=332 and step=20
+2025-02-26 10:42:23,587 - SplitNNClient - INFO - 35187 - phase=train acc=0.6020731707317073 loss=1.0842502117156982 epoch=332 and step=40
+2025-02-26 10:43:10,627 - SplitNNClient - INFO - 35187 - phase=train acc=0.6014754098360656 loss=1.1673598289489746 epoch=332 and step=60
+2025-02-26 10:43:56,830 - SplitNNClient - INFO - 35187 - phase=train acc=0.6029012345679012 loss=1.1370261907577515 epoch=332 and step=80
+2025-02-26 10:44:45,500 - SplitNNClient - INFO - 35187 - phase=train acc=0.6006435643564356 loss=1.0739551782608032 epoch=332 and step=100
+2025-02-26 10:45:32,809 - SplitNNClient - INFO - 35187 - phase=train acc=0.6000826446280991 loss=1.0464634895324707 epoch=332 and step=120
+2025-02-26 10:45:44,348 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=34140453096 epoch_receive=28987746234 total_send=34140453096 total_receive=28987746234
+2025-02-26 10:46:12,330 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6564 loss=0.980838394165039 epoch=332 and step=50
+2025-02-26 10:46:12,598 - SplitNNClient - INFO - 35186 - phase=train acc=0.58 loss=1.095719337463379 epoch=334 and step=0
+2025-02-26 10:47:02,399 - SplitNNClient - INFO - 35186 - phase=train acc=0.5869047619047619 loss=1.1556979417800903 epoch=334 and step=20
+2025-02-26 10:47:50,061 - SplitNNClient - INFO - 35186 - phase=train acc=0.5914634146341463 loss=1.1997919082641602 epoch=334 and step=40
+2025-02-26 10:48:36,709 - SplitNNClient - INFO - 35186 - phase=train acc=0.5913114754098361 loss=1.1337939500808716 epoch=334 and step=60
+2025-02-26 10:49:22,845 - SplitNNClient - INFO - 35186 - phase=train acc=0.5917283950617284 loss=1.097726821899414 epoch=334 and step=80
+2025-02-26 10:50:08,544 - SplitNNClient - INFO - 35186 - phase=train acc=0.5914851485148515 loss=1.1376349925994873 epoch=334 and step=100
+2025-02-26 10:50:53,609 - SplitNNClient - INFO - 35186 - phase=train acc=0.5921487603305785 loss=1.089848279953003 epoch=334 and step=120
+2025-02-26 10:51:05,965 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=34345168702 epoch_receive=29161421234 total_send=34345168702 total_receive=29161421234
+2025-02-26 10:51:33,949 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6627 loss=0.9726957213878632 epoch=334 and step=50
+2025-02-26 10:51:34,281 - SplitNNClient - INFO - 35187 - phase=train acc=0.605 loss=1.215552806854248 epoch=334 and step=0
+2025-02-26 10:52:22,098 - SplitNNClient - INFO - 35187 - phase=train acc=0.6076190476190476 loss=1.0235188007354736 epoch=334 and step=20
+2025-02-26 10:53:06,518 - SplitNNClient - INFO - 35187 - phase=train acc=0.6078048780487805 loss=1.011156678199768 epoch=334 and step=40
+2025-02-26 10:53:54,897 - SplitNNClient - INFO - 35187 - phase=train acc=0.606639344262295 loss=1.1654800176620483 epoch=334 and step=60
+2025-02-26 10:54:41,717 - SplitNNClient - INFO - 35187 - phase=train acc=0.6057407407407407 loss=1.2462410926818848 epoch=334 and step=80
+2025-02-26 10:55:25,031 - SplitNNClient - INFO - 35187 - phase=train acc=0.603069306930693 loss=1.111487865447998 epoch=334 and step=100
+2025-02-26 10:56:09,976 - SplitNNClient - INFO - 35187 - phase=train acc=0.6018181818181818 loss=1.0861458778381348 epoch=334 and step=120
+2025-02-26 10:56:19,516 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=34345168702 epoch_receive=29161421436 total_send=34345168702 total_receive=29161421436
+2025-02-26 10:56:48,004 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6596 loss=0.9762021732330323 epoch=334 and step=50
+2025-02-26 10:56:48,217 - SplitNNClient - INFO - 35186 - phase=train acc=0.535 loss=1.3535408973693848 epoch=336 and step=0
+2025-02-26 10:57:35,678 - SplitNNClient - INFO - 35186 - phase=train acc=0.5816666666666667 loss=1.212080717086792 epoch=336 and step=20
+2025-02-26 10:58:18,543 - SplitNNClient - INFO - 35186 - phase=train acc=0.5885365853658536 loss=1.172544240951538 epoch=336 and step=40
+2025-02-26 10:59:05,398 - SplitNNClient - INFO - 35186 - phase=train acc=0.5869672131147541 loss=1.2493070363998413 epoch=336 and step=60
+2025-02-26 10:59:49,140 - SplitNNClient - INFO - 35186 - phase=train acc=0.5891358024691358 loss=1.1105213165283203 epoch=336 and step=80
+2025-02-26 11:00:35,584 - SplitNNClient - INFO - 35186 - phase=train acc=0.5903465346534653 loss=1.2284843921661377 epoch=336 and step=100
+2025-02-26 11:01:22,053 - SplitNNClient - INFO - 35186 - phase=train acc=0.5912396694214876 loss=1.135869026184082 epoch=336 and step=120
+2025-02-26 11:01:33,350 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=34549884308 epoch_receive=29335096436 total_send=34549884308 total_receive=29335096436
+2025-02-26 11:02:01,387 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6674 loss=0.9641103887557984 epoch=336 and step=50
+2025-02-26 11:02:01,629 - SplitNNClient - INFO - 35187 - phase=train acc=0.595 loss=1.1788127422332764 epoch=336 and step=0
+2025-02-26 11:02:49,340 - SplitNNClient - INFO - 35187 - phase=train acc=0.5883333333333334 loss=1.015326976776123 epoch=336 and step=20
+2025-02-26 11:03:35,608 - SplitNNClient - INFO - 35187 - phase=train acc=0.5971951219512195 loss=1.0719475746154785 epoch=336 and step=40
+2025-02-26 11:04:21,493 - SplitNNClient - INFO - 35187 - phase=train acc=0.5971311475409836 loss=1.0553715229034424 epoch=336 and step=60
+2025-02-26 11:05:07,590 - SplitNNClient - INFO - 35187 - phase=train acc=0.6 loss=1.11234450340271 epoch=336 and step=80
+2025-02-26 11:05:55,041 - SplitNNClient - INFO - 35187 - phase=train acc=0.6022277227722772 loss=1.032490849494934 epoch=336 and step=100
+2025-02-26 11:06:44,588 - SplitNNClient - INFO - 35187 - phase=train acc=0.6015702479338843 loss=1.2308306694030762 epoch=336 and step=120
+2025-02-26 11:06:56,435 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=34549884308 epoch_receive=29335096638 total_send=34549884308 total_receive=29335096638
+2025-02-26 11:07:24,593 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6511 loss=0.9921571063995361 epoch=336 and step=50
+2025-02-26 11:07:24,804 - SplitNNClient - INFO - 35186 - phase=train acc=0.59 loss=1.2507007122039795 epoch=338 and step=0
+2025-02-26 11:08:12,144 - SplitNNClient - INFO - 35186 - phase=train acc=0.5873809523809523 loss=1.0779480934143066 epoch=338 and step=20
+2025-02-26 11:08:56,814 - SplitNNClient - INFO - 35186 - phase=train acc=0.5890243902439024 loss=1.0050904750823975 epoch=338 and step=40
+2025-02-26 11:09:44,185 - SplitNNClient - INFO - 35186 - phase=train acc=0.5913114754098361 loss=1.0653932094573975 epoch=338 and step=60
+2025-02-26 11:10:29,228 - SplitNNClient - INFO - 35186 - phase=train acc=0.5948148148148148 loss=0.9842782616615295 epoch=338 and step=80
+2025-02-26 11:11:16,335 - SplitNNClient - INFO - 35186 - phase=train acc=0.5958415841584158 loss=1.2370843887329102 epoch=338 and step=100
+2025-02-26 11:12:03,994 - SplitNNClient - INFO - 35186 - phase=train acc=0.5954545454545455 loss=1.0649687051773071 epoch=338 and step=120
+2025-02-26 11:12:16,350 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=34754599914 epoch_receive=29508771638 total_send=34754599914 total_receive=29508771638
+2025-02-26 11:12:44,288 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6659 loss=0.9702954781055451 epoch=338 and step=50
+2025-02-26 11:12:44,578 - SplitNNClient - INFO - 35187 - phase=train acc=0.57 loss=1.2309346199035645 epoch=338 and step=0
+2025-02-26 11:13:35,226 - SplitNNClient - INFO - 35187 - phase=train acc=0.6019047619047619 loss=1.116471290588379 epoch=338 and step=20
+2025-02-26 11:14:20,654 - SplitNNClient - INFO - 35187 - phase=train acc=0.6007317073170731 loss=0.9992572665214539 epoch=338 and step=40
+2025-02-26 11:15:07,534 - SplitNNClient - INFO - 35187 - phase=train acc=0.6039344262295082 loss=1.1429754495620728 epoch=338 and step=60
+2025-02-26 11:15:52,493 - SplitNNClient - INFO - 35187 - phase=train acc=0.6024074074074074 loss=1.1534650325775146 epoch=338 and step=80
+2025-02-26 11:16:42,894 - SplitNNClient - INFO - 35187 - phase=train acc=0.6052970297029703 loss=1.1567789316177368 epoch=338 and step=100
+2025-02-26 11:17:30,433 - SplitNNClient - INFO - 35187 - phase=train acc=0.6066528925619835 loss=0.9887063503265381 epoch=338 and step=120
+2025-02-26 11:17:41,462 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=34754599914 epoch_receive=29508771840 total_send=34754599914 total_receive=29508771840
+2025-02-26 11:18:09,539 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6529 loss=0.9893687748908997 epoch=338 and step=50
+2025-02-26 11:18:09,921 - SplitNNClient - INFO - 35186 - phase=train acc=0.505 loss=1.2281981706619263 epoch=340 and step=0
+2025-02-26 11:18:57,962 - SplitNNClient - INFO - 35186 - phase=train acc=0.584047619047619 loss=1.1408084630966187 epoch=340 and step=20
+2025-02-26 11:19:45,984 - SplitNNClient - INFO - 35186 - phase=train acc=0.59 loss=1.0212206840515137 epoch=340 and step=40
+2025-02-26 11:20:34,359 - SplitNNClient - INFO - 35186 - phase=train acc=0.5905737704918033 loss=1.1870290040969849 epoch=340 and step=60
+2025-02-26 11:21:23,129 - SplitNNClient - INFO - 35186 - phase=train acc=0.5917901234567902 loss=1.3156412839889526 epoch=340 and step=80
+2025-02-26 11:22:08,181 - SplitNNClient - INFO - 35186 - phase=train acc=0.5913366336633663 loss=1.1561954021453857 epoch=340 and step=100
+2025-02-26 11:22:57,628 - SplitNNClient - INFO - 35186 - phase=train acc=0.5928099173553719 loss=1.2340282201766968 epoch=340 and step=120
+2025-02-26 11:23:09,215 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=34959315520 epoch_receive=29682446840 total_send=34959315520 total_receive=29682446840
+2025-02-26 11:23:37,182 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6555 loss=0.9970453655719758 epoch=340 and step=50
+2025-02-26 11:23:37,550 - SplitNNClient - INFO - 35187 - phase=train acc=0.56 loss=1.216274619102478 epoch=340 and step=0
+2025-02-26 11:24:25,583 - SplitNNClient - INFO - 35187 - phase=train acc=0.5966666666666667 loss=1.0367021560668945 epoch=340 and step=20
+2025-02-26 11:25:14,028 - SplitNNClient - INFO - 35187 - phase=train acc=0.595 loss=1.1498291492462158 epoch=340 and step=40
+2025-02-26 11:25:59,092 - SplitNNClient - INFO - 35187 - phase=train acc=0.5947540983606557 loss=1.207858681678772 epoch=340 and step=60
+2025-02-26 11:26:38,245 - SplitNNClient - INFO - 35187 - phase=train acc=0.595679012345679 loss=1.082481026649475 epoch=340 and step=80
+2025-02-26 11:27:23,423 - SplitNNClient - INFO - 35187 - phase=train acc=0.5993069306930693 loss=1.1330798864364624 epoch=340 and step=100
+2025-02-26 11:28:11,639 - SplitNNClient - INFO - 35187 - phase=train acc=0.600289256198347 loss=1.0860528945922852 epoch=340 and step=120
+2025-02-26 11:28:23,935 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=34959315520 epoch_receive=29682447042 total_send=34959315520 total_receive=29682447042
+2025-02-26 11:28:51,892 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6614 loss=0.9865276312828064 epoch=340 and step=50
+2025-02-26 11:28:52,146 - SplitNNClient - INFO - 35186 - phase=train acc=0.61 loss=1.131727933883667 epoch=342 and step=0
+2025-02-26 11:29:40,019 - SplitNNClient - INFO - 35186 - phase=train acc=0.6080952380952381 loss=1.135603904724121 epoch=342 and step=20
+2025-02-26 11:30:25,209 - SplitNNClient - INFO - 35186 - phase=train acc=0.6071951219512195 loss=1.1288478374481201 epoch=342 and step=40
+2025-02-26 11:31:11,747 - SplitNNClient - INFO - 35186 - phase=train acc=0.6060655737704918 loss=1.3155125379562378 epoch=342 and step=60
+2025-02-26 11:31:55,362 - SplitNNClient - INFO - 35186 - phase=train acc=0.6054938271604938 loss=0.9983034729957581 epoch=342 and step=80
+2025-02-26 11:32:41,908 - SplitNNClient - INFO - 35186 - phase=train acc=0.6004950495049505 loss=1.117143154144287 epoch=342 and step=100
+2025-02-26 11:33:25,902 - SplitNNClient - INFO - 35186 - phase=train acc=0.6022727272727273 loss=1.024227261543274 epoch=342 and step=120
+2025-02-26 11:33:38,621 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=35164031126 epoch_receive=29856122042 total_send=35164031126 total_receive=29856122042
+2025-02-26 11:34:06,590 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6442 loss=1.0214483666419982 epoch=342 and step=50
+2025-02-26 11:34:06,872 - SplitNNClient - INFO - 35187 - phase=train acc=0.53 loss=1.2288732528686523 epoch=342 and step=0
+2025-02-26 11:34:53,529 - SplitNNClient - INFO - 35187 - phase=train acc=0.5902380952380952 loss=1.090398907661438 epoch=342 and step=20
+2025-02-26 11:35:40,137 - SplitNNClient - INFO - 35187 - phase=train acc=0.5978048780487805 loss=1.0250991582870483 epoch=342 and step=40
+2025-02-26 11:36:25,445 - SplitNNClient - INFO - 35187 - phase=train acc=0.5987704918032787 loss=1.1059645414352417 epoch=342 and step=60
+2025-02-26 11:37:14,514 - SplitNNClient - INFO - 35187 - phase=train acc=0.5968518518518519 loss=1.15554940700531 epoch=342 and step=80
+2025-02-26 11:38:02,152 - SplitNNClient - INFO - 35187 - phase=train acc=0.5971287128712871 loss=1.168223261833191 epoch=342 and step=100
+2025-02-26 11:38:48,561 - SplitNNClient - INFO - 35187 - phase=train acc=0.600909090909091 loss=1.260985255241394 epoch=342 and step=120
+2025-02-26 11:38:59,890 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=35164031126 epoch_receive=29856122244 total_send=35164031126 total_receive=29856122244
+2025-02-26 11:39:27,924 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6577 loss=0.9726334953308106 epoch=342 and step=50
+2025-02-26 11:39:28,183 - SplitNNClient - INFO - 35186 - phase=train acc=0.565 loss=1.2073431015014648 epoch=344 and step=0
+2025-02-26 11:40:16,120 - SplitNNClient - INFO - 35186 - phase=train acc=0.5857142857142857 loss=1.117613434791565 epoch=344 and step=20
+2025-02-26 11:40:56,293 - SplitNNClient - INFO - 35186 - phase=train acc=0.5873170731707317 loss=1.1561107635498047 epoch=344 and step=40
+2025-02-26 11:41:42,673 - SplitNNClient - INFO - 35186 - phase=train acc=0.5891803278688524 loss=1.3528351783752441 epoch=344 and step=60
+2025-02-26 11:42:30,763 - SplitNNClient - INFO - 35186 - phase=train acc=0.5883950617283951 loss=1.1058615446090698 epoch=344 and step=80
+2025-02-26 11:43:17,018 - SplitNNClient - INFO - 35186 - phase=train acc=0.5903960396039604 loss=1.1600322723388672 epoch=344 and step=100
+2025-02-26 11:47:09,348 - SplitNNClient - INFO - 35186 - phase=train acc=0.5904132231404958 loss=1.2380976676940918 epoch=344 and step=120
+2025-02-26 11:47:20,269 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=35368746732 epoch_receive=30029797244 total_send=35368746732 total_receive=30029797244
+2025-02-26 11:47:48,717 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6554 loss=0.991811980009079 epoch=344 and step=50
+2025-02-26 11:47:48,960 - SplitNNClient - INFO - 35187 - phase=train acc=0.61 loss=1.128166913986206 epoch=344 and step=0
+2025-02-26 12:03:47,425 - SplitNNClient - INFO - 35187 - phase=train acc=0.5942857142857143 loss=1.1403648853302002 epoch=344 and step=20
+2025-02-26 12:04:34,553 - SplitNNClient - INFO - 35187 - phase=train acc=0.5954878048780488 loss=1.106765627861023 epoch=344 and step=40
+2025-02-26 12:05:24,057 - SplitNNClient - INFO - 35187 - phase=train acc=0.5995901639344262 loss=1.096747636795044 epoch=344 and step=60
+2025-02-26 12:06:10,535 - SplitNNClient - INFO - 35187 - phase=train acc=0.6007407407407407 loss=1.1128545999526978 epoch=344 and step=80
+2025-02-26 12:07:01,040 - SplitNNClient - INFO - 35187 - phase=train acc=0.6024257425742574 loss=1.244384765625 epoch=344 and step=100
+2025-02-26 12:07:53,218 - SplitNNClient - INFO - 35187 - phase=train acc=0.6015289256198347 loss=1.090623378753662 epoch=344 and step=120
+2025-02-26 12:08:05,655 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=35368746732 epoch_receive=30029797446 total_send=35368746732 total_receive=30029797446
+2025-02-26 12:08:33,835 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6632 loss=0.962536803483963 epoch=344 and step=50
+2025-02-26 12:08:34,257 - SplitNNClient - INFO - 35186 - phase=train acc=0.575 loss=1.150170087814331 epoch=346 and step=0
+2025-02-26 12:09:30,369 - SplitNNClient - INFO - 35186 - phase=train acc=0.5992857142857143 loss=1.0696550607681274 epoch=346 and step=20
+2025-02-26 12:10:23,523 - SplitNNClient - INFO - 35186 - phase=train acc=0.5976829268292683 loss=1.1608774662017822 epoch=346 and step=40
+2025-02-26 12:11:16,732 - SplitNNClient - INFO - 35186 - phase=train acc=0.6022950819672132 loss=1.1042659282684326 epoch=346 and step=60
+2025-02-26 12:12:11,419 - SplitNNClient - INFO - 35186 - phase=train acc=0.6024074074074074 loss=1.1137951612472534 epoch=346 and step=80
+2025-02-26 12:13:03,585 - SplitNNClient - INFO - 35186 - phase=train acc=0.6025742574257426 loss=1.2692972421646118 epoch=346 and step=100
+2025-02-26 12:13:55,946 - SplitNNClient - INFO - 35186 - phase=train acc=0.6007438016528925 loss=1.14761483669281 epoch=346 and step=120
+2025-02-26 12:14:07,428 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=35573462338 epoch_receive=30203472446 total_send=35573462338 total_receive=30203472446
+2025-02-26 12:14:35,660 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6629 loss=0.9670596659183502 epoch=346 and step=50
+2025-02-26 12:14:35,933 - SplitNNClient - INFO - 35187 - phase=train acc=0.55 loss=1.2862086296081543 epoch=346 and step=0
+2025-02-26 12:15:27,174 - SplitNNClient - INFO - 35187 - phase=train acc=0.5961904761904762 loss=0.9828842878341675 epoch=346 and step=20
+2025-02-26 12:16:21,980 - SplitNNClient - INFO - 35187 - phase=train acc=0.5975609756097561 loss=1.1582310199737549 epoch=346 and step=40
+2025-02-26 12:17:17,259 - SplitNNClient - INFO - 35187 - phase=train acc=0.600983606557377 loss=1.1210488080978394 epoch=346 and step=60
+2025-02-26 12:18:18,794 - SplitNNClient - INFO - 35187 - phase=train acc=0.6022839506172839 loss=1.1197618246078491 epoch=346 and step=80
+2025-02-26 12:19:26,826 - SplitNNClient - INFO - 35187 - phase=train acc=0.6028217821782178 loss=1.2509832382202148 epoch=346 and step=100
+2025-02-26 12:20:34,521 - SplitNNClient - INFO - 35187 - phase=train acc=0.6030165289256199 loss=1.1402103900909424 epoch=346 and step=120
+2025-02-26 12:20:50,547 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=35573462338 epoch_receive=30203472648 total_send=35573462338 total_receive=30203472648
+2025-02-26 12:21:19,273 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6704 loss=0.9528325271606445 epoch=346 and step=50
+2025-02-26 12:21:19,648 - SplitNNClient - INFO - 35186 - phase=train acc=0.54 loss=1.2801353931427002 epoch=348 and step=0
+2025-02-26 12:22:22,455 - SplitNNClient - INFO - 35186 - phase=train acc=0.5980952380952381 loss=1.133224606513977 epoch=348 and step=20
+2025-02-26 12:23:22,872 - SplitNNClient - INFO - 35186 - phase=train acc=0.5996341463414634 loss=1.1097522974014282 epoch=348 and step=40
+2025-02-26 12:24:21,997 - SplitNNClient - INFO - 35186 - phase=train acc=0.5968032786885246 loss=1.093050479888916 epoch=348 and step=60
+2025-02-26 12:25:20,461 - SplitNNClient - INFO - 35186 - phase=train acc=0.6006172839506173 loss=1.339199423789978 epoch=348 and step=80
+2025-02-26 12:26:19,435 - SplitNNClient - INFO - 35186 - phase=train acc=0.5977227722772277 loss=1.2012929916381836 epoch=348 and step=100
+2025-02-26 12:27:22,070 - SplitNNClient - INFO - 35186 - phase=train acc=0.5978099173553719 loss=1.2365094423294067 epoch=348 and step=120
+2025-02-26 12:27:37,518 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=35778177944 epoch_receive=30377147648 total_send=35778177944 total_receive=30377147648
+2025-02-26 12:28:06,125 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6591 loss=0.9803003323078155 epoch=348 and step=50
+2025-02-26 12:28:06,500 - SplitNNClient - INFO - 35187 - phase=train acc=0.51 loss=1.330450177192688 epoch=348 and step=0
+2025-02-26 12:29:09,910 - SplitNNClient - INFO - 35187 - phase=train acc=0.606904761904762 loss=1.075569748878479 epoch=348 and step=20
+2025-02-26 12:30:13,714 - SplitNNClient - INFO - 35187 - phase=train acc=0.6068292682926829 loss=1.019823431968689 epoch=348 and step=40
+2025-02-26 12:31:18,272 - SplitNNClient - INFO - 35187 - phase=train acc=0.6007377049180328 loss=1.148045539855957 epoch=348 and step=60
+2025-02-26 12:32:19,004 - SplitNNClient - INFO - 35187 - phase=train acc=0.6040123456790123 loss=1.1415820121765137 epoch=348 and step=80
+2025-02-26 12:33:20,496 - SplitNNClient - INFO - 35187 - phase=train acc=0.605 loss=1.1337298154830933 epoch=348 and step=100
+2025-02-26 12:34:20,669 - SplitNNClient - INFO - 35187 - phase=train acc=0.605 loss=1.1154611110687256 epoch=348 and step=120
+2025-02-26 12:34:35,203 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=35778177944 epoch_receive=30377147850 total_send=35778177944 total_receive=30377147850
+2025-02-26 12:35:03,867 - SplitNNClient - INFO - 35187 - phase=validation acc=0.664 loss=0.9583238005638123 epoch=348 and step=50
+2025-02-26 12:35:04,201 - SplitNNClient - INFO - 35186 - phase=train acc=0.565 loss=1.1873923540115356 epoch=350 and step=0
+2025-02-26 12:36:03,162 - SplitNNClient - INFO - 35186 - phase=train acc=0.5947619047619047 loss=1.179121971130371 epoch=350 and step=20
+2025-02-26 12:37:05,899 - SplitNNClient - INFO - 35186 - phase=train acc=0.5912195121951219 loss=1.1467539072036743 epoch=350 and step=40
+2025-02-26 12:38:07,655 - SplitNNClient - INFO - 35186 - phase=train acc=0.5931967213114754 loss=1.0615531206130981 epoch=350 and step=60
+2025-02-26 12:39:11,643 - SplitNNClient - INFO - 35186 - phase=train acc=0.592283950617284 loss=1.0838714838027954 epoch=350 and step=80
+2025-02-26 12:40:14,031 - SplitNNClient - INFO - 35186 - phase=train acc=0.5925247524752475 loss=1.1385537385940552 epoch=350 and step=100
+2025-02-26 12:41:14,363 - SplitNNClient - INFO - 35186 - phase=train acc=0.5933057851239669 loss=1.026530385017395 epoch=350 and step=120
+2025-02-26 12:41:28,896 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=35982893550 epoch_receive=30550822850 total_send=35982893550 total_receive=30550822850
+2025-02-26 12:41:57,327 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6691 loss=0.9608809089660645 epoch=350 and step=50
+2025-02-26 12:41:57,602 - SplitNNClient - INFO - 35187 - phase=train acc=0.58 loss=1.247616171836853 epoch=350 and step=0
+2025-02-26 12:42:59,888 - SplitNNClient - INFO - 35187 - phase=train acc=0.6 loss=1.1975575685501099 epoch=350 and step=20
+2025-02-26 12:43:58,286 - SplitNNClient - INFO - 35187 - phase=train acc=0.6060975609756097 loss=1.0878530740737915 epoch=350 and step=40
+2025-02-26 12:45:00,585 - SplitNNClient - INFO - 35187 - phase=train acc=0.6045901639344262 loss=1.170729398727417 epoch=350 and step=60
+2025-02-26 12:45:59,957 - SplitNNClient - INFO - 35187 - phase=train acc=0.6042592592592593 loss=1.0000921487808228 epoch=350 and step=80
+2025-02-26 12:46:59,173 - SplitNNClient - INFO - 35187 - phase=train acc=0.6045544554455445 loss=1.0834641456604004 epoch=350 and step=100
+2025-02-26 12:47:56,783 - SplitNNClient - INFO - 35187 - phase=train acc=0.6039256198347107 loss=1.0386054515838623 epoch=350 and step=120
+2025-02-26 12:48:12,373 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=35982893550 epoch_receive=30550823052 total_send=35982893550 total_receive=30550823052
+2025-02-26 12:48:40,968 - SplitNNClient - INFO - 35187 - phase=validation acc=0.665 loss=0.9451541352272034 epoch=350 and step=50
+2025-02-26 12:48:41,457 - SplitNNClient - INFO - 35186 - phase=train acc=0.555 loss=1.287872314453125 epoch=352 and step=0
+2025-02-26 12:49:43,830 - SplitNNClient - INFO - 35186 - phase=train acc=0.5873809523809523 loss=1.218770146369934 epoch=352 and step=20
+2025-02-26 12:50:45,499 - SplitNNClient - INFO - 35186 - phase=train acc=0.5971951219512195 loss=1.174289584159851 epoch=352 and step=40
+2025-02-26 12:51:49,066 - SplitNNClient - INFO - 35186 - phase=train acc=0.5945901639344262 loss=1.1313092708587646 epoch=352 and step=60
+2025-02-26 12:52:51,958 - SplitNNClient - INFO - 35186 - phase=train acc=0.5937654320987654 loss=1.0964131355285645 epoch=352 and step=80
+2025-02-26 12:53:54,636 - SplitNNClient - INFO - 35186 - phase=train acc=0.5939603960396039 loss=1.154781460762024 epoch=352 and step=100
+2025-02-26 12:54:59,069 - SplitNNClient - INFO - 35186 - phase=train acc=0.5979752066115702 loss=1.1104519367218018 epoch=352 and step=120
+2025-02-26 12:55:14,604 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=36187609156 epoch_receive=30724498052 total_send=36187609156 total_receive=30724498052
+2025-02-26 12:55:43,170 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6572 loss=0.980928076505661 epoch=352 and step=50
+2025-02-26 12:55:43,512 - SplitNNClient - INFO - 35187 - phase=train acc=0.51 loss=1.3994442224502563 epoch=352 and step=0
+2025-02-26 12:56:43,586 - SplitNNClient - INFO - 35187 - phase=train acc=0.5947619047619047 loss=1.0961532592773438 epoch=352 and step=20
+2025-02-26 12:57:45,736 - SplitNNClient - INFO - 35187 - phase=train acc=0.6021951219512195 loss=1.017667293548584 epoch=352 and step=40
+2025-02-26 12:58:48,729 - SplitNNClient - INFO - 35187 - phase=train acc=0.6036065573770492 loss=1.1392590999603271 epoch=352 and step=60
+2025-02-26 12:59:50,864 - SplitNNClient - INFO - 35187 - phase=train acc=0.6022222222222222 loss=1.0280689001083374 epoch=352 and step=80
+2025-02-26 13:00:52,693 - SplitNNClient - INFO - 35187 - phase=train acc=0.6031188118811881 loss=1.3192218542099 epoch=352 and step=100
+2025-02-26 13:01:56,704 - SplitNNClient - INFO - 35187 - phase=train acc=0.6025206611570247 loss=1.1514302492141724 epoch=352 and step=120
+2025-02-26 13:02:12,664 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=36187609156 epoch_receive=30724498254 total_send=36187609156 total_receive=30724498254
+2025-02-26 13:02:41,194 - SplitNNClient - INFO - 35187 - phase=validation acc=0.664 loss=0.9530248212814331 epoch=352 and step=50
+2025-02-26 13:02:41,576 - SplitNNClient - INFO - 35186 - phase=train acc=0.54 loss=1.2670278549194336 epoch=354 and step=0
+2025-02-26 13:03:47,585 - SplitNNClient - INFO - 35186 - phase=train acc=0.5830952380952381 loss=1.179587483406067 epoch=354 and step=20
+2025-02-26 13:04:48,215 - SplitNNClient - INFO - 35186 - phase=train acc=0.5903658536585366 loss=1.2010743618011475 epoch=354 and step=40
+2025-02-26 13:05:51,922 - SplitNNClient - INFO - 35186 - phase=train acc=0.5887704918032787 loss=1.0516144037246704 epoch=354 and step=60
+2025-02-26 13:06:58,433 - SplitNNClient - INFO - 35186 - phase=train acc=0.5922222222222222 loss=1.2254241704940796 epoch=354 and step=80
+2025-02-26 13:07:58,923 - SplitNNClient - INFO - 35186 - phase=train acc=0.5937128712871287 loss=1.0981619358062744 epoch=354 and step=100
+2025-02-26 13:09:03,533 - SplitNNClient - INFO - 35186 - phase=train acc=0.5939669421487603 loss=1.0245544910430908 epoch=354 and step=120
+2025-02-26 13:09:18,813 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=36392324762 epoch_receive=30898173254 total_send=36392324762 total_receive=30898173254
+2025-02-26 13:09:47,347 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6403 loss=1.022463412284851 epoch=354 and step=50
+2025-02-26 13:09:47,708 - SplitNNClient - INFO - 35187 - phase=train acc=0.595 loss=1.2510098218917847 epoch=354 and step=0
+2025-02-26 13:10:49,925 - SplitNNClient - INFO - 35187 - phase=train acc=0.6023809523809524 loss=1.0544556379318237 epoch=354 and step=20
+2025-02-26 13:11:51,592 - SplitNNClient - INFO - 35187 - phase=train acc=0.5962195121951219 loss=1.0623055696487427 epoch=354 and step=40
+2025-02-26 13:12:54,188 - SplitNNClient - INFO - 35187 - phase=train acc=0.5992622950819673 loss=1.1523677110671997 epoch=354 and step=60
+2025-02-26 13:13:55,950 - SplitNNClient - INFO - 35187 - phase=train acc=0.6003086419753086 loss=1.2169851064682007 epoch=354 and step=80
+2025-02-26 13:14:57,915 - SplitNNClient - INFO - 35187 - phase=train acc=0.6061881188118812 loss=1.126276969909668 epoch=354 and step=100
+2025-02-26 13:15:59,513 - SplitNNClient - INFO - 35187 - phase=train acc=0.6073966942148761 loss=1.108394980430603 epoch=354 and step=120
+2025-02-26 13:16:14,409 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=36392324762 epoch_receive=30898173456 total_send=36392324762 total_receive=30898173456
+2025-02-26 13:16:42,978 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6582 loss=0.9750475740432739 epoch=354 and step=50
+2025-02-26 13:16:43,350 - SplitNNClient - INFO - 35186 - phase=train acc=0.585 loss=1.1950466632843018 epoch=356 and step=0
+2025-02-26 13:17:44,781 - SplitNNClient - INFO - 35186 - phase=train acc=0.5914285714285714 loss=1.176066517829895 epoch=356 and step=20
+2025-02-26 13:18:46,421 - SplitNNClient - INFO - 35186 - phase=train acc=0.5971951219512195 loss=1.122463583946228 epoch=356 and step=40
+2025-02-26 13:19:50,198 - SplitNNClient - INFO - 35186 - phase=train acc=0.5955737704918033 loss=1.1675004959106445 epoch=356 and step=60
+2025-02-26 13:20:51,383 - SplitNNClient - INFO - 35186 - phase=train acc=0.5956172839506173 loss=1.0571093559265137 epoch=356 and step=80
+2025-02-26 13:21:51,889 - SplitNNClient - INFO - 35186 - phase=train acc=0.5927227722772277 loss=1.3834731578826904 epoch=356 and step=100
+2025-02-26 13:22:54,466 - SplitNNClient - INFO - 35186 - phase=train acc=0.5923966942148761 loss=1.2372008562088013 epoch=356 and step=120
+2025-02-26 13:23:09,924 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=36597040368 epoch_receive=31071848456 total_send=36597040368 total_receive=31071848456
+2025-02-26 13:23:38,452 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6613 loss=0.9683733701705932 epoch=356 and step=50
+2025-02-26 13:23:38,704 - SplitNNClient - INFO - 35187 - phase=train acc=0.57 loss=1.1590609550476074 epoch=356 and step=0
+2025-02-26 13:24:42,321 - SplitNNClient - INFO - 35187 - phase=train acc=0.5954761904761905 loss=1.1785461902618408 epoch=356 and step=20
+2025-02-26 13:25:46,712 - SplitNNClient - INFO - 35187 - phase=train acc=0.588780487804878 loss=1.105371356010437 epoch=356 and step=40
+2025-02-26 13:26:49,261 - SplitNNClient - INFO - 35187 - phase=train acc=0.5962295081967213 loss=1.0600311756134033 epoch=356 and step=60
+2025-02-26 13:27:53,830 - SplitNNClient - INFO - 35187 - phase=train acc=0.5997530864197531 loss=1.0988823175430298 epoch=356 and step=80
+2025-02-26 13:28:58,247 - SplitNNClient - INFO - 35187 - phase=train acc=0.6010891089108911 loss=1.0920190811157227 epoch=356 and step=100
+2025-02-26 13:30:01,028 - SplitNNClient - INFO - 35187 - phase=train acc=0.5995867768595041 loss=1.0999211072921753 epoch=356 and step=120
+2025-02-26 13:30:16,621 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=36597040368 epoch_receive=31071848658 total_send=36597040368 total_receive=31071848658
+2025-02-26 13:30:45,184 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6534 loss=0.9856786668300629 epoch=356 and step=50
+2025-02-26 13:30:45,525 - SplitNNClient - INFO - 35186 - phase=train acc=0.595 loss=1.2076035737991333 epoch=358 and step=0
+2025-02-26 13:31:46,921 - SplitNNClient - INFO - 35186 - phase=train acc=0.5961904761904762 loss=1.1327810287475586 epoch=358 and step=20
+2025-02-26 13:32:49,695 - SplitNNClient - INFO - 35186 - phase=train acc=0.599390243902439 loss=1.119376301765442 epoch=358 and step=40
+2025-02-26 13:33:53,208 - SplitNNClient - INFO - 35186 - phase=train acc=0.6018032786885246 loss=1.056564450263977 epoch=358 and step=60
+2025-02-26 13:34:56,656 - SplitNNClient - INFO - 35186 - phase=train acc=0.5987654320987654 loss=1.060685634613037 epoch=358 and step=80
+2025-02-26 13:35:58,866 - SplitNNClient - INFO - 35186 - phase=train acc=0.595990099009901 loss=1.0870732069015503 epoch=358 and step=100
+2025-02-26 13:36:50,265 - SplitNNClient - INFO - 35186 - phase=train acc=0.5966528925619835 loss=1.0346845388412476 epoch=358 and step=120
+2025-02-26 13:37:02,141 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=36801755974 epoch_receive=31245523658 total_send=36801755974 total_receive=31245523658
+2025-02-26 13:37:29,933 - SplitNNClient - INFO - 35186 - phase=validation acc=0.652 loss=1.0042045044898986 epoch=358 and step=50
+2025-02-26 13:37:30,199 - SplitNNClient - INFO - 35187 - phase=train acc=0.59 loss=1.1278647184371948 epoch=358 and step=0
+2025-02-26 13:38:13,420 - SplitNNClient - INFO - 35187 - phase=train acc=0.6057142857142858 loss=1.0386650562286377 epoch=358 and step=20
+2025-02-26 13:39:01,215 - SplitNNClient - INFO - 35187 - phase=train acc=0.6007317073170731 loss=1.22540283203125 epoch=358 and step=40
+2025-02-26 13:39:45,838 - SplitNNClient - INFO - 35187 - phase=train acc=0.6031967213114754 loss=1.0394073724746704 epoch=358 and step=60
+2025-02-26 13:40:31,560 - SplitNNClient - INFO - 35187 - phase=train acc=0.6040740740740741 loss=1.1915888786315918 epoch=358 and step=80
+2025-02-26 13:41:18,841 - SplitNNClient - INFO - 35187 - phase=train acc=0.6024752475247525 loss=1.1524567604064941 epoch=358 and step=100
+2025-02-26 13:42:01,293 - SplitNNClient - INFO - 35187 - phase=train acc=0.6032644628099173 loss=1.170427680015564 epoch=358 and step=120
+2025-02-26 13:42:11,730 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=36801755974 epoch_receive=31245523860 total_send=36801755974 total_receive=31245523860
+2025-02-26 13:42:39,700 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6594 loss=0.971203260421753 epoch=358 and step=50
+2025-02-26 13:42:40,040 - SplitNNClient - INFO - 35186 - phase=train acc=0.565 loss=1.0930767059326172 epoch=360 and step=0
+2025-02-26 13:43:27,084 - SplitNNClient - INFO - 35186 - phase=train acc=0.590952380952381 loss=1.1691725254058838 epoch=360 and step=20
+2025-02-26 13:44:12,142 - SplitNNClient - INFO - 35186 - phase=train acc=0.5991463414634146 loss=1.169306993484497 epoch=360 and step=40
+2025-02-26 13:44:58,961 - SplitNNClient - INFO - 35186 - phase=train acc=0.5978688524590164 loss=1.1701734066009521 epoch=360 and step=60
+2025-02-26 13:45:43,994 - SplitNNClient - INFO - 35186 - phase=train acc=0.6 loss=1.1291500329971313 epoch=360 and step=80
+2025-02-26 13:46:31,994 - SplitNNClient - INFO - 35186 - phase=train acc=0.5989108910891089 loss=1.0576852560043335 epoch=360 and step=100
+2025-02-26 13:47:19,939 - SplitNNClient - INFO - 35186 - phase=train acc=0.5999173553719008 loss=1.0644915103912354 epoch=360 and step=120
+2025-02-26 13:47:30,870 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=37006471580 epoch_receive=31419198860 total_send=37006471580 total_receive=31419198860
+2025-02-26 13:47:58,771 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6551 loss=0.9876518559455871 epoch=360 and step=50
+2025-02-26 13:47:59,073 - SplitNNClient - INFO - 35187 - phase=train acc=0.605 loss=1.0702502727508545 epoch=360 and step=0
+2025-02-26 13:48:45,580 - SplitNNClient - INFO - 35187 - phase=train acc=0.5966666666666667 loss=1.0326884984970093 epoch=360 and step=20
+2025-02-26 13:49:32,858 - SplitNNClient - INFO - 35187 - phase=train acc=0.599390243902439 loss=1.2402018308639526 epoch=360 and step=40
+2025-02-26 13:50:18,434 - SplitNNClient - INFO - 35187 - phase=train acc=0.6031147540983607 loss=1.1877285242080688 epoch=360 and step=60
+2025-02-26 13:51:07,005 - SplitNNClient - INFO - 35187 - phase=train acc=0.6027777777777777 loss=1.0879002809524536 epoch=360 and step=80
+2025-02-26 13:51:55,073 - SplitNNClient - INFO - 35187 - phase=train acc=0.6039108910891089 loss=1.0873435735702515 epoch=360 and step=100
+2025-02-26 13:52:43,064 - SplitNNClient - INFO - 35187 - phase=train acc=0.6030578512396694 loss=1.270711898803711 epoch=360 and step=120
+2025-02-26 13:52:54,692 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=37006471580 epoch_receive=31419199062 total_send=37006471580 total_receive=31419199062
+2025-02-26 13:53:22,712 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6468 loss=1.0069593060016633 epoch=360 and step=50
+2025-02-26 13:53:22,986 - SplitNNClient - INFO - 35186 - phase=train acc=0.585 loss=1.1701724529266357 epoch=362 and step=0
+2025-02-26 13:54:12,525 - SplitNNClient - INFO - 35186 - phase=train acc=0.5897619047619047 loss=1.323257565498352 epoch=362 and step=20
+2025-02-26 13:54:59,717 - SplitNNClient - INFO - 35186 - phase=train acc=0.5898780487804878 loss=1.1834965944290161 epoch=362 and step=40
+2025-02-26 13:55:21,536 - SplitNNClient - INFO - 35186 - phase=train acc=0.5948360655737704 loss=1.1673530340194702 epoch=362 and step=60
+2025-02-26 13:55:48,479 - SplitNNClient - INFO - 35186 - phase=train acc=0.5948765432098766 loss=1.1205382347106934 epoch=362 and step=80
+2025-02-26 13:56:14,319 - SplitNNClient - INFO - 35186 - phase=train acc=0.597029702970297 loss=0.9556835293769836 epoch=362 and step=100
+2025-02-26 13:56:39,559 - SplitNNClient - INFO - 35186 - phase=train acc=0.5970247933884297 loss=1.1549646854400635 epoch=362 and step=120
+2025-02-26 13:56:47,434 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=37211187186 epoch_receive=31592874062 total_send=37211187186 total_receive=31592874062
+2025-02-26 13:57:15,166 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6665 loss=0.9564149904251099 epoch=362 and step=50
+2025-02-26 13:57:15,661 - SplitNNClient - INFO - 35187 - phase=train acc=0.555 loss=1.2516666650772095 epoch=362 and step=0
+2025-02-26 13:57:38,485 - SplitNNClient - INFO - 35187 - phase=train acc=0.5983333333333334 loss=1.1162205934524536 epoch=362 and step=20
+2025-02-26 13:58:00,295 - SplitNNClient - INFO - 35187 - phase=train acc=0.6004878048780488 loss=0.9796050190925598 epoch=362 and step=40
+2025-02-26 13:58:29,682 - SplitNNClient - INFO - 35187 - phase=train acc=0.5990163934426229 loss=1.1510769128799438 epoch=362 and step=60
+2025-02-26 13:59:03,353 - SplitNNClient - INFO - 35187 - phase=train acc=0.5989506172839506 loss=1.1106650829315186 epoch=362 and step=80
+2025-02-26 13:59:40,028 - SplitNNClient - INFO - 35187 - phase=train acc=0.6009405940594059 loss=1.0773234367370605 epoch=362 and step=100
+2025-02-26 14:00:14,184 - SplitNNClient - INFO - 35187 - phase=train acc=0.600289256198347 loss=1.2448019981384277 epoch=362 and step=120
+2025-02-26 14:00:22,783 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=37211187186 epoch_receive=31592874264 total_send=37211187186 total_receive=31592874264
+2025-02-26 14:00:50,512 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6562 loss=0.9865611076354981 epoch=362 and step=50
+2025-02-26 14:00:50,791 - SplitNNClient - INFO - 35186 - phase=train acc=0.59 loss=1.1077326536178589 epoch=364 and step=0
+2025-02-26 14:01:24,407 - SplitNNClient - INFO - 35186 - phase=train acc=0.6038095238095238 loss=1.1464300155639648 epoch=364 and step=20
+2025-02-26 14:01:59,348 - SplitNNClient - INFO - 35186 - phase=train acc=0.6041463414634146 loss=1.1455525159835815 epoch=364 and step=40
+2025-02-26 14:02:35,830 - SplitNNClient - INFO - 35186 - phase=train acc=0.6 loss=1.2877564430236816 epoch=364 and step=60
+2025-02-26 14:03:10,051 - SplitNNClient - INFO - 35186 - phase=train acc=0.5991975308641976 loss=1.2022172212600708 epoch=364 and step=80
+2025-02-26 14:03:46,345 - SplitNNClient - INFO - 35186 - phase=train acc=0.6005445544554455 loss=1.1711361408233643 epoch=364 and step=100
+2025-02-26 14:04:19,944 - SplitNNClient - INFO - 35186 - phase=train acc=0.5991322314049586 loss=1.0857166051864624 epoch=364 and step=120
+2025-02-26 14:04:28,554 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=37415902792 epoch_receive=31766549264 total_send=37415902792 total_receive=31766549264
+2025-02-26 14:04:56,530 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6582 loss=0.9696793150901795 epoch=364 and step=50
+2025-02-26 14:04:56,853 - SplitNNClient - INFO - 35187 - phase=train acc=0.58 loss=1.2234740257263184 epoch=364 and step=0
+2025-02-26 14:05:29,555 - SplitNNClient - INFO - 35187 - phase=train acc=0.5811904761904761 loss=1.2224503755569458 epoch=364 and step=20
+2025-02-26 14:06:05,284 - SplitNNClient - INFO - 35187 - phase=train acc=0.5917073170731707 loss=1.0545401573181152 epoch=364 and step=40
+2025-02-26 14:06:39,648 - SplitNNClient - INFO - 35187 - phase=train acc=0.5982786885245902 loss=1.098628282546997 epoch=364 and step=60
+2025-02-26 14:07:19,067 - SplitNNClient - INFO - 35187 - phase=train acc=0.6003086419753086 loss=1.1141457557678223 epoch=364 and step=80
+2025-02-26 14:07:53,966 - SplitNNClient - INFO - 35187 - phase=train acc=0.6015346534653465 loss=1.0587083101272583 epoch=364 and step=100
+2025-02-26 14:08:30,715 - SplitNNClient - INFO - 35187 - phase=train acc=0.6041735537190083 loss=1.169391393661499 epoch=364 and step=120
+2025-02-26 14:08:39,242 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=37415902792 epoch_receive=31766549466 total_send=37415902792 total_receive=31766549466
+2025-02-26 14:09:07,065 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6675 loss=0.9453814864158631 epoch=364 and step=50
+2025-02-26 14:09:07,626 - SplitNNClient - INFO - 35186 - phase=train acc=0.635 loss=0.9988980293273926 epoch=366 and step=0
+2025-02-26 14:09:41,510 - SplitNNClient - INFO - 35186 - phase=train acc=0.5973809523809523 loss=1.0923871994018555 epoch=366 and step=20
+2025-02-26 14:10:15,167 - SplitNNClient - INFO - 35186 - phase=train acc=0.5967073170731707 loss=1.1564180850982666 epoch=366 and step=40
+2025-02-26 14:10:48,352 - SplitNNClient - INFO - 35186 - phase=train acc=0.598688524590164 loss=0.982033371925354 epoch=366 and step=60
+2025-02-26 14:11:19,485 - SplitNNClient - INFO - 35186 - phase=train acc=0.5998765432098765 loss=1.0304183959960938 epoch=366 and step=80
+2025-02-26 14:11:50,410 - SplitNNClient - INFO - 35186 - phase=train acc=0.5992574257425742 loss=1.0877525806427002 epoch=366 and step=100
+2025-02-26 14:12:26,006 - SplitNNClient - INFO - 35186 - phase=train acc=0.6003305785123967 loss=1.0029559135437012 epoch=366 and step=120
+2025-02-26 14:12:34,869 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=37620618398 epoch_receive=31940224466 total_send=37620618398 total_receive=31940224466
+2025-02-26 14:13:02,756 - SplitNNClient - INFO - 35186 - phase=validation acc=0.66 loss=0.9829414522647858 epoch=366 and step=50
+2025-02-26 14:13:03,042 - SplitNNClient - INFO - 35187 - phase=train acc=0.64 loss=1.1824209690093994 epoch=366 and step=0
+2025-02-26 14:13:36,675 - SplitNNClient - INFO - 35187 - phase=train acc=0.5911904761904762 loss=1.1638567447662354 epoch=366 and step=20
+2025-02-26 14:14:08,604 - SplitNNClient - INFO - 35187 - phase=train acc=0.5989024390243902 loss=1.1203722953796387 epoch=366 and step=40
+2025-02-26 14:14:43,515 - SplitNNClient - INFO - 35187 - phase=train acc=0.6070491803278688 loss=0.9744594693183899 epoch=366 and step=60
+2025-02-26 14:15:17,075 - SplitNNClient - INFO - 35187 - phase=train acc=0.6072222222222222 loss=1.0190016031265259 epoch=366 and step=80
+2025-02-26 14:15:52,459 - SplitNNClient - INFO - 35187 - phase=train acc=0.6060891089108911 loss=1.0164189338684082 epoch=366 and step=100
+2025-02-26 14:16:27,298 - SplitNNClient - INFO - 35187 - phase=train acc=0.6065289256198347 loss=1.1023246049880981 epoch=366 and step=120
+2025-02-26 14:16:36,353 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=37620618398 epoch_receive=31940224668 total_send=37620618398 total_receive=31940224668
+2025-02-26 14:17:03,747 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6602 loss=0.9621394062042237 epoch=366 and step=50
+2025-02-26 14:17:03,951 - SplitNNClient - INFO - 35186 - phase=train acc=0.565 loss=1.2418279647827148 epoch=368 and step=0
+2025-02-26 14:17:20,611 - SplitNNClient - INFO - 35186 - phase=train acc=0.5945238095238096 loss=1.0191943645477295 epoch=368 and step=20
+2025-02-26 14:17:50,131 - SplitNNClient - INFO - 35186 - phase=train acc=0.5967073170731707 loss=1.1552373170852661 epoch=368 and step=40
+2025-02-26 14:18:30,462 - SplitNNClient - INFO - 35186 - phase=train acc=0.5991803278688524 loss=1.1898605823516846 epoch=368 and step=60
+2025-02-26 14:19:16,077 - SplitNNClient - INFO - 35186 - phase=train acc=0.6022222222222222 loss=1.0268670320510864 epoch=368 and step=80
+2025-02-26 14:19:39,621 - SplitNNClient - INFO - 35186 - phase=train acc=0.6017821782178218 loss=1.1281543970108032 epoch=368 and step=100
+2025-02-26 14:20:09,788 - SplitNNClient - INFO - 35186 - phase=train acc=0.6018595041322314 loss=1.0225672721862793 epoch=368 and step=120
+2025-02-26 14:20:19,061 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=37825334004 epoch_receive=32113899668 total_send=37825334004 total_receive=32113899668
+2025-02-26 14:20:46,730 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6669 loss=0.9622560393810272 epoch=368 and step=50
+2025-02-26 14:20:46,981 - SplitNNClient - INFO - 35187 - phase=train acc=0.52 loss=1.3576207160949707 epoch=368 and step=0
+2025-02-26 14:21:28,985 - SplitNNClient - INFO - 35187 - phase=train acc=0.5883333333333334 loss=1.1574472188949585 epoch=368 and step=20
+2025-02-26 14:22:08,551 - SplitNNClient - INFO - 35187 - phase=train acc=0.5895121951219512 loss=1.1091477870941162 epoch=368 and step=40
+2025-02-26 14:22:49,363 - SplitNNClient - INFO - 35187 - phase=train acc=0.5923770491803279 loss=1.179257869720459 epoch=368 and step=60
+2025-02-26 14:23:30,131 - SplitNNClient - INFO - 35187 - phase=train acc=0.597037037037037 loss=0.9822076559066772 epoch=368 and step=80
+2025-02-26 14:24:10,475 - SplitNNClient - INFO - 35187 - phase=train acc=0.5975247524752475 loss=1.1484264135360718 epoch=368 and step=100
+2025-02-26 14:24:48,007 - SplitNNClient - INFO - 35187 - phase=train acc=0.5989669421487603 loss=1.0066725015640259 epoch=368 and step=120
+2025-02-26 14:24:58,536 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=37825334004 epoch_receive=32113899870 total_send=37825334004 total_receive=32113899870
+2025-02-26 14:25:26,555 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6675 loss=0.9437111794948578 epoch=368 and step=50
+2025-02-26 14:25:26,770 - SplitNNClient - INFO - 35186 - phase=train acc=0.625 loss=1.1256282329559326 epoch=370 and step=0
+2025-02-26 14:26:05,456 - SplitNNClient - INFO - 35186 - phase=train acc=0.6045238095238096 loss=1.0660454034805298 epoch=370 and step=20
+2025-02-26 14:26:46,985 - SplitNNClient - INFO - 35186 - phase=train acc=0.6064634146341463 loss=1.0101969242095947 epoch=370 and step=40
+2025-02-26 14:27:29,079 - SplitNNClient - INFO - 35186 - phase=train acc=0.6052459016393442 loss=1.1773191690444946 epoch=370 and step=60
+2025-02-26 14:28:10,286 - SplitNNClient - INFO - 35186 - phase=train acc=0.6037654320987654 loss=1.2338634729385376 epoch=370 and step=80
+2025-02-26 14:28:51,686 - SplitNNClient - INFO - 35186 - phase=train acc=0.6021287128712871 loss=1.0832774639129639 epoch=370 and step=100
+2025-02-26 14:29:33,282 - SplitNNClient - INFO - 35186 - phase=train acc=0.6 loss=1.089425802230835 epoch=370 and step=120
+2025-02-26 14:29:42,880 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=38030049610 epoch_receive=32287574870 total_send=38030049610 total_receive=32287574870
+2025-02-26 14:30:10,736 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6607 loss=0.9677342617511749 epoch=370 and step=50
+2025-02-26 14:30:11,007 - SplitNNClient - INFO - 35187 - phase=train acc=0.595 loss=1.1341464519500732 epoch=370 and step=0
+2025-02-26 14:30:51,469 - SplitNNClient - INFO - 35187 - phase=train acc=0.6033333333333334 loss=1.1277379989624023 epoch=370 and step=20
+2025-02-26 14:31:33,475 - SplitNNClient - INFO - 35187 - phase=train acc=0.6020731707317073 loss=1.1255714893341064 epoch=370 and step=40
+2025-02-26 14:32:13,918 - SplitNNClient - INFO - 35187 - phase=train acc=0.6092622950819672 loss=1.0406019687652588 epoch=370 and step=60
+2025-02-26 14:32:54,106 - SplitNNClient - INFO - 35187 - phase=train acc=0.6106172839506173 loss=1.142065405845642 epoch=370 and step=80
+2025-02-26 14:33:36,252 - SplitNNClient - INFO - 35187 - phase=train acc=0.611039603960396 loss=1.021487832069397 epoch=370 and step=100
+2025-02-26 14:34:17,510 - SplitNNClient - INFO - 35187 - phase=train acc=0.6100413223140496 loss=1.041139006614685 epoch=370 and step=120
+2025-02-26 14:34:26,669 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=38030049610 epoch_receive=32287575072 total_send=38030049610 total_receive=32287575072
+2025-02-26 14:34:54,632 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6729 loss=0.9510234069824218 epoch=370 and step=50
+2025-02-26 14:34:54,877 - SplitNNClient - INFO - 35186 - phase=train acc=0.63 loss=1.0198473930358887 epoch=372 and step=0
+2025-02-26 14:35:35,423 - SplitNNClient - INFO - 35186 - phase=train acc=0.5985714285714285 loss=1.236932635307312 epoch=372 and step=20
+2025-02-26 14:36:14,915 - SplitNNClient - INFO - 35186 - phase=train acc=0.6047560975609756 loss=1.0215991735458374 epoch=372 and step=40
+2025-02-26 14:36:56,924 - SplitNNClient - INFO - 35186 - phase=train acc=0.6038524590163934 loss=1.1273878812789917 epoch=372 and step=60
+2025-02-26 14:37:37,521 - SplitNNClient - INFO - 35186 - phase=train acc=0.6025925925925926 loss=1.1312627792358398 epoch=372 and step=80
+2025-02-26 14:38:18,957 - SplitNNClient - INFO - 35186 - phase=train acc=0.6043564356435643 loss=1.016831636428833 epoch=372 and step=100
+2025-02-26 14:39:00,472 - SplitNNClient - INFO - 35186 - phase=train acc=0.6033884297520661 loss=1.0984746217727661 epoch=372 and step=120
+2025-02-26 14:39:11,111 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=38234765216 epoch_receive=32461250072 total_send=38234765216 total_receive=32461250072
+2025-02-26 14:39:39,081 - SplitNNClient - INFO - 35186 - phase=validation acc=0.65 loss=0.9971264123916626 epoch=372 and step=50
+2025-02-26 14:39:39,382 - SplitNNClient - INFO - 35187 - phase=train acc=0.64 loss=1.0189801454544067 epoch=372 and step=0
+2025-02-26 14:40:20,021 - SplitNNClient - INFO - 35187 - phase=train acc=0.5902380952380952 loss=1.1244969367980957 epoch=372 and step=20
+2025-02-26 14:40:58,959 - SplitNNClient - INFO - 35187 - phase=train acc=0.5941463414634146 loss=1.1574687957763672 epoch=372 and step=40
+2025-02-26 14:41:41,461 - SplitNNClient - INFO - 35187 - phase=train acc=0.5964754098360656 loss=1.1381902694702148 epoch=372 and step=60
+2025-02-26 14:42:25,793 - SplitNNClient - INFO - 35187 - phase=train acc=0.5984567901234568 loss=1.0592236518859863 epoch=372 and step=80
+2025-02-26 14:43:05,711 - SplitNNClient - INFO - 35187 - phase=train acc=0.5957425742574257 loss=1.1849387884140015 epoch=372 and step=100
+2025-02-26 14:43:44,256 - SplitNNClient - INFO - 35187 - phase=train acc=0.5988842975206612 loss=1.0842196941375732 epoch=372 and step=120
+2025-02-26 14:43:54,775 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=38234765216 epoch_receive=32461250274 total_send=38234765216 total_receive=32461250274
+2025-02-26 14:44:22,632 - SplitNNClient - INFO - 35187 - phase=validation acc=0.661 loss=0.95685950756073 epoch=372 and step=50
+2025-02-26 14:44:22,945 - SplitNNClient - INFO - 35186 - phase=train acc=0.58 loss=1.0867396593093872 epoch=374 and step=0
+2025-02-26 14:44:57,964 - SplitNNClient - INFO - 35186 - phase=train acc=0.5926190476190476 loss=1.2234609127044678 epoch=374 and step=20
+2025-02-26 14:45:35,654 - SplitNNClient - INFO - 35186 - phase=train acc=0.5929268292682927 loss=1.3325854539871216 epoch=374 and step=40
+2025-02-26 14:46:14,545 - SplitNNClient - INFO - 35186 - phase=train acc=0.5912295081967213 loss=1.0779826641082764 epoch=374 and step=60
+2025-02-26 14:46:56,629 - SplitNNClient - INFO - 35186 - phase=train acc=0.5930864197530864 loss=1.138077974319458 epoch=374 and step=80
+2025-02-26 14:47:38,990 - SplitNNClient - INFO - 35186 - phase=train acc=0.5953960396039604 loss=1.1010355949401855 epoch=374 and step=100
+2025-02-26 14:48:17,966 - SplitNNClient - INFO - 35186 - phase=train acc=0.5951239669421488 loss=1.0757336616516113 epoch=374 and step=120
+2025-02-26 14:48:29,172 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=38439480822 epoch_receive=32634925274 total_send=38439480822 total_receive=32634925274
+2025-02-26 14:48:57,168 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6692 loss=0.955983395576477 epoch=374 and step=50
+2025-02-26 14:48:57,449 - SplitNNClient - INFO - 35187 - phase=train acc=0.57 loss=1.2071956396102905 epoch=374 and step=0
+2025-02-26 14:49:39,050 - SplitNNClient - INFO - 35187 - phase=train acc=0.5926190476190476 loss=1.111463189125061 epoch=374 and step=20
+2025-02-26 14:50:20,269 - SplitNNClient - INFO - 35187 - phase=train acc=0.6065853658536585 loss=1.0372108221054077 epoch=374 and step=40
+2025-02-26 14:51:00,993 - SplitNNClient - INFO - 35187 - phase=train acc=0.6031147540983607 loss=1.0392844676971436 epoch=374 and step=60
+2025-02-26 14:51:42,730 - SplitNNClient - INFO - 35187 - phase=train acc=0.6014814814814815 loss=1.2897872924804688 epoch=374 and step=80
+2025-02-26 14:52:25,255 - SplitNNClient - INFO - 35187 - phase=train acc=0.6020792079207921 loss=1.250454068183899 epoch=374 and step=100
+2025-02-26 14:53:05,467 - SplitNNClient - INFO - 35187 - phase=train acc=0.6046280991735538 loss=1.1541672945022583 epoch=374 and step=120
+2025-02-26 14:53:15,968 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=38439480822 epoch_receive=32634925476 total_send=38439480822 total_receive=32634925476
+2025-02-26 14:53:43,944 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6667 loss=0.9542506873607636 epoch=374 and step=50
+2025-02-26 14:53:44,292 - SplitNNClient - INFO - 35186 - phase=train acc=0.545 loss=1.1815727949142456 epoch=376 and step=0
+2025-02-26 14:54:24,910 - SplitNNClient - INFO - 35186 - phase=train acc=0.5861904761904762 loss=1.1455082893371582 epoch=376 and step=20
+2025-02-26 14:55:05,547 - SplitNNClient - INFO - 35186 - phase=train acc=0.599390243902439 loss=0.9611639380455017 epoch=376 and step=40
+2025-02-26 14:55:46,071 - SplitNNClient - INFO - 35186 - phase=train acc=0.6018032786885246 loss=1.1664955615997314 epoch=376 and step=60
+2025-02-26 14:56:27,026 - SplitNNClient - INFO - 35186 - phase=train acc=0.5985802469135802 loss=1.1924476623535156 epoch=376 and step=80
+2025-02-26 14:57:08,901 - SplitNNClient - INFO - 35186 - phase=train acc=0.5963366336633663 loss=1.2083925008773804 epoch=376 and step=100
+2025-02-26 14:57:51,482 - SplitNNClient - INFO - 35186 - phase=train acc=0.5964876033057851 loss=1.146178126335144 epoch=376 and step=120
+2025-02-26 14:58:01,090 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=38644196428 epoch_receive=32808600476 total_send=38644196428 total_receive=32808600476
+2025-02-26 14:58:29,052 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6599 loss=0.9733000564575195 epoch=376 and step=50
+2025-02-26 14:58:29,409 - SplitNNClient - INFO - 35187 - phase=train acc=0.6 loss=1.1092925071716309 epoch=376 and step=0
+2025-02-26 14:59:12,489 - SplitNNClient - INFO - 35187 - phase=train acc=0.5954761904761905 loss=0.9781373739242554 epoch=376 and step=20
+2025-02-26 14:59:52,497 - SplitNNClient - INFO - 35187 - phase=train acc=0.6028048780487805 loss=1.1006734371185303 epoch=376 and step=40
+2025-02-26 15:00:33,499 - SplitNNClient - INFO - 35187 - phase=train acc=0.6007377049180328 loss=1.0407522916793823 epoch=376 and step=60
+2025-02-26 15:01:14,533 - SplitNNClient - INFO - 35187 - phase=train acc=0.5967901234567902 loss=1.1380817890167236 epoch=376 and step=80
+2025-02-26 15:01:56,088 - SplitNNClient - INFO - 35187 - phase=train acc=0.6003465346534653 loss=1.0690369606018066 epoch=376 and step=100
+2025-02-26 15:02:36,373 - SplitNNClient - INFO - 35187 - phase=train acc=0.6008677685950413 loss=1.1869062185287476 epoch=376 and step=120
+2025-02-26 15:02:45,701 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=38644196428 epoch_receive=32808600678 total_send=38644196428 total_receive=32808600678
+2025-02-26 15:03:13,692 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6617 loss=0.9534622609615326 epoch=376 and step=50
+2025-02-26 15:03:13,930 - SplitNNClient - INFO - 35186 - phase=train acc=0.605 loss=1.0520421266555786 epoch=378 and step=0
+2025-02-26 15:03:57,424 - SplitNNClient - INFO - 35186 - phase=train acc=0.5919047619047619 loss=1.1016618013381958 epoch=378 and step=20
+2025-02-26 15:04:38,455 - SplitNNClient - INFO - 35186 - phase=train acc=0.5952439024390244 loss=1.2740397453308105 epoch=378 and step=40
+2025-02-26 15:05:16,861 - SplitNNClient - INFO - 35186 - phase=train acc=0.5983606557377049 loss=1.1411848068237305 epoch=378 and step=60
+2025-02-26 15:05:57,503 - SplitNNClient - INFO - 35186 - phase=train acc=0.5992592592592593 loss=1.0747443437576294 epoch=378 and step=80
+2025-02-26 15:06:39,307 - SplitNNClient - INFO - 35186 - phase=train acc=0.5997029702970297 loss=1.1781580448150635 epoch=378 and step=100
+2025-02-26 15:07:19,632 - SplitNNClient - INFO - 35186 - phase=train acc=0.5991735537190083 loss=1.2755670547485352 epoch=378 and step=120
+2025-02-26 15:07:29,235 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=38848912034 epoch_receive=32982275678 total_send=38848912034 total_receive=32982275678
+2025-02-26 15:07:57,171 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6666 loss=0.9692255854606628 epoch=378 and step=50
+2025-02-26 15:07:57,408 - SplitNNClient - INFO - 35187 - phase=train acc=0.515 loss=1.4607288837432861 epoch=378 and step=0
+2025-02-26 15:08:37,960 - SplitNNClient - INFO - 35187 - phase=train acc=0.5928571428571429 loss=1.0206880569458008 epoch=378 and step=20
+2025-02-26 15:09:21,013 - SplitNNClient - INFO - 35187 - phase=train acc=0.5910975609756097 loss=1.224600911140442 epoch=378 and step=40
+2025-02-26 15:10:01,880 - SplitNNClient - INFO - 35187 - phase=train acc=0.5963114754098361 loss=1.212148904800415 epoch=378 and step=60
+2025-02-26 15:10:43,573 - SplitNNClient - INFO - 35187 - phase=train acc=0.5945679012345679 loss=1.1675876379013062 epoch=378 and step=80
+2025-02-26 15:11:25,868 - SplitNNClient - INFO - 35187 - phase=train acc=0.5945544554455445 loss=1.1969175338745117 epoch=378 and step=100
+2025-02-26 15:12:08,247 - SplitNNClient - INFO - 35187 - phase=train acc=0.5992561983471074 loss=0.9958658814430237 epoch=378 and step=120
+2025-02-26 15:12:18,183 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=38848912034 epoch_receive=32982275880 total_send=38848912034 total_receive=32982275880
+2025-02-26 15:12:46,180 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6744 loss=0.9295516586303711 epoch=378 and step=50
+2025-02-26 15:12:46,416 - SplitNNClient - INFO - 35186 - phase=train acc=0.535 loss=1.272240161895752 epoch=380 and step=0
+2025-02-26 15:13:28,488 - SplitNNClient - INFO - 35186 - phase=train acc=0.6073809523809524 loss=1.1495059728622437 epoch=380 and step=20
+2025-02-26 15:14:06,037 - SplitNNClient - INFO - 35186 - phase=train acc=0.5991463414634146 loss=1.162490963935852 epoch=380 and step=40
+2025-02-26 15:14:44,393 - SplitNNClient - INFO - 35186 - phase=train acc=0.5990163934426229 loss=1.049831509590149 epoch=380 and step=60
+2025-02-26 15:15:23,331 - SplitNNClient - INFO - 35186 - phase=train acc=0.5986419753086419 loss=1.2104262113571167 epoch=380 and step=80
+2025-02-26 15:16:03,349 - SplitNNClient - INFO - 35186 - phase=train acc=0.5987128712871287 loss=1.1590698957443237 epoch=380 and step=100
+2025-02-26 15:16:41,980 - SplitNNClient - INFO - 35186 - phase=train acc=0.6012809917355372 loss=1.0585756301879883 epoch=380 and step=120
+2025-02-26 15:16:52,397 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=39053627640 epoch_receive=33155950880 total_send=39053627640 total_receive=33155950880
+2025-02-26 15:17:20,306 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6623 loss=0.9872465443611145 epoch=380 and step=50
+2025-02-26 15:17:20,592 - SplitNNClient - INFO - 35187 - phase=train acc=0.56 loss=1.2131482362747192 epoch=380 and step=0
+2025-02-26 15:18:03,350 - SplitNNClient - INFO - 35187 - phase=train acc=0.589047619047619 loss=1.2767536640167236 epoch=380 and step=20
+2025-02-26 15:18:43,888 - SplitNNClient - INFO - 35187 - phase=train acc=0.5973170731707317 loss=1.2201354503631592 epoch=380 and step=40
+2025-02-26 15:19:24,885 - SplitNNClient - INFO - 35187 - phase=train acc=0.5954918032786886 loss=1.1892220973968506 epoch=380 and step=60
+2025-02-26 15:20:06,171 - SplitNNClient - INFO - 35187 - phase=train acc=0.5982098765432099 loss=1.1489750146865845 epoch=380 and step=80
+2025-02-26 15:20:46,797 - SplitNNClient - INFO - 35187 - phase=train acc=0.6012871287128713 loss=0.9384158253669739 epoch=380 and step=100
+2025-02-26 15:21:30,363 - SplitNNClient - INFO - 35187 - phase=train acc=0.5998347107438017 loss=1.2251874208450317 epoch=380 and step=120
+2025-02-26 15:21:41,301 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=39053627640 epoch_receive=33155951082 total_send=39053627640 total_receive=33155951082
+2025-02-26 15:22:09,228 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6684 loss=0.9568965923786164 epoch=380 and step=50
+2025-02-26 15:22:09,546 - SplitNNClient - INFO - 35186 - phase=train acc=0.545 loss=1.2929645776748657 epoch=382 and step=0
+2025-02-26 15:22:50,545 - SplitNNClient - INFO - 35186 - phase=train acc=0.5816666666666667 loss=1.0284509658813477 epoch=382 and step=20
+2025-02-26 15:23:32,847 - SplitNNClient - INFO - 35186 - phase=train acc=0.5864634146341463 loss=1.121849775314331 epoch=382 and step=40
+2025-02-26 15:24:14,491 - SplitNNClient - INFO - 35186 - phase=train acc=0.5911475409836066 loss=1.103266954421997 epoch=382 and step=60
+2025-02-26 15:24:52,971 - SplitNNClient - INFO - 35186 - phase=train acc=0.595925925925926 loss=1.1093339920043945 epoch=382 and step=80
+2025-02-26 15:25:33,283 - SplitNNClient - INFO - 35186 - phase=train acc=0.5973762376237624 loss=1.1724789142608643 epoch=382 and step=100
+2025-02-26 15:26:13,816 - SplitNNClient - INFO - 35186 - phase=train acc=0.594793388429752 loss=1.0205740928649902 epoch=382 and step=120
+2025-02-26 15:26:23,803 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=39258343246 epoch_receive=33329626082 total_send=39258343246 total_receive=33329626082
+2025-02-26 15:26:51,780 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6644 loss=0.959073873758316 epoch=382 and step=50
+2025-02-26 15:26:52,037 - SplitNNClient - INFO - 35187 - phase=train acc=0.595 loss=1.1156494617462158 epoch=382 and step=0
+2025-02-26 15:27:34,601 - SplitNNClient - INFO - 35187 - phase=train acc=0.5954761904761905 loss=0.9730865955352783 epoch=382 and step=20
+2025-02-26 15:28:17,060 - SplitNNClient - INFO - 35187 - phase=train acc=0.5962195121951219 loss=1.09577214717865 epoch=382 and step=40
+2025-02-26 15:28:56,180 - SplitNNClient - INFO - 35187 - phase=train acc=0.6013934426229508 loss=1.1178851127624512 epoch=382 and step=60
+2025-02-26 15:29:37,125 - SplitNNClient - INFO - 35187 - phase=train acc=0.6029012345679012 loss=1.1045641899108887 epoch=382 and step=80
+2025-02-26 15:30:18,660 - SplitNNClient - INFO - 35187 - phase=train acc=0.6027722772277228 loss=1.09397292137146 epoch=382 and step=100
+2025-02-26 15:30:59,540 - SplitNNClient - INFO - 35187 - phase=train acc=0.6038016528925619 loss=1.1807488203048706 epoch=382 and step=120
+2025-02-26 15:31:10,043 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=39258343246 epoch_receive=33329626284 total_send=39258343246 total_receive=33329626284
+2025-02-26 15:31:38,000 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6609 loss=0.9694888520240784 epoch=382 and step=50
+2025-02-26 15:31:38,248 - SplitNNClient - INFO - 35186 - phase=train acc=0.555 loss=1.2955267429351807 epoch=384 and step=0
+2025-02-26 15:32:20,966 - SplitNNClient - INFO - 35186 - phase=train acc=0.5957142857142858 loss=0.9950636029243469 epoch=384 and step=20
+2025-02-26 15:33:00,955 - SplitNNClient - INFO - 35186 - phase=train acc=0.6028048780487805 loss=1.1637252569198608 epoch=384 and step=40
+2025-02-26 15:33:42,485 - SplitNNClient - INFO - 35186 - phase=train acc=0.6013934426229508 loss=1.0686239004135132 epoch=384 and step=60
+2025-02-26 15:34:22,071 - SplitNNClient - INFO - 35186 - phase=train acc=0.5998148148148148 loss=1.2920399904251099 epoch=384 and step=80
+2025-02-26 15:35:02,081 - SplitNNClient - INFO - 35186 - phase=train acc=0.5954455445544554 loss=1.1097190380096436 epoch=384 and step=100
+2025-02-26 15:35:42,308 - SplitNNClient - INFO - 35186 - phase=train acc=0.5959917355371901 loss=1.0524024963378906 epoch=384 and step=120
+2025-02-26 15:35:51,813 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=39463058852 epoch_receive=33503301284 total_send=39463058852 total_receive=33503301284
+2025-02-26 15:36:19,595 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6658 loss=0.9725915455818176 epoch=384 and step=50
+2025-02-26 15:36:19,874 - SplitNNClient - INFO - 35187 - phase=train acc=0.56 loss=1.2948362827301025 epoch=384 and step=0
+2025-02-26 15:36:59,647 - SplitNNClient - INFO - 35187 - phase=train acc=0.6035714285714285 loss=1.0491336584091187 epoch=384 and step=20
+2025-02-26 15:37:38,045 - SplitNNClient - INFO - 35187 - phase=train acc=0.6054878048780488 loss=1.1886006593704224 epoch=384 and step=40
+2025-02-26 15:38:19,253 - SplitNNClient - INFO - 35187 - phase=train acc=0.6059016393442623 loss=1.014286994934082 epoch=384 and step=60
+2025-02-26 15:39:00,675 - SplitNNClient - INFO - 35187 - phase=train acc=0.6040123456790123 loss=1.2737374305725098 epoch=384 and step=80
+2025-02-26 15:39:41,529 - SplitNNClient - INFO - 35187 - phase=train acc=0.6032178217821782 loss=1.028468132019043 epoch=384 and step=100
+2025-02-26 15:40:22,717 - SplitNNClient - INFO - 35187 - phase=train acc=0.6011570247933884 loss=1.1689127683639526 epoch=384 and step=120
+2025-02-26 15:40:32,877 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=39463058852 epoch_receive=33503301486 total_send=39463058852 total_receive=33503301486
+2025-02-26 15:41:00,876 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6759 loss=0.9231136870384217 epoch=384 and step=50
+2025-02-26 15:41:01,093 - SplitNNClient - INFO - 35186 - phase=train acc=0.565 loss=1.111199975013733 epoch=386 and step=0
+2025-02-26 15:41:46,070 - SplitNNClient - INFO - 35186 - phase=train acc=0.5930952380952381 loss=1.1775333881378174 epoch=386 and step=20
+2025-02-26 15:42:26,742 - SplitNNClient - INFO - 35186 - phase=train acc=0.5970731707317073 loss=1.1449439525604248 epoch=386 and step=40
+2025-02-26 15:43:06,754 - SplitNNClient - INFO - 35186 - phase=train acc=0.5960655737704919 loss=1.1161195039749146 epoch=386 and step=60
+2025-02-26 15:43:44,445 - SplitNNClient - INFO - 35186 - phase=train acc=0.5967283950617284 loss=1.0910348892211914 epoch=386 and step=80
+2025-02-26 15:44:26,215 - SplitNNClient - INFO - 35186 - phase=train acc=0.5965346534653465 loss=1.142041802406311 epoch=386 and step=100
+2025-02-26 15:45:05,158 - SplitNNClient - INFO - 35186 - phase=train acc=0.5981818181818181 loss=1.0375099182128906 epoch=386 and step=120
+2025-02-26 15:45:14,780 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=39667774458 epoch_receive=33676976486 total_send=39667774458 total_receive=33676976486
+2025-02-26 15:45:42,702 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6634 loss=0.9691722369194031 epoch=386 and step=50
+2025-02-26 15:45:42,932 - SplitNNClient - INFO - 35187 - phase=train acc=0.575 loss=1.2082489728927612 epoch=386 and step=0
+2025-02-26 15:46:21,536 - SplitNNClient - INFO - 35187 - phase=train acc=0.6061904761904762 loss=1.1899491548538208 epoch=386 and step=20
+2025-02-26 15:47:00,727 - SplitNNClient - INFO - 35187 - phase=train acc=0.6085365853658536 loss=1.338587999343872 epoch=386 and step=40
+2025-02-26 15:47:41,157 - SplitNNClient - INFO - 35187 - phase=train acc=0.6069672131147541 loss=1.0347694158554077 epoch=386 and step=60
+2025-02-26 15:48:20,950 - SplitNNClient - INFO - 35187 - phase=train acc=0.6044444444444445 loss=1.1574739217758179 epoch=386 and step=80
+2025-02-26 15:49:03,479 - SplitNNClient - INFO - 35187 - phase=train acc=0.6038613861386138 loss=1.0380576848983765 epoch=386 and step=100
+2025-02-26 15:49:44,171 - SplitNNClient - INFO - 35187 - phase=train acc=0.6034710743801653 loss=1.174362063407898 epoch=386 and step=120
+2025-02-26 15:49:54,676 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=39667774458 epoch_receive=33676976688 total_send=39667774458 total_receive=33676976688
+2025-02-26 15:50:22,741 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6715 loss=0.9342385828495026 epoch=386 and step=50
+2025-02-26 15:50:23,017 - SplitNNClient - INFO - 35186 - phase=train acc=0.585 loss=1.1211811304092407 epoch=388 and step=0
+2025-02-26 15:51:04,081 - SplitNNClient - INFO - 35186 - phase=train acc=0.5776190476190476 loss=1.165901780128479 epoch=388 and step=20
+2025-02-26 15:51:44,116 - SplitNNClient - INFO - 35186 - phase=train acc=0.5771951219512195 loss=1.1409709453582764 epoch=388 and step=40
+2025-02-26 15:52:22,380 - SplitNNClient - INFO - 35186 - phase=train acc=0.5802459016393443 loss=1.0507794618606567 epoch=388 and step=60
+2025-02-26 15:53:03,011 - SplitNNClient - INFO - 35186 - phase=train acc=0.5845679012345679 loss=1.1519522666931152 epoch=388 and step=80
+2025-02-26 15:53:44,108 - SplitNNClient - INFO - 35186 - phase=train acc=0.5897524752475247 loss=0.9944256544113159 epoch=388 and step=100
+2025-02-26 15:54:21,689 - SplitNNClient - INFO - 35186 - phase=train acc=0.5914049586776859 loss=1.1042590141296387 epoch=388 and step=120
+2025-02-26 15:54:32,067 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=39872490064 epoch_receive=33850651688 total_send=39872490064 total_receive=33850651688
+2025-02-26 15:55:00,077 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6591 loss=0.9685377037525177 epoch=388 and step=50
+2025-02-26 15:55:00,331 - SplitNNClient - INFO - 35187 - phase=train acc=0.59 loss=1.2107033729553223 epoch=388 and step=0
+2025-02-26 15:55:38,690 - SplitNNClient - INFO - 35187 - phase=train acc=0.605 loss=1.1679296493530273 epoch=388 and step=20
+2025-02-26 15:56:16,760 - SplitNNClient - INFO - 35187 - phase=train acc=0.6024390243902439 loss=1.1649744510650635 epoch=388 and step=40
+2025-02-26 15:56:55,951 - SplitNNClient - INFO - 35187 - phase=train acc=0.605655737704918 loss=1.10285222530365 epoch=388 and step=60
+2025-02-26 15:57:35,617 - SplitNNClient - INFO - 35187 - phase=train acc=0.6054938271604938 loss=1.156280755996704 epoch=388 and step=80
+2025-02-26 15:58:15,839 - SplitNNClient - INFO - 35187 - phase=train acc=0.6062871287128713 loss=1.1496161222457886 epoch=388 and step=100
+2025-02-26 15:58:56,020 - SplitNNClient - INFO - 35187 - phase=train acc=0.6056611570247934 loss=0.9799615740776062 epoch=388 and step=120
+2025-02-26 15:59:07,502 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=39872490064 epoch_receive=33850651890 total_send=39872490064 total_receive=33850651890
+2025-02-26 15:59:35,475 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6615 loss=0.9600875735282898 epoch=388 and step=50
+2025-02-26 15:59:35,865 - SplitNNClient - INFO - 35186 - phase=train acc=0.575 loss=1.1800481081008911 epoch=390 and step=0
+2025-02-26 16:00:16,453 - SplitNNClient - INFO - 35186 - phase=train acc=0.5921428571428572 loss=1.1045644283294678 epoch=390 and step=20
+2025-02-26 16:00:57,332 - SplitNNClient - INFO - 35186 - phase=train acc=0.6010975609756097 loss=1.2796705961227417 epoch=390 and step=40
+2025-02-26 16:01:37,891 - SplitNNClient - INFO - 35186 - phase=train acc=0.6027868852459016 loss=1.064700722694397 epoch=390 and step=60
+2025-02-26 16:02:17,969 - SplitNNClient - INFO - 35186 - phase=train acc=0.6004320987654321 loss=1.1602635383605957 epoch=390 and step=80
+2025-02-26 16:02:58,727 - SplitNNClient - INFO - 35186 - phase=train acc=0.5999009900990099 loss=0.9943144917488098 epoch=390 and step=100
+2025-02-26 16:03:36,753 - SplitNNClient - INFO - 35186 - phase=train acc=0.6001239669421488 loss=1.0154544115066528 epoch=390 and step=120
+2025-02-26 16:03:45,222 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=40077205670 epoch_receive=34024326890 total_send=40077205670 total_receive=34024326890
+2025-02-26 16:04:13,195 - SplitNNClient - INFO - 35186 - phase=validation acc=0.669 loss=0.9641861212253571 epoch=390 and step=50
+2025-02-26 16:04:13,528 - SplitNNClient - INFO - 35187 - phase=train acc=0.585 loss=1.170656681060791 epoch=390 and step=0
+2025-02-26 16:04:55,328 - SplitNNClient - INFO - 35187 - phase=train acc=0.6047619047619047 loss=1.0673856735229492 epoch=390 and step=20
+2025-02-26 16:05:36,566 - SplitNNClient - INFO - 35187 - phase=train acc=0.6051219512195122 loss=1.170753836631775 epoch=390 and step=40
+2025-02-26 16:06:16,414 - SplitNNClient - INFO - 35187 - phase=train acc=0.6079508196721312 loss=1.2670572996139526 epoch=390 and step=60
+2025-02-26 16:06:58,508 - SplitNNClient - INFO - 35187 - phase=train acc=0.6040740740740741 loss=1.1790573596954346 epoch=390 and step=80
+2025-02-26 16:07:39,076 - SplitNNClient - INFO - 35187 - phase=train acc=0.6062871287128713 loss=1.1637064218521118 epoch=390 and step=100
+2025-02-26 16:08:20,444 - SplitNNClient - INFO - 35187 - phase=train acc=0.6068595041322314 loss=1.1548759937286377 epoch=390 and step=120
+2025-02-26 16:08:30,746 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=40077205670 epoch_receive=34024327092 total_send=40077205670 total_receive=34024327092
+2025-02-26 16:08:58,661 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6741 loss=0.9132949364185333 epoch=390 and step=50
+2025-02-26 16:08:58,864 - SplitNNClient - INFO - 35186 - phase=train acc=0.61 loss=1.2193019390106201 epoch=392 and step=0
+2025-02-26 16:09:37,240 - SplitNNClient - INFO - 35186 - phase=train acc=0.5919047619047619 loss=1.1634550094604492 epoch=392 and step=20
+2025-02-26 16:10:18,030 - SplitNNClient - INFO - 35186 - phase=train acc=0.5959756097560975 loss=1.139409065246582 epoch=392 and step=40
+2025-02-26 16:10:54,120 - SplitNNClient - INFO - 35186 - phase=train acc=0.5991803278688524 loss=1.09657883644104 epoch=392 and step=60
+2025-02-26 16:11:32,033 - SplitNNClient - INFO - 35186 - phase=train acc=0.5971604938271605 loss=1.2569457292556763 epoch=392 and step=80
+2025-02-26 16:12:12,897 - SplitNNClient - INFO - 35186 - phase=train acc=0.5997029702970297 loss=1.1290597915649414 epoch=392 and step=100
+2025-02-26 16:12:52,845 - SplitNNClient - INFO - 35186 - phase=train acc=0.599793388429752 loss=1.09784734249115 epoch=392 and step=120
+2025-02-26 16:13:02,166 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=40281921276 epoch_receive=34198002092 total_send=40281921276 total_receive=34198002092
+2025-02-26 16:13:30,095 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6727 loss=0.9447477912902832 epoch=392 and step=50
+2025-02-26 16:13:30,547 - SplitNNClient - INFO - 35187 - phase=train acc=0.5 loss=1.3724370002746582 epoch=392 and step=0
+2025-02-26 16:14:07,437 - SplitNNClient - INFO - 35187 - phase=train acc=0.5880952380952381 loss=1.0827593803405762 epoch=392 and step=20
+2025-02-26 16:14:49,269 - SplitNNClient - INFO - 35187 - phase=train acc=0.5917073170731707 loss=1.0773520469665527 epoch=392 and step=40
+2025-02-26 16:15:28,351 - SplitNNClient - INFO - 35187 - phase=train acc=0.5962295081967213 loss=1.0888957977294922 epoch=392 and step=60
+2025-02-26 16:16:04,904 - SplitNNClient - INFO - 35187 - phase=train acc=0.6007407407407407 loss=1.185112476348877 epoch=392 and step=80
+2025-02-26 16:16:45,186 - SplitNNClient - INFO - 35187 - phase=train acc=0.603069306930693 loss=1.0863760709762573 epoch=392 and step=100
+2025-02-26 16:17:26,438 - SplitNNClient - INFO - 35187 - phase=train acc=0.6028925619834711 loss=1.269483208656311 epoch=392 and step=120
+2025-02-26 16:17:36,377 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=40281921276 epoch_receive=34198002294 total_send=40281921276 total_receive=34198002294
+2025-02-26 16:18:04,325 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6484 loss=1.0086870229244231 epoch=392 and step=50
+2025-02-26 16:18:04,594 - SplitNNClient - INFO - 35186 - phase=train acc=0.625 loss=1.1606513261795044 epoch=394 and step=0
+2025-02-26 16:18:44,449 - SplitNNClient - INFO - 35186 - phase=train acc=0.6080952380952381 loss=1.1133365631103516 epoch=394 and step=20
+2025-02-26 16:19:26,563 - SplitNNClient - INFO - 35186 - phase=train acc=0.600609756097561 loss=1.1903492212295532 epoch=394 and step=40
+2025-02-26 16:20:03,044 - SplitNNClient - INFO - 35186 - phase=train acc=0.6009016393442623 loss=1.3387560844421387 epoch=394 and step=60
+2025-02-26 16:20:48,933 - SplitNNClient - INFO - 35186 - phase=train acc=0.6025925925925926 loss=1.1290773153305054 epoch=394 and step=80
+2025-02-26 16:26:08,096 - SplitNNClient - INFO - 35186 - phase=train acc=0.6012376237623762 loss=1.1360512971878052 epoch=394 and step=100
+2025-02-26 16:26:55,272 - SplitNNClient - INFO - 35186 - phase=train acc=0.6039256198347107 loss=1.1760374307632446 epoch=394 and step=120
+2025-02-26 16:42:42,623 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=40486636882 epoch_receive=34371677294 total_send=40486636882 total_receive=34371677294
+2025-02-26 16:43:10,534 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6687 loss=0.9521351420879364 epoch=394 and step=50
+2025-02-26 16:43:10,729 - SplitNNClient - INFO - 35187 - phase=train acc=0.595 loss=1.0314586162567139 epoch=394 and step=0
+2025-02-26 16:43:57,846 - SplitNNClient - INFO - 35187 - phase=train acc=0.5980952380952381 loss=1.1874922513961792 epoch=394 and step=20
+2025-02-26 16:44:49,587 - SplitNNClient - INFO - 35187 - phase=train acc=0.6010975609756097 loss=0.9503178596496582 epoch=394 and step=40
+2025-02-26 17:01:52,802 - SplitNNClient - INFO - 35187 - phase=train acc=0.5984426229508196 loss=1.1851965188980103 epoch=394 and step=60
+2025-02-26 17:02:35,237 - SplitNNClient - INFO - 35187 - phase=train acc=0.5996296296296296 loss=1.100627064704895 epoch=394 and step=80
+2025-02-26 17:03:21,886 - SplitNNClient - INFO - 35187 - phase=train acc=0.6004455445544554 loss=1.2119256258010864 epoch=394 and step=100
+2025-02-26 17:20:29,790 - SplitNNClient - INFO - 35187 - phase=train acc=0.6010743801652892 loss=1.1207195520401 epoch=394 and step=120
+2025-02-26 17:20:39,547 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=40486636882 epoch_receive=34371677496 total_send=40486636882 total_receive=34371677496
+2025-02-26 17:21:07,592 - SplitNNClient - INFO - 35187 - phase=validation acc=0.661 loss=0.959873960018158 epoch=394 and step=50
+2025-02-26 17:21:07,865 - SplitNNClient - INFO - 35186 - phase=train acc=0.59 loss=1.1044543981552124 epoch=396 and step=0
+2025-02-26 17:21:55,628 - SplitNNClient - INFO - 35186 - phase=train acc=0.5923809523809523 loss=1.0687278509140015 epoch=396 and step=20
+2025-02-26 17:22:42,551 - SplitNNClient - INFO - 35186 - phase=train acc=0.5876829268292683 loss=1.0573986768722534 epoch=396 and step=40
+2025-02-26 17:23:30,765 - SplitNNClient - INFO - 35186 - phase=train acc=0.5956557377049181 loss=1.1483707427978516 epoch=396 and step=60
+2025-02-26 17:24:22,531 - SplitNNClient - INFO - 35186 - phase=train acc=0.5958024691358025 loss=1.059314489364624 epoch=396 and step=80
+2025-02-26 17:25:13,589 - SplitNNClient - INFO - 35186 - phase=train acc=0.6002475247524752 loss=1.0890041589736938 epoch=396 and step=100
+2025-02-26 17:26:04,689 - SplitNNClient - INFO - 35186 - phase=train acc=0.6010330578512396 loss=1.126927137374878 epoch=396 and step=120
+2025-02-26 17:26:17,831 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=40691352488 epoch_receive=34545352496 total_send=40691352488 total_receive=34545352496
+2025-02-26 17:26:46,001 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6685 loss=0.9558181118965149 epoch=396 and step=50
+2025-02-26 17:26:46,328 - SplitNNClient - INFO - 35187 - phase=train acc=0.635 loss=1.0797348022460938 epoch=396 and step=0
+2025-02-26 17:27:39,905 - SplitNNClient - INFO - 35187 - phase=train acc=0.6033333333333334 loss=1.0060468912124634 epoch=396 and step=20
+2025-02-26 17:28:35,529 - SplitNNClient - INFO - 35187 - phase=train acc=0.6 loss=1.087545394897461 epoch=396 and step=40
+2025-02-26 17:29:30,985 - SplitNNClient - INFO - 35187 - phase=train acc=0.6063934426229508 loss=1.213385820388794 epoch=396 and step=60
+2025-02-26 17:30:24,725 - SplitNNClient - INFO - 35187 - phase=train acc=0.607037037037037 loss=1.192455768585205 epoch=396 and step=80
+2025-02-26 17:31:17,316 - SplitNNClient - INFO - 35187 - phase=train acc=0.607970297029703 loss=1.131011962890625 epoch=396 and step=100
+2025-02-26 17:32:13,492 - SplitNNClient - INFO - 35187 - phase=train acc=0.6087190082644628 loss=1.1779098510742188 epoch=396 and step=120
+2025-02-26 17:32:27,424 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=40691352488 epoch_receive=34545352698 total_send=40691352488 total_receive=34545352698
+2025-02-26 17:32:55,700 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6518 loss=0.9917320656776428 epoch=396 and step=50
+2025-02-26 17:32:56,051 - SplitNNClient - INFO - 35186 - phase=train acc=0.565 loss=1.181970238685608 epoch=398 and step=0
+2025-02-26 17:33:50,851 - SplitNNClient - INFO - 35186 - phase=train acc=0.5897619047619047 loss=1.1414119005203247 epoch=398 and step=20
+2025-02-26 17:34:48,834 - SplitNNClient - INFO - 35186 - phase=train acc=0.5912195121951219 loss=1.018704891204834 epoch=398 and step=40
+2025-02-26 17:35:46,161 - SplitNNClient - INFO - 35186 - phase=train acc=0.5913934426229508 loss=1.131047248840332 epoch=398 and step=60
+2025-02-26 17:36:42,997 - SplitNNClient - INFO - 35186 - phase=train acc=0.5930246913580247 loss=1.2493109703063965 epoch=398 and step=80
+2025-02-26 17:37:42,805 - SplitNNClient - INFO - 35186 - phase=train acc=0.595990099009901 loss=1.0910162925720215 epoch=398 and step=100
+2025-02-26 17:38:49,564 - SplitNNClient - INFO - 35186 - phase=train acc=0.5957438016528925 loss=1.1957148313522339 epoch=398 and step=120
+2025-02-26 17:39:06,091 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=40896068094 epoch_receive=34719027698 total_send=40896068094 total_receive=34719027698
+2025-02-26 17:39:34,750 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6713 loss=0.9529196345806121 epoch=398 and step=50
+2025-02-26 17:39:35,077 - SplitNNClient - INFO - 35187 - phase=train acc=0.585 loss=1.1890230178833008 epoch=398 and step=0
+2025-02-26 17:40:40,819 - SplitNNClient - INFO - 35187 - phase=train acc=0.6059523809523809 loss=1.0499236583709717 epoch=398 and step=20
+2025-02-26 17:41:44,137 - SplitNNClient - INFO - 35187 - phase=train acc=0.6063414634146341 loss=1.189481496810913 epoch=398 and step=40
+2025-02-26 17:42:45,274 - SplitNNClient - INFO - 35187 - phase=train acc=0.6095081967213115 loss=1.0551303625106812 epoch=398 and step=60
+2025-02-26 17:43:44,683 - SplitNNClient - INFO - 35187 - phase=train acc=0.6125925925925926 loss=1.033168077468872 epoch=398 and step=80
+2025-02-26 17:44:42,507 - SplitNNClient - INFO - 35187 - phase=train acc=0.6122772277227723 loss=1.3144375085830688 epoch=398 and step=100
+2025-02-26 17:45:40,039 - SplitNNClient - INFO - 35187 - phase=train acc=0.6121487603305785 loss=0.9989273548126221 epoch=398 and step=120
+2025-02-26 17:45:55,955 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=40896068094 epoch_receive=34719027900 total_send=40896068094 total_receive=34719027900
+2025-02-26 17:46:24,373 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6723 loss=0.920618063211441 epoch=398 and step=50
+2025-02-26 17:46:24,649 - SplitNNClient - INFO - 35186 - phase=train acc=0.55 loss=1.264966607093811 epoch=400 and step=0
+2025-02-26 17:47:26,179 - SplitNNClient - INFO - 35186 - phase=train acc=0.5933333333333334 loss=1.1017440557479858 epoch=400 and step=20
+2025-02-26 17:48:27,759 - SplitNNClient - INFO - 35186 - phase=train acc=0.5917073170731707 loss=0.9931153655052185 epoch=400 and step=40
+2025-02-26 17:49:32,518 - SplitNNClient - INFO - 35186 - phase=train acc=0.5963934426229508 loss=1.0692166090011597 epoch=400 and step=60
+2025-02-26 17:50:36,565 - SplitNNClient - INFO - 35186 - phase=train acc=0.5958641975308642 loss=1.0568920373916626 epoch=400 and step=80
+2025-02-26 17:51:39,433 - SplitNNClient - INFO - 35186 - phase=train acc=0.5982673267326732 loss=1.1102306842803955 epoch=400 and step=100
+2025-02-26 17:52:41,199 - SplitNNClient - INFO - 35186 - phase=train acc=0.599297520661157 loss=1.0702080726623535 epoch=400 and step=120
+2025-02-26 17:52:56,833 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=41100783700 epoch_receive=34892702900 total_send=41100783700 total_receive=34892702900
+2025-02-26 17:53:25,256 - SplitNNClient - INFO - 35186 - phase=validation acc=0.658 loss=0.9853604030609131 epoch=400 and step=50
+2025-02-26 17:53:25,618 - SplitNNClient - INFO - 35187 - phase=train acc=0.59 loss=1.1347180604934692 epoch=400 and step=0
+2025-02-26 17:54:29,248 - SplitNNClient - INFO - 35187 - phase=train acc=0.6116666666666667 loss=1.194000005722046 epoch=400 and step=20
+2025-02-26 17:55:32,399 - SplitNNClient - INFO - 35187 - phase=train acc=0.6147560975609756 loss=1.103833794593811 epoch=400 and step=40
+2025-02-26 17:56:35,812 - SplitNNClient - INFO - 35187 - phase=train acc=0.6118032786885246 loss=1.1268986463546753 epoch=400 and step=60
+2025-02-26 17:57:38,826 - SplitNNClient - INFO - 35187 - phase=train acc=0.6104320987654321 loss=1.2112981081008911 epoch=400 and step=80
+2025-02-26 17:58:41,216 - SplitNNClient - INFO - 35187 - phase=train acc=0.6077227722772277 loss=1.1258901357650757 epoch=400 and step=100
+2025-02-26 17:59:45,229 - SplitNNClient - INFO - 35187 - phase=train acc=0.6072314049586777 loss=1.105096459388733 epoch=400 and step=120
+2025-02-26 18:00:01,161 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=41100783700 epoch_receive=34892703102 total_send=41100783700 total_receive=34892703102
+2025-02-26 18:00:29,778 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6474 loss=1.0171885907649993 epoch=400 and step=50
+2025-02-26 18:00:30,171 - SplitNNClient - INFO - 35186 - phase=train acc=0.625 loss=1.1679517030715942 epoch=402 and step=0
+2025-02-26 18:01:33,508 - SplitNNClient - INFO - 35186 - phase=train acc=0.5978571428571429 loss=1.0522637367248535 epoch=402 and step=20
+2025-02-26 18:02:40,063 - SplitNNClient - INFO - 35186 - phase=train acc=0.5989024390243902 loss=1.2617079019546509 epoch=402 and step=40
+2025-02-26 18:03:49,986 - SplitNNClient - INFO - 35186 - phase=train acc=0.6002459016393442 loss=1.1819802522659302 epoch=402 and step=60
+2025-02-26 18:04:58,797 - SplitNNClient - INFO - 35186 - phase=train acc=0.6 loss=1.1094954013824463 epoch=402 and step=80
+2025-02-26 18:06:05,393 - SplitNNClient - INFO - 35186 - phase=train acc=0.5981188118811881 loss=1.0051932334899902 epoch=402 and step=100
+2025-02-26 18:07:08,969 - SplitNNClient - INFO - 35186 - phase=train acc=0.5975619834710744 loss=1.0622659921646118 epoch=402 and step=120
+2025-02-26 18:07:23,793 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=41305499306 epoch_receive=35066378102 total_send=41305499306 total_receive=35066378102
+2025-02-26 18:07:52,555 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6547 loss=0.9855637860298156 epoch=402 and step=50
+2025-02-26 18:07:53,010 - SplitNNClient - INFO - 35187 - phase=train acc=0.57 loss=1.2328166961669922 epoch=402 and step=0
+2025-02-26 18:08:55,981 - SplitNNClient - INFO - 35187 - phase=train acc=0.5907142857142857 loss=1.2389404773712158 epoch=402 and step=20
+2025-02-26 18:09:59,011 - SplitNNClient - INFO - 35187 - phase=train acc=0.5973170731707317 loss=0.957939863204956 epoch=402 and step=40
+2025-02-26 18:11:02,682 - SplitNNClient - INFO - 35187 - phase=train acc=0.5989344262295082 loss=1.10536789894104 epoch=402 and step=60
+2025-02-26 18:12:06,945 - SplitNNClient - INFO - 35187 - phase=train acc=0.6027160493827161 loss=1.2184772491455078 epoch=402 and step=80
+2025-02-26 18:13:11,429 - SplitNNClient - INFO - 35187 - phase=train acc=0.6033168316831683 loss=0.9547030925750732 epoch=402 and step=100
+2025-02-26 18:14:17,659 - SplitNNClient - INFO - 35187 - phase=train acc=0.6005371900826446 loss=1.0838258266448975 epoch=402 and step=120
+2025-02-26 18:14:35,038 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=41305499306 epoch_receive=35066378304 total_send=41305499306 total_receive=35066378304
+2025-02-26 18:15:03,748 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6512 loss=0.988130910396576 epoch=402 and step=50
+2025-02-26 18:15:04,178 - SplitNNClient - INFO - 35186 - phase=train acc=0.555 loss=1.2357912063598633 epoch=404 and step=0
+2025-02-26 18:16:08,931 - SplitNNClient - INFO - 35186 - phase=train acc=0.6045238095238096 loss=1.2529842853546143 epoch=404 and step=20
+2025-02-26 18:17:15,470 - SplitNNClient - INFO - 35186 - phase=train acc=0.6019512195121951 loss=1.2563226222991943 epoch=404 and step=40
+2025-02-26 18:18:19,235 - SplitNNClient - INFO - 35186 - phase=train acc=0.6004918032786886 loss=1.1610430479049683 epoch=404 and step=60
+2025-02-26 18:19:25,744 - SplitNNClient - INFO - 35186 - phase=train acc=0.6028395061728395 loss=0.9049091935157776 epoch=404 and step=80
+2025-02-26 18:20:29,635 - SplitNNClient - INFO - 35186 - phase=train acc=0.6038118811881188 loss=1.1129488945007324 epoch=404 and step=100
+2025-02-26 18:21:33,461 - SplitNNClient - INFO - 35186 - phase=train acc=0.6030165289256199 loss=1.1119409799575806 epoch=404 and step=120
+2025-02-26 18:21:50,281 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=41510214912 epoch_receive=35240053304 total_send=41510214912 total_receive=35240053304
+2025-02-26 18:22:18,886 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6518 loss=0.9937940895557403 epoch=404 and step=50
+2025-02-26 18:22:19,296 - SplitNNClient - INFO - 35187 - phase=train acc=0.64 loss=1.1744227409362793 epoch=404 and step=0
+2025-02-26 18:23:26,528 - SplitNNClient - INFO - 35187 - phase=train acc=0.589047619047619 loss=1.1780815124511719 epoch=404 and step=20
+2025-02-26 18:24:33,407 - SplitNNClient - INFO - 35187 - phase=train acc=0.5992682926829268 loss=1.014072299003601 epoch=404 and step=40
+2025-02-26 18:25:39,648 - SplitNNClient - INFO - 35187 - phase=train acc=0.6052459016393442 loss=1.0806772708892822 epoch=404 and step=60
+2025-02-26 18:26:48,291 - SplitNNClient - INFO - 35187 - phase=train acc=0.6087037037037037 loss=1.0387029647827148 epoch=404 and step=80
+2025-02-26 18:27:55,369 - SplitNNClient - INFO - 35187 - phase=train acc=0.6073267326732673 loss=1.0396740436553955 epoch=404 and step=100
+2025-02-26 18:29:00,610 - SplitNNClient - INFO - 35187 - phase=train acc=0.6058264462809917 loss=1.0354371070861816 epoch=404 and step=120
+2025-02-26 18:29:17,233 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=41510214912 epoch_receive=35240053506 total_send=41510214912 total_receive=35240053506
+2025-02-26 18:29:45,872 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6655 loss=0.9575380027294159 epoch=404 and step=50
+2025-02-26 18:29:46,160 - SplitNNClient - INFO - 35186 - phase=train acc=0.54 loss=1.297812819480896 epoch=406 and step=0
+2025-02-26 18:30:51,278 - SplitNNClient - INFO - 35186 - phase=train acc=0.585 loss=1.0841139554977417 epoch=406 and step=20
+2025-02-26 18:31:58,843 - SplitNNClient - INFO - 35186 - phase=train acc=0.5974390243902439 loss=0.9935997724533081 epoch=406 and step=40
+2025-02-26 18:33:07,835 - SplitNNClient - INFO - 35186 - phase=train acc=0.6004918032786886 loss=1.0490431785583496 epoch=406 and step=60
+2025-02-26 18:34:16,019 - SplitNNClient - INFO - 35186 - phase=train acc=0.6004320987654321 loss=1.0241426229476929 epoch=406 and step=80
+2025-02-26 18:35:20,894 - SplitNNClient - INFO - 35186 - phase=train acc=0.5988118811881188 loss=1.0679755210876465 epoch=406 and step=100
+2025-02-26 18:36:27,149 - SplitNNClient - INFO - 35186 - phase=train acc=0.5976859504132231 loss=1.1418583393096924 epoch=406 and step=120
+2025-02-26 18:36:43,939 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=41714930518 epoch_receive=35413728506 total_send=41714930518 total_receive=35413728506
+2025-02-26 18:37:12,486 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6624 loss=0.9677278327941895 epoch=406 and step=50
+2025-02-26 18:37:12,894 - SplitNNClient - INFO - 35187 - phase=train acc=0.63 loss=1.0278302431106567 epoch=406 and step=0
+2025-02-26 18:38:15,856 - SplitNNClient - INFO - 35187 - phase=train acc=0.6009523809523809 loss=1.0352791547775269 epoch=406 and step=20
+2025-02-26 18:39:20,631 - SplitNNClient - INFO - 35187 - phase=train acc=0.6004878048780488 loss=1.2496082782745361 epoch=406 and step=40
+2025-02-26 18:40:27,218 - SplitNNClient - INFO - 35187 - phase=train acc=0.6018032786885246 loss=1.0966092348098755 epoch=406 and step=60
+2025-02-26 18:41:35,490 - SplitNNClient - INFO - 35187 - phase=train acc=0.6037037037037037 loss=1.2362958192825317 epoch=406 and step=80
+2025-02-26 18:42:43,605 - SplitNNClient - INFO - 35187 - phase=train acc=0.6061386138613861 loss=1.0633134841918945 epoch=406 and step=100
+2025-02-26 18:43:51,470 - SplitNNClient - INFO - 35187 - phase=train acc=0.6086776859504133 loss=1.2219244241714478 epoch=406 and step=120
+2025-02-26 18:44:08,338 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=41714930518 epoch_receive=35413728708 total_send=41714930518 total_receive=35413728708
+2025-02-26 18:44:37,056 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6766 loss=0.9156658208370209 epoch=406 and step=50
+2025-02-26 18:44:37,500 - SplitNNClient - INFO - 35186 - phase=train acc=0.545 loss=1.1760083436965942 epoch=408 and step=0
+2025-02-26 18:45:42,766 - SplitNNClient - INFO - 35186 - phase=train acc=0.5933333333333334 loss=1.0625548362731934 epoch=408 and step=20
+2025-02-26 18:46:46,154 - SplitNNClient - INFO - 35186 - phase=train acc=0.5912195121951219 loss=1.0429182052612305 epoch=408 and step=40
+2025-02-26 18:47:50,303 - SplitNNClient - INFO - 35186 - phase=train acc=0.5938524590163935 loss=1.0913269519805908 epoch=408 and step=60
+2025-02-26 18:48:54,926 - SplitNNClient - INFO - 35186 - phase=train acc=0.5896296296296296 loss=1.1256844997406006 epoch=408 and step=80
+2025-02-26 18:50:01,983 - SplitNNClient - INFO - 35186 - phase=train acc=0.5925742574257425 loss=1.2045401334762573 epoch=408 and step=100
+2025-02-26 18:51:08,560 - SplitNNClient - INFO - 35186 - phase=train acc=0.5959917355371901 loss=1.0522847175598145 epoch=408 and step=120
+2025-02-26 18:51:25,410 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=41919646124 epoch_receive=35587403708 total_send=41919646124 total_receive=35587403708
+2025-02-26 18:51:54,000 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6565 loss=0.9850827467441559 epoch=408 and step=50
+2025-02-26 18:51:54,336 - SplitNNClient - INFO - 35187 - phase=train acc=0.565 loss=1.1778656244277954 epoch=408 and step=0
+2025-02-26 18:52:59,475 - SplitNNClient - INFO - 35187 - phase=train acc=0.5945238095238096 loss=1.0705009698867798 epoch=408 and step=20
+2025-02-26 18:54:06,598 - SplitNNClient - INFO - 35187 - phase=train acc=0.6074390243902439 loss=1.0564149618148804 epoch=408 and step=40
+2025-02-26 18:55:12,877 - SplitNNClient - INFO - 35187 - phase=train acc=0.6072131147540983 loss=1.1301970481872559 epoch=408 and step=60
+2025-02-26 18:56:18,582 - SplitNNClient - INFO - 35187 - phase=train acc=0.6030864197530864 loss=1.097352385520935 epoch=408 and step=80
+2025-02-26 18:57:24,115 - SplitNNClient - INFO - 35187 - phase=train acc=0.6039108910891089 loss=0.9029720425605774 epoch=408 and step=100
+2025-02-26 18:58:32,606 - SplitNNClient - INFO - 35187 - phase=train acc=0.605702479338843 loss=1.1041568517684937 epoch=408 and step=120
+2025-02-26 18:58:49,961 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=41919646124 epoch_receive=35587403910 total_send=41919646124 total_receive=35587403910
+2025-02-26 18:59:18,640 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6615 loss=0.9756421267986297 epoch=408 and step=50
+2025-02-26 18:59:18,997 - SplitNNClient - INFO - 35186 - phase=train acc=0.545 loss=1.268024206161499 epoch=410 and step=0
+2025-02-26 19:00:24,228 - SplitNNClient - INFO - 35186 - phase=train acc=0.5980952380952381 loss=1.1979670524597168 epoch=410 and step=20
+2025-02-26 19:01:29,214 - SplitNNClient - INFO - 35186 - phase=train acc=0.6026829268292683 loss=1.2041826248168945 epoch=410 and step=40
+2025-02-26 19:02:34,413 - SplitNNClient - INFO - 35186 - phase=train acc=0.6036065573770492 loss=1.042585849761963 epoch=410 and step=60
+2025-02-26 19:03:39,929 - SplitNNClient - INFO - 35186 - phase=train acc=0.6014197530864197 loss=0.9859806299209595 epoch=410 and step=80
+2025-02-26 19:04:46,268 - SplitNNClient - INFO - 35186 - phase=train acc=0.6007920792079208 loss=1.191995620727539 epoch=410 and step=100
+2025-02-26 19:05:52,300 - SplitNNClient - INFO - 35186 - phase=train acc=0.6011157024793389 loss=1.027950406074524 epoch=410 and step=120
+2025-02-26 19:06:08,577 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=42124361730 epoch_receive=35761078910 total_send=42124361730 total_receive=35761078910
+2025-02-26 19:06:37,241 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6627 loss=0.9746529221534729 epoch=410 and step=50
+2025-02-26 19:06:37,670 - SplitNNClient - INFO - 35187 - phase=train acc=0.57 loss=1.2657346725463867 epoch=410 and step=0
+2025-02-26 19:07:42,592 - SplitNNClient - INFO - 35187 - phase=train acc=0.61 loss=1.1694090366363525 epoch=410 and step=20
+2025-02-26 19:08:44,951 - SplitNNClient - INFO - 35187 - phase=train acc=0.6095121951219512 loss=1.1038790941238403 epoch=410 and step=40
+2025-02-26 19:09:49,539 - SplitNNClient - INFO - 35187 - phase=train acc=0.610655737704918 loss=1.1660270690917969 epoch=410 and step=60
+2025-02-26 19:10:55,339 - SplitNNClient - INFO - 35187 - phase=train acc=0.6080864197530864 loss=1.0981903076171875 epoch=410 and step=80
+2025-02-26 19:12:02,043 - SplitNNClient - INFO - 35187 - phase=train acc=0.6070792079207921 loss=1.2456120252609253 epoch=410 and step=100
+2025-02-26 19:13:10,006 - SplitNNClient - INFO - 35187 - phase=train acc=0.6088842975206612 loss=1.024520993232727 epoch=410 and step=120
+2025-02-26 19:13:26,112 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=42124361730 epoch_receive=35761079112 total_send=42124361730 total_receive=35761079112
+2025-02-26 19:13:54,761 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6583 loss=0.9808552622795105 epoch=410 and step=50
+2025-02-26 19:13:55,107 - SplitNNClient - INFO - 35186 - phase=train acc=0.605 loss=1.0030431747436523 epoch=412 and step=0
+2025-02-26 19:15:00,919 - SplitNNClient - INFO - 35186 - phase=train acc=0.6042857142857143 loss=1.25620698928833 epoch=412 and step=20
+2025-02-26 19:16:07,097 - SplitNNClient - INFO - 35186 - phase=train acc=0.6012195121951219 loss=1.2488417625427246 epoch=412 and step=40
+2025-02-26 19:17:14,193 - SplitNNClient - INFO - 35186 - phase=train acc=0.5988524590163934 loss=1.1020179986953735 epoch=412 and step=60
+2025-02-26 19:18:18,619 - SplitNNClient - INFO - 35186 - phase=train acc=0.6004938271604938 loss=1.1565234661102295 epoch=412 and step=80
+2025-02-26 19:19:22,704 - SplitNNClient - INFO - 35186 - phase=train acc=0.6000990099009901 loss=1.2443280220031738 epoch=412 and step=100
+2025-02-26 19:20:30,001 - SplitNNClient - INFO - 35186 - phase=train acc=0.5988842975206612 loss=1.082890510559082 epoch=412 and step=120
+2025-02-26 19:20:46,629 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=42329077336 epoch_receive=35934754112 total_send=42329077336 total_receive=35934754112
+2025-02-26 19:21:15,320 - SplitNNClient - INFO - 35186 - phase=validation acc=0.669 loss=0.9595497572422027 epoch=412 and step=50
+2025-02-26 19:21:15,737 - SplitNNClient - INFO - 35187 - phase=train acc=0.62 loss=1.188209056854248 epoch=412 and step=0
+2025-02-26 19:22:21,485 - SplitNNClient - INFO - 35187 - phase=train acc=0.6023809523809524 loss=0.9578849077224731 epoch=412 and step=20
+2025-02-26 19:23:28,018 - SplitNNClient - INFO - 35187 - phase=train acc=0.6036585365853658 loss=1.1613045930862427 epoch=412 and step=40
+2025-02-26 19:24:36,589 - SplitNNClient - INFO - 35187 - phase=train acc=0.605 loss=1.1029040813446045 epoch=412 and step=60
+2025-02-26 19:25:42,724 - SplitNNClient - INFO - 35187 - phase=train acc=0.6084567901234568 loss=1.052439570426941 epoch=412 and step=80
+2025-02-26 19:26:49,199 - SplitNNClient - INFO - 35187 - phase=train acc=0.6072277227722772 loss=1.2026962041854858 epoch=412 and step=100
+2025-02-26 19:27:56,311 - SplitNNClient - INFO - 35187 - phase=train acc=0.6071074380165289 loss=1.047304630279541 epoch=412 and step=120
+2025-02-26 19:28:12,619 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=42329077336 epoch_receive=35934754314 total_send=42329077336 total_receive=35934754314
+2025-02-26 19:28:41,315 - SplitNNClient - INFO - 35187 - phase=validation acc=0.676 loss=0.9309916615486145 epoch=412 and step=50
+2025-02-26 19:28:41,682 - SplitNNClient - INFO - 35186 - phase=train acc=0.535 loss=1.2951452732086182 epoch=414 and step=0
+2025-02-26 19:29:48,768 - SplitNNClient - INFO - 35186 - phase=train acc=0.5961904761904762 loss=1.1158573627471924 epoch=414 and step=20
+2025-02-26 19:30:55,878 - SplitNNClient - INFO - 35186 - phase=train acc=0.5997560975609756 loss=1.1331232786178589 epoch=414 and step=40
+2025-02-26 19:32:02,964 - SplitNNClient - INFO - 35186 - phase=train acc=0.6018852459016394 loss=1.1291663646697998 epoch=414 and step=60
+2025-02-26 19:33:08,876 - SplitNNClient - INFO - 35186 - phase=train acc=0.6053703703703703 loss=1.1280287504196167 epoch=414 and step=80
+2025-02-26 19:34:15,766 - SplitNNClient - INFO - 35186 - phase=train acc=0.6044059405940594 loss=1.0883501768112183 epoch=414 and step=100
+2025-02-26 19:35:22,818 - SplitNNClient - INFO - 35186 - phase=train acc=0.6068595041322314 loss=1.075178623199463 epoch=414 and step=120
+2025-02-26 19:35:39,005 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=42533792942 epoch_receive=36108429314 total_send=42533792942 total_receive=36108429314
+2025-02-26 19:36:07,545 - SplitNNClient - INFO - 35186 - phase=validation acc=0.67 loss=0.9456917440891266 epoch=414 and step=50
+2025-02-26 19:36:07,901 - SplitNNClient - INFO - 35187 - phase=train acc=0.655 loss=1.005432367324829 epoch=414 and step=0
+2025-02-26 19:37:10,822 - SplitNNClient - INFO - 35187 - phase=train acc=0.611904761904762 loss=1.027286171913147 epoch=414 and step=20
+2025-02-26 19:38:15,483 - SplitNNClient - INFO - 35187 - phase=train acc=0.615 loss=1.1976186037063599 epoch=414 and step=40
+2025-02-26 19:39:24,198 - SplitNNClient - INFO - 35187 - phase=train acc=0.6118032786885246 loss=1.1285103559494019 epoch=414 and step=60
+2025-02-26 19:40:31,714 - SplitNNClient - INFO - 35187 - phase=train acc=0.6112962962962963 loss=1.1515592336654663 epoch=414 and step=80
+2025-02-26 19:41:42,767 - SplitNNClient - INFO - 35187 - phase=train acc=0.61 loss=1.1224991083145142 epoch=414 and step=100
+2025-02-26 19:42:49,974 - SplitNNClient - INFO - 35187 - phase=train acc=0.6110330578512396 loss=0.9328552484512329 epoch=414 and step=120
+2025-02-26 19:43:06,394 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=42533792942 epoch_receive=36108429516 total_send=42533792942 total_receive=36108429516
+2025-02-26 19:43:35,173 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6553 loss=0.997994782924652 epoch=414 and step=50
+2025-02-26 19:43:35,659 - SplitNNClient - INFO - 35186 - phase=train acc=0.56 loss=1.251654028892517 epoch=416 and step=0
+2025-02-26 19:44:42,175 - SplitNNClient - INFO - 35186 - phase=train acc=0.5919047619047619 loss=1.159580945968628 epoch=416 and step=20
+2025-02-26 19:45:48,480 - SplitNNClient - INFO - 35186 - phase=train acc=0.5990243902439024 loss=1.1038151979446411 epoch=416 and step=40
+2025-02-26 19:46:56,476 - SplitNNClient - INFO - 35186 - phase=train acc=0.5995901639344262 loss=1.15192711353302 epoch=416 and step=60
+2025-02-26 19:48:06,002 - SplitNNClient - INFO - 35186 - phase=train acc=0.6000617283950618 loss=0.9523359537124634 epoch=416 and step=80
+2025-02-26 19:49:14,473 - SplitNNClient - INFO - 35186 - phase=train acc=0.6011881188118812 loss=1.048033595085144 epoch=416 and step=100
+2025-02-26 19:50:20,483 - SplitNNClient - INFO - 35186 - phase=train acc=0.6043388429752066 loss=1.0422086715698242 epoch=416 and step=120
+2025-02-26 19:50:37,908 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=42738508548 epoch_receive=36282104516 total_send=42738508548 total_receive=36282104516
+2025-02-26 19:51:06,512 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6693 loss=0.9661079370975494 epoch=416 and step=50
+2025-02-26 19:51:07,064 - SplitNNClient - INFO - 35187 - phase=train acc=0.64 loss=1.2494453191757202 epoch=416 and step=0
+2025-02-26 19:52:14,450 - SplitNNClient - INFO - 35187 - phase=train acc=0.5921428571428572 loss=1.1347591876983643 epoch=416 and step=20
+2025-02-26 19:53:22,725 - SplitNNClient - INFO - 35187 - phase=train acc=0.5967073170731707 loss=1.051216721534729 epoch=416 and step=40
+2025-02-26 19:54:32,377 - SplitNNClient - INFO - 35187 - phase=train acc=0.600655737704918 loss=1.0461204051971436 epoch=416 and step=60
+2025-02-26 19:55:41,978 - SplitNNClient - INFO - 35187 - phase=train acc=0.6037654320987654 loss=1.0966435670852661 epoch=416 and step=80
+2025-02-26 19:56:52,305 - SplitNNClient - INFO - 35187 - phase=train acc=0.602970297029703 loss=1.1573694944381714 epoch=416 and step=100
+2025-02-26 19:58:01,031 - SplitNNClient - INFO - 35187 - phase=train acc=0.6061570247933884 loss=0.915987491607666 epoch=416 and step=120
+2025-02-26 19:58:17,771 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=42738508548 epoch_receive=36282104718 total_send=42738508548 total_receive=36282104718
+2025-02-26 19:58:47,049 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6644 loss=0.9479292392730713 epoch=416 and step=50
+2025-02-26 19:58:47,505 - SplitNNClient - INFO - 35186 - phase=train acc=0.535 loss=1.438045859336853 epoch=418 and step=0
+2025-02-26 19:59:56,248 - SplitNNClient - INFO - 35186 - phase=train acc=0.5761904761904761 loss=1.1906827688217163 epoch=418 and step=20
+2025-02-26 20:01:03,529 - SplitNNClient - INFO - 35186 - phase=train acc=0.5858536585365853 loss=1.0639989376068115 epoch=418 and step=40
+2025-02-26 20:02:09,029 - SplitNNClient - INFO - 35186 - phase=train acc=0.5921311475409836 loss=1.11105477809906 epoch=418 and step=60
+2025-02-26 20:03:20,721 - SplitNNClient - INFO - 35186 - phase=train acc=0.5950617283950618 loss=1.0968985557556152 epoch=418 and step=80
+2025-02-26 20:04:29,297 - SplitNNClient - INFO - 35186 - phase=train acc=0.596980198019802 loss=1.1034715175628662 epoch=418 and step=100
+2025-02-26 20:05:35,735 - SplitNNClient - INFO - 35186 - phase=train acc=0.6011570247933884 loss=1.094038486480713 epoch=418 and step=120
+2025-02-26 20:05:52,058 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=42943224154 epoch_receive=36455779718 total_send=42943224154 total_receive=36455779718
+2025-02-26 20:06:20,990 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6613 loss=0.9721968460083008 epoch=418 and step=50
+2025-02-26 20:06:21,361 - SplitNNClient - INFO - 35187 - phase=train acc=0.63 loss=1.166636347770691 epoch=418 and step=0
+2025-02-26 20:07:28,690 - SplitNNClient - INFO - 35187 - phase=train acc=0.6164285714285714 loss=1.0461853742599487 epoch=418 and step=20
+2025-02-26 20:08:34,843 - SplitNNClient - INFO - 35187 - phase=train acc=0.6131707317073171 loss=1.086208701133728 epoch=418 and step=40
+2025-02-26 20:09:41,166 - SplitNNClient - INFO - 35187 - phase=train acc=0.6113934426229508 loss=1.0854551792144775 epoch=418 and step=60
+2025-02-26 20:10:50,453 - SplitNNClient - INFO - 35187 - phase=train acc=0.6112345679012345 loss=1.0577013492584229 epoch=418 and step=80
+2025-02-26 20:11:59,205 - SplitNNClient - INFO - 35187 - phase=train acc=0.6084653465346535 loss=1.0865111351013184 epoch=418 and step=100
+2025-02-26 20:13:08,975 - SplitNNClient - INFO - 35187 - phase=train acc=0.6095454545454545 loss=1.0444687604904175 epoch=418 and step=120
+2025-02-26 20:13:25,871 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=42943224154 epoch_receive=36455779920 total_send=42943224154 total_receive=36455779920
+2025-02-26 20:13:54,712 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6707 loss=0.9393227350711822 epoch=418 and step=50
+2025-02-26 20:13:55,091 - SplitNNClient - INFO - 35186 - phase=train acc=0.58 loss=1.220632553100586 epoch=420 and step=0
+2025-02-26 20:15:04,454 - SplitNNClient - INFO - 35186 - phase=train acc=0.6011904761904762 loss=0.9538564085960388 epoch=420 and step=20
+2025-02-26 20:16:14,245 - SplitNNClient - INFO - 35186 - phase=train acc=0.6054878048780488 loss=1.253281831741333 epoch=420 and step=40
+2025-02-26 20:17:23,447 - SplitNNClient - INFO - 35186 - phase=train acc=0.6069672131147541 loss=1.177810788154602 epoch=420 and step=60
+2025-02-26 20:18:32,803 - SplitNNClient - INFO - 35186 - phase=train acc=0.6027160493827161 loss=1.1232346296310425 epoch=420 and step=80
+2025-02-26 20:19:42,488 - SplitNNClient - INFO - 35186 - phase=train acc=0.5999009900990099 loss=1.144331932067871 epoch=420 and step=100
+2025-02-26 20:20:53,126 - SplitNNClient - INFO - 35186 - phase=train acc=0.5997107438016529 loss=1.2355841398239136 epoch=420 and step=120
+2025-02-26 20:21:09,553 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=43147939760 epoch_receive=36629454920 total_send=43147939760 total_receive=36629454920
+2025-02-26 20:21:38,397 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6651 loss=0.963892422914505 epoch=420 and step=50
+2025-02-26 20:21:38,840 - SplitNNClient - INFO - 35187 - phase=train acc=0.615 loss=1.0152109861373901 epoch=420 and step=0
+2025-02-26 20:22:49,313 - SplitNNClient - INFO - 35187 - phase=train acc=0.5971428571428572 loss=1.0611369609832764 epoch=420 and step=20
+2025-02-26 20:23:58,624 - SplitNNClient - INFO - 35187 - phase=train acc=0.6057317073170732 loss=1.1216282844543457 epoch=420 and step=40
+2025-02-26 20:25:09,541 - SplitNNClient - INFO - 35187 - phase=train acc=0.6118032786885246 loss=1.014132022857666 epoch=420 and step=60
+2025-02-26 20:26:21,971 - SplitNNClient - INFO - 35187 - phase=train acc=0.611358024691358 loss=1.1526596546173096 epoch=420 and step=80
+2025-02-26 20:27:35,490 - SplitNNClient - INFO - 35187 - phase=train acc=0.6098019801980198 loss=1.1198571920394897 epoch=420 and step=100
+2025-02-26 20:28:47,966 - SplitNNClient - INFO - 35187 - phase=train acc=0.6074793388429752 loss=1.116621971130371 epoch=420 and step=120
+2025-02-26 20:29:05,624 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=43147939760 epoch_receive=36629455122 total_send=43147939760 total_receive=36629455122
+2025-02-26 20:29:34,534 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6713 loss=0.9367087936401367 epoch=420 and step=50
+2025-02-26 20:29:34,994 - SplitNNClient - INFO - 35186 - phase=train acc=0.6 loss=1.1638445854187012 epoch=422 and step=0
+2025-02-26 20:30:45,212 - SplitNNClient - INFO - 35186 - phase=train acc=0.5995238095238096 loss=1.1115554571151733 epoch=422 and step=20
+2025-02-26 20:31:57,674 - SplitNNClient - INFO - 35186 - phase=train acc=0.598170731707317 loss=1.1205648183822632 epoch=422 and step=40
+2025-02-26 20:33:08,660 - SplitNNClient - INFO - 35186 - phase=train acc=0.5950819672131148 loss=1.1405583620071411 epoch=422 and step=60
+2025-02-26 20:34:20,518 - SplitNNClient - INFO - 35186 - phase=train acc=0.5949382716049383 loss=1.064062476158142 epoch=422 and step=80
+2025-02-26 20:35:34,125 - SplitNNClient - INFO - 35186 - phase=train acc=0.5978217821782178 loss=1.0278074741363525 epoch=422 and step=100
+2025-02-26 20:36:46,256 - SplitNNClient - INFO - 35186 - phase=train acc=0.5988842975206612 loss=1.0797687768936157 epoch=422 and step=120
+2025-02-26 20:37:03,124 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=43352655366 epoch_receive=36803130122 total_send=43352655366 total_receive=36803130122
+2025-02-26 20:37:31,982 - SplitNNClient - INFO - 35186 - phase=validation acc=0.675 loss=0.946454291343689 epoch=422 and step=50
+2025-02-26 20:37:32,369 - SplitNNClient - INFO - 35187 - phase=train acc=0.6 loss=1.1479506492614746 epoch=422 and step=0
+2025-02-26 20:38:43,237 - SplitNNClient - INFO - 35187 - phase=train acc=0.6178571428571429 loss=1.0504094362258911 epoch=422 and step=20
+2025-02-26 20:39:55,428 - SplitNNClient - INFO - 35187 - phase=train acc=0.6104878048780488 loss=1.1561278104782104 epoch=422 and step=40
+2025-02-26 20:41:08,108 - SplitNNClient - INFO - 35187 - phase=train acc=0.6102459016393442 loss=1.1844576597213745 epoch=422 and step=60
+2025-02-26 20:42:19,719 - SplitNNClient - INFO - 35187 - phase=train acc=0.6132716049382716 loss=1.1482152938842773 epoch=422 and step=80
+2025-02-26 20:43:29,706 - SplitNNClient - INFO - 35187 - phase=train acc=0.6131188118811881 loss=1.0639766454696655 epoch=422 and step=100
+2025-02-26 20:44:41,117 - SplitNNClient - INFO - 35187 - phase=train acc=0.6121900826446282 loss=1.1250137090682983 epoch=422 and step=120
+2025-02-26 20:44:58,441 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=43352655366 epoch_receive=36803130324 total_send=43352655366 total_receive=36803130324
+2025-02-26 20:45:27,328 - SplitNNClient - INFO - 35187 - phase=validation acc=0.668 loss=0.9517541122436524 epoch=422 and step=50
+2025-02-26 20:45:27,917 - SplitNNClient - INFO - 35186 - phase=train acc=0.525 loss=1.240513563156128 epoch=424 and step=0
+2025-02-26 20:46:39,957 - SplitNNClient - INFO - 35186 - phase=train acc=0.590952380952381 loss=1.1529667377471924 epoch=424 and step=20
+2025-02-26 20:47:53,617 - SplitNNClient - INFO - 35186 - phase=train acc=0.6051219512195122 loss=1.1354255676269531 epoch=424 and step=40
+2025-02-26 20:49:07,780 - SplitNNClient - INFO - 35186 - phase=train acc=0.6075409836065574 loss=1.0246654748916626 epoch=424 and step=60
+2025-02-26 20:50:18,644 - SplitNNClient - INFO - 35186 - phase=train acc=0.6061728395061728 loss=1.1853069067001343 epoch=424 and step=80
+2025-02-26 20:51:30,605 - SplitNNClient - INFO - 35186 - phase=train acc=0.6052475247524752 loss=1.0761109590530396 epoch=424 and step=100
+2025-02-26 20:52:43,960 - SplitNNClient - INFO - 35186 - phase=train acc=0.6040909090909091 loss=1.1512043476104736 epoch=424 and step=120
+2025-02-26 20:53:02,235 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=43557370972 epoch_receive=36976805324 total_send=43557370972 total_receive=36976805324
+2025-02-26 20:53:31,001 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6601 loss=0.9648080587387085 epoch=424 and step=50
+2025-02-26 20:53:31,439 - SplitNNClient - INFO - 35187 - phase=train acc=0.615 loss=1.1450997591018677 epoch=424 and step=0
+2025-02-26 20:54:44,653 - SplitNNClient - INFO - 35187 - phase=train acc=0.6152380952380953 loss=1.088179349899292 epoch=424 and step=20
+2025-02-26 20:55:55,500 - SplitNNClient - INFO - 35187 - phase=train acc=0.6210975609756098 loss=1.2036287784576416 epoch=424 and step=40
+2025-02-26 20:57:08,380 - SplitNNClient - INFO - 35187 - phase=train acc=0.6165573770491803 loss=1.155434012413025 epoch=424 and step=60
+2025-02-26 20:58:21,646 - SplitNNClient - INFO - 35187 - phase=train acc=0.6187654320987654 loss=0.9107202887535095 epoch=424 and step=80
+2025-02-26 20:59:33,342 - SplitNNClient - INFO - 35187 - phase=train acc=0.614059405940594 loss=1.0777949094772339 epoch=424 and step=100
+2025-02-26 21:00:43,819 - SplitNNClient - INFO - 35187 - phase=train acc=0.6099586776859505 loss=1.184745192527771 epoch=424 and step=120
+2025-02-26 21:01:01,123 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=43557370972 epoch_receive=36976805526 total_send=43557370972 total_receive=36976805526
+2025-02-26 21:01:30,055 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6702 loss=0.9416750359535218 epoch=424 and step=50
+2025-02-26 21:01:30,544 - SplitNNClient - INFO - 35186 - phase=train acc=0.55 loss=1.2165051698684692 epoch=426 and step=0
+2025-02-26 21:02:42,465 - SplitNNClient - INFO - 35186 - phase=train acc=0.6030952380952381 loss=1.1618313789367676 epoch=426 and step=20
+2025-02-26 21:03:55,286 - SplitNNClient - INFO - 35186 - phase=train acc=0.6064634146341463 loss=1.0789119005203247 epoch=426 and step=40
+2025-02-26 21:05:07,640 - SplitNNClient - INFO - 35186 - phase=train acc=0.6045081967213115 loss=1.252672553062439 epoch=426 and step=60
+2025-02-26 21:06:18,668 - SplitNNClient - INFO - 35186 - phase=train acc=0.6021604938271605 loss=1.1254944801330566 epoch=426 and step=80
+2025-02-26 21:07:29,004 - SplitNNClient - INFO - 35186 - phase=train acc=0.601980198019802 loss=1.0366246700286865 epoch=426 and step=100
+2025-02-26 21:08:41,368 - SplitNNClient - INFO - 35186 - phase=train acc=0.6019421487603306 loss=1.1440706253051758 epoch=426 and step=120
+2025-02-26 21:08:59,321 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=43762086578 epoch_receive=37150480526 total_send=43762086578 total_receive=37150480526
+2025-02-26 21:09:28,102 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6607 loss=0.9721678185462952 epoch=426 and step=50
+2025-02-26 21:09:28,810 - SplitNNClient - INFO - 35187 - phase=train acc=0.66 loss=1.0572052001953125 epoch=426 and step=0
+2025-02-26 21:10:39,012 - SplitNNClient - INFO - 35187 - phase=train acc=0.5997619047619047 loss=1.0776997804641724 epoch=426 and step=20
+2025-02-26 21:11:48,791 - SplitNNClient - INFO - 35187 - phase=train acc=0.6062195121951219 loss=1.088609218597412 epoch=426 and step=40
+2025-02-26 21:13:01,321 - SplitNNClient - INFO - 35187 - phase=train acc=0.6086065573770492 loss=1.1434030532836914 epoch=426 and step=60
+2025-02-26 21:14:09,792 - SplitNNClient - INFO - 35187 - phase=train acc=0.6093827160493828 loss=1.0530781745910645 epoch=426 and step=80
+2025-02-26 21:15:21,326 - SplitNNClient - INFO - 35187 - phase=train acc=0.6056930693069307 loss=1.145830512046814 epoch=426 and step=100
+2025-02-26 21:16:33,914 - SplitNNClient - INFO - 35187 - phase=train acc=0.6055371900826446 loss=1.175347924232483 epoch=426 and step=120
+2025-02-26 21:16:52,071 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=43762086578 epoch_receive=37150480728 total_send=43762086578 total_receive=37150480728
+2025-02-26 21:17:20,935 - SplitNNClient - INFO - 35187 - phase=validation acc=0.67 loss=0.9415501642227173 epoch=426 and step=50
+2025-02-26 21:17:21,358 - SplitNNClient - INFO - 35186 - phase=train acc=0.57 loss=1.2044507265090942 epoch=428 and step=0
+2025-02-26 21:18:37,098 - SplitNNClient - INFO - 35186 - phase=train acc=0.5885714285714285 loss=1.0992149114608765 epoch=428 and step=20
+2025-02-26 21:19:53,375 - SplitNNClient - INFO - 35186 - phase=train acc=0.5964634146341463 loss=1.1238751411437988 epoch=428 and step=40
+2025-02-26 21:21:06,300 - SplitNNClient - INFO - 35186 - phase=train acc=0.6005737704918033 loss=0.993977963924408 epoch=428 and step=60
+2025-02-26 21:22:21,049 - SplitNNClient - INFO - 35186 - phase=train acc=0.5994444444444444 loss=1.2356312274932861 epoch=428 and step=80
+2025-02-26 21:23:33,568 - SplitNNClient - INFO - 35186 - phase=train acc=0.6018316831683168 loss=1.0554388761520386 epoch=428 and step=100
+2025-02-26 21:24:47,243 - SplitNNClient - INFO - 35186 - phase=train acc=0.6031404958677686 loss=1.108567237854004 epoch=428 and step=120
+2025-02-26 21:25:05,060 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=43966802184 epoch_receive=37324155728 total_send=43966802184 total_receive=37324155728
+2025-02-26 21:25:33,923 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6795 loss=0.9300515353679657 epoch=428 and step=50
+2025-02-26 21:25:34,443 - SplitNNClient - INFO - 35187 - phase=train acc=0.615 loss=1.1554913520812988 epoch=428 and step=0
+2025-02-26 21:26:50,474 - SplitNNClient - INFO - 35187 - phase=train acc=0.6052380952380952 loss=1.2420462369918823 epoch=428 and step=20
+2025-02-26 21:28:07,095 - SplitNNClient - INFO - 35187 - phase=train acc=0.6030487804878049 loss=1.216353178024292 epoch=428 and step=40
+2025-02-26 21:29:24,442 - SplitNNClient - INFO - 35187 - phase=train acc=0.6038524590163934 loss=1.1291555166244507 epoch=428 and step=60
+2025-02-26 21:30:40,824 - SplitNNClient - INFO - 35187 - phase=train acc=0.6062962962962963 loss=1.0918211936950684 epoch=428 and step=80
+2025-02-26 21:31:54,244 - SplitNNClient - INFO - 35187 - phase=train acc=0.6067821782178218 loss=1.246233344078064 epoch=428 and step=100
+2025-02-26 21:33:08,356 - SplitNNClient - INFO - 35187 - phase=train acc=0.6083884297520661 loss=1.1427192687988281 epoch=428 and step=120
+2025-02-26 21:33:26,371 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=43966802184 epoch_receive=37324155930 total_send=43966802184 total_receive=37324155930
+2025-02-26 21:33:55,286 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6725 loss=0.9321845853328705 epoch=428 and step=50
+2025-02-26 21:33:55,748 - SplitNNClient - INFO - 35186 - phase=train acc=0.61 loss=1.11919367313385 epoch=430 and step=0
+2025-02-26 21:35:10,916 - SplitNNClient - INFO - 35186 - phase=train acc=0.6033333333333334 loss=1.1390725374221802 epoch=430 and step=20
+2025-02-26 21:36:24,999 - SplitNNClient - INFO - 35186 - phase=train acc=0.6064634146341463 loss=1.1450878381729126 epoch=430 and step=40
+2025-02-26 21:37:39,795 - SplitNNClient - INFO - 35186 - phase=train acc=0.6082786885245902 loss=1.2461236715316772 epoch=430 and step=60
+2025-02-26 21:38:52,599 - SplitNNClient - INFO - 35186 - phase=train acc=0.6057407407407407 loss=1.151659607887268 epoch=430 and step=80
+2025-02-26 21:40:04,093 - SplitNNClient - INFO - 35186 - phase=train acc=0.6062871287128713 loss=1.2852685451507568 epoch=430 and step=100
+2025-02-26 21:41:15,128 - SplitNNClient - INFO - 35186 - phase=train acc=0.6057851239669422 loss=1.0565292835235596 epoch=430 and step=120
+2025-02-26 21:41:32,136 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=44171517790 epoch_receive=37497830930 total_send=44171517790 total_receive=37497830930
+2025-02-26 21:42:01,044 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6692 loss=0.9524149942398071 epoch=430 and step=50
+2025-02-26 21:42:01,503 - SplitNNClient - INFO - 35187 - phase=train acc=0.62 loss=1.074494481086731 epoch=430 and step=0
+2025-02-26 21:43:12,445 - SplitNNClient - INFO - 35187 - phase=train acc=0.5983333333333334 loss=1.0277855396270752 epoch=430 and step=20
+2025-02-26 21:44:24,892 - SplitNNClient - INFO - 35187 - phase=train acc=0.6085365853658536 loss=1.1955150365829468 epoch=430 and step=40
+2025-02-26 21:45:35,627 - SplitNNClient - INFO - 35187 - phase=train acc=0.6099180327868853 loss=1.042418122291565 epoch=430 and step=60
+2025-02-26 21:46:50,807 - SplitNNClient - INFO - 35187 - phase=train acc=0.6090123456790123 loss=1.1463851928710938 epoch=430 and step=80
+2025-02-26 21:48:05,875 - SplitNNClient - INFO - 35187 - phase=train acc=0.6068316831683168 loss=0.9751387238502502 epoch=430 and step=100
+2025-02-26 21:49:20,259 - SplitNNClient - INFO - 35187 - phase=train acc=0.6075206611570247 loss=1.041155457496643 epoch=430 and step=120
+2025-02-26 21:49:38,516 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=44171517790 epoch_receive=37497831132 total_send=44171517790 total_receive=37497831132
+2025-02-26 21:50:07,369 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6671 loss=0.9399295115470886 epoch=430 and step=50
+2025-02-26 21:50:07,786 - SplitNNClient - INFO - 35186 - phase=train acc=0.565 loss=1.19745671749115 epoch=432 and step=0
+2025-02-26 21:51:24,450 - SplitNNClient - INFO - 35186 - phase=train acc=0.5947619047619047 loss=1.2141162157058716 epoch=432 and step=20
+2025-02-26 21:52:44,550 - SplitNNClient - INFO - 35186 - phase=train acc=0.6001219512195122 loss=1.00143563747406 epoch=432 and step=40
+2025-02-26 21:54:04,792 - SplitNNClient - INFO - 35186 - phase=train acc=0.5982786885245902 loss=1.085087776184082 epoch=432 and step=60
+2025-02-26 21:55:20,315 - SplitNNClient - INFO - 35186 - phase=train acc=0.5997530864197531 loss=1.111355185508728 epoch=432 and step=80
+2025-02-26 21:56:37,066 - SplitNNClient - INFO - 35186 - phase=train acc=0.5994059405940594 loss=1.0851303339004517 epoch=432 and step=100
+2025-02-26 21:57:54,676 - SplitNNClient - INFO - 35186 - phase=train acc=0.6021074380165289 loss=1.2096372842788696 epoch=432 and step=120
+2025-02-26 21:58:13,906 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=44376233396 epoch_receive=37671506132 total_send=44376233396 total_receive=37671506132
+2025-02-26 21:58:42,722 - SplitNNClient - INFO - 35186 - phase=validation acc=0.659 loss=0.9840613043308258 epoch=432 and step=50
+2025-02-26 21:58:43,171 - SplitNNClient - INFO - 35187 - phase=train acc=0.595 loss=1.2001891136169434 epoch=432 and step=0
+2025-02-26 22:00:04,167 - SplitNNClient - INFO - 35187 - phase=train acc=0.6154761904761905 loss=1.1519397497177124 epoch=432 and step=20
+2025-02-26 22:01:20,140 - SplitNNClient - INFO - 35187 - phase=train acc=0.6128048780487805 loss=1.1158127784729004 epoch=432 and step=40
+2025-02-26 22:02:32,787 - SplitNNClient - INFO - 35187 - phase=train acc=0.6073770491803279 loss=1.0446361303329468 epoch=432 and step=60
+2025-02-26 22:03:46,563 - SplitNNClient - INFO - 35187 - phase=train acc=0.6094444444444445 loss=1.0579289197921753 epoch=432 and step=80
+2025-02-26 22:05:03,533 - SplitNNClient - INFO - 35187 - phase=train acc=0.6092079207920792 loss=1.0164819955825806 epoch=432 and step=100
+2025-02-26 22:06:23,119 - SplitNNClient - INFO - 35187 - phase=train acc=0.6088016528925619 loss=1.1485542058944702 epoch=432 and step=120
+2025-02-26 22:06:41,262 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=44376233396 epoch_receive=37671506334 total_send=44376233396 total_receive=37671506334
+2025-02-26 22:07:10,172 - SplitNNClient - INFO - 35187 - phase=validation acc=0.66 loss=0.9761122596263886 epoch=432 and step=50
+2025-02-26 22:07:10,643 - SplitNNClient - INFO - 35186 - phase=train acc=0.6 loss=1.1453410387039185 epoch=434 and step=0
+2025-02-26 22:08:24,574 - SplitNNClient - INFO - 35186 - phase=train acc=0.5885714285714285 loss=1.1126025915145874 epoch=434 and step=20
+2025-02-26 22:09:39,877 - SplitNNClient - INFO - 35186 - phase=train acc=0.5907317073170731 loss=1.0689815282821655 epoch=434 and step=40
+2025-02-26 22:10:56,327 - SplitNNClient - INFO - 35186 - phase=train acc=0.5978688524590164 loss=1.1832975149154663 epoch=434 and step=60
+2025-02-26 22:12:19,737 - SplitNNClient - INFO - 35186 - phase=train acc=0.5992592592592593 loss=1.0140528678894043 epoch=434 and step=80
+2025-02-26 22:13:37,125 - SplitNNClient - INFO - 35186 - phase=train acc=0.5982178217821782 loss=1.1508853435516357 epoch=434 and step=100
+2025-02-26 22:14:51,685 - SplitNNClient - INFO - 35186 - phase=train acc=0.5988842975206612 loss=1.2462295293807983 epoch=434 and step=120
+2025-02-26 22:15:10,002 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=44580949002 epoch_receive=37845181334 total_send=44580949002 total_receive=37845181334
+2025-02-26 22:15:38,915 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6574 loss=0.981127427816391 epoch=434 and step=50
+2025-02-26 22:15:39,273 - SplitNNClient - INFO - 35187 - phase=train acc=0.525 loss=1.3219679594039917 epoch=434 and step=0
+2025-02-26 22:16:59,590 - SplitNNClient - INFO - 35187 - phase=train acc=0.5992857142857143 loss=1.1652029752731323 epoch=434 and step=20
+2025-02-26 22:18:23,584 - SplitNNClient - INFO - 35187 - phase=train acc=0.6078048780487805 loss=1.1428316831588745 epoch=434 and step=40
+2025-02-26 22:19:44,791 - SplitNNClient - INFO - 35187 - phase=train acc=0.609344262295082 loss=1.1659401655197144 epoch=434 and step=60
+2025-02-26 22:20:58,584 - SplitNNClient - INFO - 35187 - phase=train acc=0.608641975308642 loss=0.9650005102157593 epoch=434 and step=80
+2025-02-26 22:22:08,689 - SplitNNClient - INFO - 35187 - phase=train acc=0.6105940594059406 loss=1.025099277496338 epoch=434 and step=100
+2025-02-26 22:23:21,707 - SplitNNClient - INFO - 35187 - phase=train acc=0.610702479338843 loss=1.0754228830337524 epoch=434 and step=120
+2025-02-26 22:23:38,477 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=44580949002 epoch_receive=37845181536 total_send=44580949002 total_receive=37845181536
+2025-02-26 22:24:07,394 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6759 loss=0.9332220780849457 epoch=434 and step=50
+2025-02-26 22:24:07,883 - SplitNNClient - INFO - 35186 - phase=train acc=0.585 loss=1.279125690460205 epoch=436 and step=0
+2025-02-26 22:25:20,522 - SplitNNClient - INFO - 35186 - phase=train acc=0.5926190476190476 loss=1.1976873874664307 epoch=436 and step=20
+2025-02-26 22:26:35,217 - SplitNNClient - INFO - 35186 - phase=train acc=0.5954878048780488 loss=1.402949333190918 epoch=436 and step=40
+2025-02-26 22:27:48,237 - SplitNNClient - INFO - 35186 - phase=train acc=0.599344262295082 loss=1.1326922178268433 epoch=436 and step=60
+2025-02-26 22:29:02,835 - SplitNNClient - INFO - 35186 - phase=train acc=0.5967283950617284 loss=1.121667742729187 epoch=436 and step=80
+2025-02-26 22:30:18,949 - SplitNNClient - INFO - 35186 - phase=train acc=0.595990099009901 loss=1.0579423904418945 epoch=436 and step=100
+2025-02-26 22:31:30,873 - SplitNNClient - INFO - 35186 - phase=train acc=0.5987603305785124 loss=1.0281462669372559 epoch=436 and step=120
+2025-02-26 22:31:49,210 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=44785664608 epoch_receive=38018856536 total_send=44785664608 total_receive=38018856536
+2025-02-26 22:32:18,121 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6613 loss=0.9742335987091064 epoch=436 and step=50
+2025-02-26 22:32:18,567 - SplitNNClient - INFO - 35187 - phase=train acc=0.55 loss=1.2080081701278687 epoch=436 and step=0
+2025-02-26 22:33:35,072 - SplitNNClient - INFO - 35187 - phase=train acc=0.6052380952380952 loss=1.1254304647445679 epoch=436 and step=20
+2025-02-26 22:34:53,026 - SplitNNClient - INFO - 35187 - phase=train acc=0.6017073170731707 loss=1.1264231204986572 epoch=436 and step=40
+2025-02-26 22:36:08,702 - SplitNNClient - INFO - 35187 - phase=train acc=0.6086065573770492 loss=1.1508424282073975 epoch=436 and step=60
+2025-02-26 22:37:25,264 - SplitNNClient - INFO - 35187 - phase=train acc=0.6069753086419754 loss=1.1134893894195557 epoch=436 and step=80
+2025-02-26 22:38:39,941 - SplitNNClient - INFO - 35187 - phase=train acc=0.6081683168316832 loss=1.0171817541122437 epoch=436 and step=100
+2025-02-26 22:39:54,880 - SplitNNClient - INFO - 35187 - phase=train acc=0.6078925619834711 loss=1.1842734813690186 epoch=436 and step=120
+2025-02-26 22:40:12,377 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=44785664608 epoch_receive=38018856738 total_send=44785664608 total_receive=38018856738
+2025-02-26 22:40:41,284 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6615 loss=0.9685932087898255 epoch=436 and step=50
+2025-02-26 22:40:41,763 - SplitNNClient - INFO - 35186 - phase=train acc=0.605 loss=1.1154582500457764 epoch=438 and step=0
+2025-02-26 22:41:54,643 - SplitNNClient - INFO - 35186 - phase=train acc=0.5928571428571429 loss=1.228539228439331 epoch=438 and step=20
+2025-02-26 22:43:06,745 - SplitNNClient - INFO - 35186 - phase=train acc=0.5942682926829268 loss=1.1369203329086304 epoch=438 and step=40
+2025-02-26 22:44:22,569 - SplitNNClient - INFO - 35186 - phase=train acc=0.6027049180327869 loss=1.023072361946106 epoch=438 and step=60
+2025-02-26 22:45:37,922 - SplitNNClient - INFO - 35186 - phase=train acc=0.6051851851851852 loss=1.1109833717346191 epoch=438 and step=80
+2025-02-26 22:46:51,407 - SplitNNClient - INFO - 35186 - phase=train acc=0.6028217821782178 loss=1.15566885471344 epoch=438 and step=100
+2025-02-26 22:48:12,166 - SplitNNClient - INFO - 35186 - phase=train acc=0.602603305785124 loss=1.2152159214019775 epoch=438 and step=120
+2025-02-26 22:48:30,897 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=44990380214 epoch_receive=38192531738 total_send=44990380214 total_receive=38192531738
+2025-02-26 22:48:59,722 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6628 loss=0.9662018394470215 epoch=438 and step=50
+2025-02-26 22:49:00,218 - SplitNNClient - INFO - 35187 - phase=train acc=0.61 loss=1.0663238763809204 epoch=438 and step=0
+2025-02-26 22:50:16,655 - SplitNNClient - INFO - 35187 - phase=train acc=0.6026190476190476 loss=1.118790864944458 epoch=438 and step=20
+2025-02-26 22:51:37,527 - SplitNNClient - INFO - 35187 - phase=train acc=0.6046341463414634 loss=1.0355371236801147 epoch=438 and step=40
+2025-02-26 22:52:54,872 - SplitNNClient - INFO - 35187 - phase=train acc=0.6027868852459016 loss=1.0650461912155151 epoch=438 and step=60
+2025-02-26 22:54:12,147 - SplitNNClient - INFO - 35187 - phase=train acc=0.6038888888888889 loss=1.0485976934432983 epoch=438 and step=80
+2025-02-26 22:55:27,288 - SplitNNClient - INFO - 35187 - phase=train acc=0.6016336633663366 loss=1.0775140523910522 epoch=438 and step=100
+2025-02-26 22:56:43,539 - SplitNNClient - INFO - 35187 - phase=train acc=0.6043388429752066 loss=1.117018699645996 epoch=438 and step=120
+2025-02-26 22:57:03,754 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=44990380214 epoch_receive=38192531940 total_send=44990380214 total_receive=38192531940
+2025-02-26 22:57:32,620 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6613 loss=0.9677327299118041 epoch=438 and step=50
+2025-02-26 22:57:33,042 - SplitNNClient - INFO - 35186 - phase=train acc=0.65 loss=1.08695650100708 epoch=440 and step=0
+2025-02-26 22:58:58,573 - SplitNNClient - INFO - 35186 - phase=train acc=0.6080952380952381 loss=1.1439337730407715 epoch=440 and step=20
+2025-02-26 23:00:18,253 - SplitNNClient - INFO - 35186 - phase=train acc=0.6026829268292683 loss=1.2131991386413574 epoch=440 and step=40
+2025-02-26 23:01:37,045 - SplitNNClient - INFO - 35186 - phase=train acc=0.6028688524590164 loss=1.022283911705017 epoch=440 and step=60
+2025-02-26 23:02:52,662 - SplitNNClient - INFO - 35186 - phase=train acc=0.6045061728395061 loss=1.216549038887024 epoch=440 and step=80
+2025-02-26 23:04:10,293 - SplitNNClient - INFO - 35186 - phase=train acc=0.6064851485148515 loss=1.2197269201278687 epoch=440 and step=100
+2025-02-26 23:05:27,282 - SplitNNClient - INFO - 35186 - phase=train acc=0.6057851239669422 loss=1.270285725593567 epoch=440 and step=120
+2025-02-26 23:05:46,526 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=45195095820 epoch_receive=38366206940 total_send=45195095820 total_receive=38366206940
+2025-02-26 23:06:15,381 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6665 loss=0.9559194409847259 epoch=440 and step=50
+2025-02-26 23:06:15,874 - SplitNNClient - INFO - 35187 - phase=train acc=0.61 loss=1.1409486532211304 epoch=440 and step=0
+2025-02-26 23:07:30,636 - SplitNNClient - INFO - 35187 - phase=train acc=0.6028571428571429 loss=1.0171467065811157 epoch=440 and step=20
+2025-02-26 23:08:44,195 - SplitNNClient - INFO - 35187 - phase=train acc=0.6004878048780488 loss=1.1253834962844849 epoch=440 and step=40
+2025-02-26 23:09:58,611 - SplitNNClient - INFO - 35187 - phase=train acc=0.6080327868852459 loss=1.1703732013702393 epoch=440 and step=60
+2025-02-26 23:11:14,844 - SplitNNClient - INFO - 35187 - phase=train acc=0.6077777777777778 loss=1.0926605463027954 epoch=440 and step=80
+2025-02-26 23:12:36,626 - SplitNNClient - INFO - 35187 - phase=train acc=0.6081683168316832 loss=1.0281343460083008 epoch=440 and step=100
+2025-02-26 23:13:54,451 - SplitNNClient - INFO - 35187 - phase=train acc=0.6085123966942149 loss=0.9887444972991943 epoch=440 and step=120
+2025-02-26 23:14:11,031 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=45195095820 epoch_receive=38366207142 total_send=45195095820 total_receive=38366207142
+2025-02-26 23:14:42,359 - SplitNNClient - INFO - 35187 - phase=validation acc=0.662 loss=0.9773771297931672 epoch=440 and step=50
+2025-02-26 23:14:42,626 - SplitNNClient - INFO - 35186 - phase=train acc=0.6 loss=1.1368250846862793 epoch=442 and step=0
+2025-02-26 23:15:04,195 - SplitNNClient - INFO - 35186 - phase=train acc=0.6088095238095238 loss=1.1218318939208984 epoch=442 and step=20
+2025-02-26 23:15:23,131 - SplitNNClient - INFO - 35186 - phase=train acc=0.6082926829268293 loss=1.0118985176086426 epoch=442 and step=40
+2025-02-26 23:15:43,318 - SplitNNClient - INFO - 35186 - phase=train acc=0.610983606557377 loss=1.1811480522155762 epoch=442 and step=60
+2025-02-26 23:16:01,505 - SplitNNClient - INFO - 35186 - phase=train acc=0.6101851851851852 loss=1.124024510383606 epoch=442 and step=80
+2025-02-26 23:16:25,258 - SplitNNClient - INFO - 35186 - phase=train acc=0.6081188118811881 loss=1.2525655031204224 epoch=442 and step=100
+2025-02-26 23:16:44,737 - SplitNNClient - INFO - 35186 - phase=train acc=0.6075206611570247 loss=1.0914084911346436 epoch=442 and step=120
+2025-02-26 23:16:49,703 - SplitNNClient - INFO - 35186 - worker_num=1 epoch_send=45399811426 epoch_receive=38539882142 total_send=45399811426 total_receive=38539882142
+2025-02-26 23:17:17,369 - SplitNNClient - INFO - 35186 - phase=validation acc=0.6782 loss=0.940112212896347 epoch=442 and step=50
+2025-02-26 23:17:17,673 - SplitNNClient - INFO - 35187 - phase=train acc=0.565 loss=1.2778232097625732 epoch=442 and step=0
+2025-02-26 23:17:44,047 - SplitNNClient - INFO - 35187 - phase=train acc=0.5992857142857143 loss=1.1430246829986572 epoch=442 and step=20
+2025-02-26 23:18:01,114 - SplitNNClient - INFO - 35187 - phase=train acc=0.6063414634146341 loss=1.1884493827819824 epoch=442 and step=40
+2025-02-26 23:18:20,828 - SplitNNClient - INFO - 35187 - phase=train acc=0.6027868852459016 loss=1.082470417022705 epoch=442 and step=60
+2025-02-26 23:18:43,855 - SplitNNClient - INFO - 35187 - phase=train acc=0.6016049382716049 loss=1.0773690938949585 epoch=442 and step=80
+2025-02-26 23:19:09,243 - SplitNNClient - INFO - 35187 - phase=train acc=0.6032673267326732 loss=1.0760421752929688 epoch=442 and step=100
+2025-02-26 23:19:31,757 - SplitNNClient - INFO - 35187 - phase=train acc=0.6066115702479339 loss=1.0930275917053223 epoch=442 and step=120
+2025-02-26 23:19:37,005 - SplitNNClient - INFO - 35187 - worker_num=2 epoch_send=45399811426 epoch_receive=38539882344 total_send=45399811426 total_receive=38539882344
+2025-02-26 23:20:04,796 - SplitNNClient - INFO - 35187 - phase=validation acc=0.6747 loss=0.9259333002567292 epoch=442 and step=50
+2025-02-26 23:20:05,084 - SplitNNClient - INFO - 35186 - phase=train acc=0.53 loss=1.2949256896972656 epoch=444 and step=0
