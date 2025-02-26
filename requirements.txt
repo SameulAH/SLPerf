@@ -11,3 +11,6 @@ torch-geometric
 opencv-python
 opencv-contrib-python
 torchvision
+
+## model run
+#mpiexec -n N python variantX.py
