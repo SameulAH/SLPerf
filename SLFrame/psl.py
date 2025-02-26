@@ -18,7 +18,6 @@ from core.model.models import german_LR_client, german_LR_server, LeNetClientNet
     adult_LR_client, adult_LR_server, LeNetComplete
 
 
-
 def init_training_device(process_ID, fl_worker_num, gpu_num_per_machine):
     # initialize the mapping from process ID to GPU ID: <process ID, GPU ID>
     # logging = Logging("init_training_device")
