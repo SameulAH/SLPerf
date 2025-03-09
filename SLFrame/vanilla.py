@@ -17,6 +17,7 @@ import os
 from core.model.models import german_LR_client, german_LR_server, LeNetClientNetwork1,  LeNetServerNetwork1,\
     adult_LR_client, adult_LR_server, LeNetComplete
 
+from core.model.resnet import ResNet_client,ResNet_server
 
 
 def init_training_device(process_ID, fl_worker_num, gpu_num_per_machine):
@@ -37,11 +38,37 @@ def init_training_device(process_ID, fl_worker_num, gpu_num_per_machine):
     return device
 
 
+# if __name__ == '__main__':
+#     args = parseFactory(fileType=YAML).factory()
+#     client_model = LeNetClientNetwork1()
+    
+#     server_model = LeNetServerNetwork1()
+#     args.load('./config.yaml')
+
+#     comm, process_id, worker_number = SplitNN_init(args)
+#     args["rank"] = process_id  # Set the current process_id.
+
+#     args["client_model"] = client_model
+#     args["server_model"] = server_model
+#     device = init_training_device(process_id, worker_number - 1, args.gpu_num_per_server)
+#     args["device"] = device
+
+#     dataset = datasetFactory(args).factory()  # loader data and partition method
+
+#     train_data_num, train_data_global, test_data_global, local_data_num, \
+#     train_data_local, test_data_local, class_num = dataset.load_partition_data(process_id) 
+
+#     SplitNN_distributed(process_id, args)
+
 if __name__ == '__main__':
     args = parseFactory(fileType=YAML).factory()
-    client_model = LeNetClientNetwork1()
+    # client_model = LeNetClientNetwork1()
+    # server_model = LeNetServerNetwork1()
     
-    server_model = LeNetServerNetwork1()
+    client_model = ResNet_client()
+    server_model = ResNet_server()
+    
+    
     args.load('./config.yaml')
 
     comm, process_id, worker_number = SplitNN_init(args)

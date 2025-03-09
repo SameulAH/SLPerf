@@ -3,7 +3,7 @@ import time
 from mpi4py import MPI
 import torch
 from .variants.variantsFactory import variantsFactory
-from .model.models import LeNetClientNetwork, LeNetServerNetwork
+from .model.models import LeNetClientNetwork, LeNetServerNetwork,LeNetClientNetwork1,LeNetServerNetwork1
 from .model.models import CNNSplitClient, CNNSplitServer    
 
 
@@ -13,6 +13,8 @@ torch.serialization.add_safe_globals([CNNSplitClient])
 torch.serialization.add_safe_globals([CNNSplitServer])
 torch.serialization.add_safe_globals([LeNetClientNetwork])
 torch.serialization.add_safe_globals([LeNetServerNetwork])  
+torch.serialization.add_safe_globals([LeNetClientNetwork1])
+torch.serialization.add_safe_globals([LeNetServerNetwork1])  
 ##################################
 
 

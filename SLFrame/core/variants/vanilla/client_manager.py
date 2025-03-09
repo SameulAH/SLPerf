@@ -6,6 +6,21 @@ from ...communication.msg_manager import MessageManager
 from ...communication.message import Message
 from ...log.Log import Log
 
+#### Added by Ismail
+import torch
+import torch.nn as nn
+import torch.serialization
+from core.model.resnet import ResNet_client,ResNet_server
+
+# allowlist Sequential globally
+torch.serialization.add_safe_globals([nn.Sequential, nn.Conv2d, nn.MaxPool2d, nn.ReLU, nn.Linear])
+torch.serialization.add_safe_globals([nn.Sequential, nn.Conv2d, nn.MaxPool2d, nn.ReLU, nn.Linear])
+torch.serialization.add_safe_globals([ResNet_client])
+torch.serialization.add_safe_globals([ResNet_server])
+torch.serialization.add_safe_globals([nn.BatchNorm2d, nn.Conv2d, nn.MaxPool2d, nn.ReLU, nn.Linear])
+
+####################
+
 
 class ClientManager(MessageManager):
     """
