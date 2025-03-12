@@ -95,7 +95,7 @@
 
 
 
-################## Vanilla setup
+# ################## Vanilla setup Non-IID
 
 
 dataDir: ./data/
@@ -108,11 +108,168 @@ epochs: 75
 log_step: 10
 lr: 0.01
 max_rank: 2
-partition_method: homo
+# partition_method: homo
+partition_method: base_on_class
+partition_alpha: 0.3
 variants_type: vanilla
 server_rank: 0
-model: DenseNet  # Paper uses ResNet56 for CIFAR-10, but your config aligns with models.py
+model: ResNet56  # Paper uses ResNet56 for CIFAR-10, but your config aligns with models.py
 split_layer: 1
 seed: 0
 
-#####
+save_model_epoch: 50
+
+
+################# 
+
+
+
+
+
+
+
+
+# ################## ################## ################## 
+# ################## Ushaped setup NON-IID
+
+
+# # General settings
+# dataDir: ./data/
+# dataset: cifar10
+# device: gpu
+# gpu_num_per_server: 1
+# download: true
+# batch_size: 64
+# epochs: 75
+# lr: 0.01
+# max_rank: 3  # 3 clients total
+
+# # Non-IID Partitioning: Dirichlet
+# partition_method: hetero  # Enables Non-IID partitioning
+# partition_alpha: 0.001  # Dirichlet distribution parameter (0.1 = highly skewed, 10 = nearly IID)
+
+
+
+# # Split Learning settings
+# variants_type: Ushaped
+# server_rank: 0
+# # model: DenseNet  # Can be changed to LeNet\
+# model: ResNet56
+# split_layer: 1  # Layer at which model is split
+# seed: 10  # For reproducibility
+
+# # # Client data distribution
+# # client_split: [1, 1, 1]  # Equal number of samples per client
+# # save_model_epoch: 50
+
+# # ### Added
+# # # In config.yaml
+
+# # save_dirs:
+# #   - "./model_save/attack_acts/PSL/cifar10"
+# #   - "./logs"
+# #   - "./results"
+# ################## ################## ################## 
+
+
+
+# ################## Ushaped setup IID
+
+
+# dataDir: ./data/
+# dataset: cifar10
+# device: gpu
+# gpu_num_per_server: 1
+# download: true
+# batch_size: 64  # Paper’s value; yours is 200
+# epochs: 75
+# log_step: 10
+# lr: 0.01
+# max_rank: 2
+# partition_method: homo
+# # partition_method: hetero
+# variants_type: Ushaped
+# server_rank: 0
+# model: DenseNet  # Paper uses ResNet56 for CIFAR-10, but your config aligns with models.py
+# split_layer: 1
+# seed: 0
+
+# ################# 
+
+
+
+
+
+
+
+
+
+################## ################## ################## 
+# ################## ################## ################## 
+# ################## SplitFed2 setup IID
+
+
+# dataDir: ./data/
+# dataset: cifar10
+# device: gpu
+# gpu_num_per_server: 1
+# download: true
+# batch_size: 64  # Paper’s value; yours is 200
+# epochs: 75
+# log_step: 10
+# lr: 0.01
+# max_rank: 2
+# partition_method: homo
+# # partition_method: hetero
+# variants_type: SplitFed2
+# server_rank: 0
+# model: ResNet56  # Paper uses ResNet56 for CIFAR-10, but your config aligns with models.py
+# split_layer: 1
+# seed: 0
+
+# ################# 
+
+# ################## SplitFed NON-IID
+
+
+# # General settings
+# dataDir: ./data/
+# dataset: cifar10
+# device: gpu
+# gpu_num_per_server: 1
+# download: true
+# batch_size: 64
+# epochs: 75
+# lr: 0.01
+# max_rank: 3  # 3 clients total
+
+# # Non-IID Partitioning: Dirichlet
+# partition_method: hetero  # Enables Non-IID partitioning
+# partition_alpha: 0.03  # Dirichlet distribution parameter (0.1 = highly skewed, 10 = nearly IID)
+
+
+
+# # Split Learning settings
+# variants_type: parallel_U_Shape
+# server_rank: 0
+# # model: DenseNet  # Can be changed to LeNet\
+# model: ResNet56
+# split_layer: 1  # Layer at which model is split
+# seed: 10  # For reproducibility
+
+# # # Client data distribution
+# # client_split: [1, 1, 1]  # Equal number of samples per client
+# # save_model_epoch: 50
+
+# # ### Added
+# # # In config.yaml
+
+# # save_dirs:
+# #   - "./model_save/attack_acts/PSL/cifar10"
+# #   - "./logs"
+# #   - "./results"
+# ################## ################## ################## 
+
+
+
+
