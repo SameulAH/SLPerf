@@ -9,12 +9,12 @@ from .model.models import CNNSplitClient, CNNSplitServer
 
 ##################################
 #added by ismail
-torch.serialization.add_safe_globals([CNNSplitClient])
-torch.serialization.add_safe_globals([CNNSplitServer])
-torch.serialization.add_safe_globals([LeNetClientNetwork])
-torch.serialization.add_safe_globals([LeNetServerNetwork])  
-torch.serialization.add_safe_globals([LeNetClientNetwork1])
-torch.serialization.add_safe_globals([LeNetServerNetwork1])  
+#torch.serialization.add_safe_globals([CNNSplitClient])
+#torch.serialization.add_safe_globals([CNNSplitServer])
+#torch.serialization.add_safe_globals([LeNetClientNetwork])
+#torch.serialization.add_safe_globals([LeNetServerNetwork])  
+#torch.serialization.add_safe_globals([LeNetClientNetwork1])
+#torch.serialization.add_safe_globals([LeNetServerNetwork1])  
 ##################################
 
 

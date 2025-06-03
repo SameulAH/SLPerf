@@ -40,6 +40,8 @@ class SplitNNClient():
 
     def forward_pass(self):
         logging.info("{} begin run_forward_pass".format(self.rank))
+        device = self.device
+        self.model = self.model.to(device)
         inputs, labels = next(self.dataloader)
 
         inputs, labels = inputs.to(self.device), labels.to(self.device)

@@ -3,8 +3,8 @@ import torch.nn as nn
 import torch.optim as optim
 import logging
 from ...log.Log import Log
+from collections.abc import Iterator
 
-from collections import Iterator
 
 
 class SplitNNClient():
@@ -47,6 +47,10 @@ class SplitNNClient():
                           .format(self.phase, self.correct / self.total, self.val_loss, self.epoch_count, self.step))
 
     def forward_pass(self):
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")  # Get the correct device
+    
+        # Move the model to the correct device (GPU or CPU)
+        self.model = self.model.to(device)
         # logging.info("{} begin run_forward_pass1".format(self.rank))
         inputs, labels = next(self.dataloader)
         # self.log.info("before acts:{}  labels:{}".format(type(inputs), labels.shape))

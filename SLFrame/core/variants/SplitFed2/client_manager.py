@@ -6,6 +6,8 @@ from ...communication.msg_manager import MessageManager
 from ...communication.message import Message
 from ...log.Log import Log
 from .client import SplitNNClient
+import torch.nn as nn
+import torch.optim as optim
 
 
 class ClientManager(MessageManager):
@@ -17,6 +19,7 @@ class ClientManager(MessageManager):
     def __init__(self, args, trainer, backend="MPI"):
         super().__init__(args, "client", args["comm"], args["rank"], args["max_rank"] + 1, backend)
         # self.trainer = type(SplitNNClient)
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.trainer = trainer
         self.trainer.train_mode()
         self.log = Log(self.__class__.__name__, args)

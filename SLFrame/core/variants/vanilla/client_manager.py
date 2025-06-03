@@ -42,6 +42,8 @@ class ClientManager(MessageManager):
         super(ClientManager, self).run()
 
     def run_forward_pass(self):
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.model = self.model.to(device)
         acts, labels = self.trainer.forward_pass()
         
         #logging.info("{} run_forward_pass".format(self.trainer.rank))
@@ -100,7 +102,7 @@ class ClientManager(MessageManager):
         self.send_message(message)
 
     def send_activations_and_labels_to_server(self, acts, labels, receive_id):
-      #  logging.warning("acts to {}".format(receive_id))
+        logging.warning("acts to {}".format(receive_id))
         message = Message(MyMessage.MSG_TYPE_C2S_SEND_ACTS, self.rank, receive_id)
         message.add_params(MyMessage.MSG_ARG_KEY_ACTS, (acts, labels))
         self.send_message(message)

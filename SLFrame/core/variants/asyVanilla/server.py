@@ -40,6 +40,10 @@ class SplitNNServer():
         self.phase = "validation"
 
     def forward_pass(self, acts, labels, sender):
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")  # Get the correct device
+    
+        # Move the model to the correct device (GPU or CPU)
+        self.model = self.model.to(device)
         self.acts = acts
         if self.phase == "validation":
             self.optimizer.zero_grad()
