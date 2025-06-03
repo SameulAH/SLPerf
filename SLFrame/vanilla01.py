@@ -64,7 +64,7 @@ if __name__ == '__main__':
     args = parseFactory(fileType=YAML).factory()
     # client_model = CNNSplitClient()
     # server_model = CNNSplitServer()
-    
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     client_model = ResNet_client()
     server_model = ResNet_server()
     

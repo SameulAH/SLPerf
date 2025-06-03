@@ -53,6 +53,8 @@ class SplitNNServer():
         self.reset_local_params()
 
     def forward_pass(self, acts, labels):
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.model = self.model.to(self.device)
         self.acts = acts
         self.optimizer.zero_grad()
         self.acts.retain_grad()

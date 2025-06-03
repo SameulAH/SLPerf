@@ -1,6 +1,7 @@
 import torch.optim as optim
 import logging
 from ...log.Log import Log
+import torch
 
 class SplitNNClient():
 
@@ -40,6 +41,8 @@ class SplitNNClient():
                           .format(self.phase, self.correct/self.total, self.val_loss, self.epoch_count, self.step))
 
     def forward_pass(self):
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.model = self.model.to(self.device)
         # logging.info("{} begin run_forward_pass".format(self.rank))
         inputs, labels = next(self.dataloader)
 

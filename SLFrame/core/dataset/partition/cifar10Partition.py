@@ -13,7 +13,7 @@ def record_net_data_stats(y_train, net_dataidx_map):
         unq, unq_cnt = np.unique(y_train[dataidx], return_counts=True)
         tmp = {unq[i]: unq_cnt[i] for i in range(len(unq))}
         net_cls_counts[net_i] = tmp
-    # log.debug('Data statistics: %s' % str(net_cls_counts))
+    #log.debug('Data statistics: %s' % str(net_cls_counts))
     return net_cls_counts
 
 
@@ -143,7 +143,7 @@ class cifar10Partition(abstractPartition):
                 class_per_client.append([i for i in range(class_idx, class_idx + num)])
                 class_idx += num
                 mod -= 1
-            self.log.info("{}".format(class_per_client))
+                self.log.info("Class per client:{}".format(class_per_client))
             for i in range(n_nets):
                 batch_idxs = []
 
@@ -154,6 +154,7 @@ class cifar10Partition(abstractPartition):
                     # batch_idxs = np.array_split(idxs, self.parse['client_number'])
                 net_dataidx_map[i] = batch_idxs
             min = 100000000000000
+            #min = min(len(net_dataidx_map[i]) for i in range(n_nets))
             for i in range(n_nets):
                 if len(net_dataidx_map[i]) < min:
                     min = len(net_dataidx_map[i])
@@ -162,6 +163,9 @@ class cifar10Partition(abstractPartition):
                     np.random.shuffle(net_dataidx_map[i])
                     net_dataidx_map[i] = net_dataidx_map[i][0: min]
             traindata_cls_counts = record_net_data_stats(y_train, net_dataidx_map)
+            self.log.info("Train class counts per client:")
+            for client_id, class_counts in traindata_cls_counts.items():
+                self.log.info(f"Client {client_id}: {class_counts}")
 
         return X_train, y_train, X_test, y_test, net_dataidx_map, traindata_cls_counts
 

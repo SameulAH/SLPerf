@@ -1,6 +1,7 @@
 import torch.optim as optim
 import logging
-
+import torch
+import logging
 
 class SplitNNClient():
 
@@ -28,6 +29,8 @@ class SplitNNClient():
         self.device = args["device"]
 
     def forward_pass(self):
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.model = self.model.to(self.device)
         inputs, labels = next(self.dataloader)
 
         inputs, labels = inputs.to(self.device), labels.to(self.device)

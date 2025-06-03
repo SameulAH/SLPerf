@@ -12,9 +12,13 @@ class SplitNNServer():
     def __init__(self, args):
         self.log = Log(self.__class__.__name__, args)
         self.args = args
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.comm = args["comm"]
         self.model = args["server_model"]
         self.MAX_RANK = args["max_rank"]
+
+        
+        self.model = self.model.to(self.device)
 
         self.rank = args["rank"]
 
@@ -42,6 +46,7 @@ class SplitNNServer():
         self.phase = "validation"
 
     def forward_pass(self, acts, labels):
+        acts = acts.to(self.device) 
         self.acts = acts
         self.optimizer.zero_grad()
         self.acts.retain_grad()

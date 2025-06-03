@@ -103,17 +103,17 @@ dataset: cifar10
 device: gpu
 gpu_num_per_server: 1
 download: true
-batch_size: 64  # Paper’s value; yours is 200
-epochs: 75
-log_step: 10
+partition_method: base_on_class
+partition_alpha: 0.3
+variants_type: SplitFed
 lr: 0.01
 max_rank: 2
 # partition_method: homo
 partition_method: base_on_class
 partition_alpha: 0.3
-variants_type: vanilla
+variants_type: SplitFed
 server_rank: 0
-model: ResNet56  # Paper uses ResNet56 for CIFAR-10, but your config aligns with models.py
+model: ResNet56 
 split_layer: 1
 seed: 0
 

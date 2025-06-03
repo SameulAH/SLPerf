@@ -35,13 +35,22 @@ class SplitNNServer():
         self.model.train()
         self.phase = "train"
         self.reset_local_params()
+        self.log.info(f"Server entered training mode (epoch {self.epoch}).")
 
     def eval_mode(self):
         self.model.eval()
         self.phase = "validation"
         self.reset_local_params()
+        self.log.info(f"Server entered evaluation mode (epoch {self.epoch}).")
+
+
 
     def forward_pass(self, acts, labels):
+        
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")  # Get the correct device
+    
+        # Move the model to the correct device (GPU or CPU)
+        self.model = self.model.to(device)
         self.acts = acts
         self.optimizer.zero_grad()
         self.acts.retain_grad()
@@ -52,13 +61,13 @@ class SplitNNServer():
         self.correct += predictions.eq(labels).sum().item()
         if self.step % self.log_step == 0 and self.phase == "train":
             acc = self.correct / self.total
-            self.log.info("phase={} acc={} loss={} epoch={} and step={}"
-                          .format("train", acc, self.loss.item(), self.epoch, self.step))
+            #self.log.info("serverforwardphase={} acc={} loss={} epoch={} and step={}"
+            #              .format("train", acc, self.loss.item(), self.epoch, self.step))
 
             # 用log记录一下准确率之类的信息
         if self.phase == "validation":
-            # self.log.info("phase={} acc={} loss={} epoch={} and step={}"
-            #               .format("train", acc, self.loss.item(), self.epoch, self.step))
+            #self.log.info("servervalidphase={} acc={} loss={} epoch={} and step={}"
+            #              .format("train", acc, self.loss.item(), self.epoch, self.step))
             self.val_loss += self.loss.item()
             # torch.save(self.model, self.args["model_save_path"].format("server", self.epoch, ""))
         self.step += 1
@@ -66,7 +75,9 @@ class SplitNNServer():
     def backward_pass(self):
         self.loss.backward(retain_graph=True)
         self.optimizer.step()
+        self.log.info(f"Server completed backward pass at step {self.step}.")
         return self.acts.grad
+        
 
     def validation_over(self):
         # not precise estimation of validation loss

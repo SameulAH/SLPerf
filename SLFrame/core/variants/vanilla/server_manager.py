@@ -5,7 +5,7 @@ from ...communication.message import Message
 import logging
 
 
-class ServerManager(MessageManager):
+class ServerManager(MessageManager):    
 
     def __init__(self, args, trainer, backend="MPI"):
         super().__init__(args, "server", args["comm"], args["rank"],
@@ -13,7 +13,7 @@ class ServerManager(MessageManager):
         self.trainer = trainer
         self.round_idx = 0
 
-        # logging.warning("server rank{} args{}".format(self.rank,args["rank"]))
+        logging.warning("server rank{} args{}".format(self.rank,args["rank"]))
 
     def run(self):
         super().run()
@@ -45,7 +45,7 @@ class ServerManager(MessageManager):
         self.trainer.eval_mode()
 
     def handle_message_validation_over(self, msg_params):
-        # logging.warning("over")
+        logging.warning("over")
         self.trainer.validation_over()
 
     def handle_message_finish_protocol(self):

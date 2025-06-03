@@ -33,13 +33,17 @@ class SplitNNClient():
         self.device = args["device"]
 
     def forward_pass(self):
+        self.log.info(f"Client {self.rank} starting forward pass.")
+        self.model = self.model.to(device)
+
+
         inputs, labels = next(self.dataloader)
 
         inputs, labels = inputs.to(self.device), labels.to(self.device)
         self.optimizer.zero_grad()
 
         self.acts = self.model(inputs)
-        logging.info("{} forward_pass".format(self.rank))
+        self.log.info("{} forward_pass".format(self.rank))
         
         if self.args["save_acts_step"] >0 and self.step<=1 and self.phase=="validation" and self.epoch_count % self.args["save_acts_step"] == 0:
             a=self.acts
@@ -55,9 +59,11 @@ class SplitNNClient():
         return self.acts, labels
 
     def backward_pass(self, grads):
+        self.log.info(f"Client {self.rank} starting backward pass.")
         self.acts.backward(grads)
 
         self.optimizer.step()
+        self.log.info(f"Client {self.rank} backward pass completed.")
 
     """
     如果模型有dropout或者BN层的时候，需要改变模型的模式
@@ -68,12 +74,14 @@ class SplitNNClient():
         self.model.eval()
         self.reset_local_params()
         self.phase = "validation"
+        self.log.info(f"Client {self.rank} switched to evaluation mode.")
 
     def train_mode(self):
         self.dataloader = iter(self.trainloader)
         self.model.train()
         self.reset_local_params()
         self.phase = "train"
+        self.log.info(f"Client {self.rank} switched to training mode.")
 
     def print_com_size(self, com_manager):
         self.log.info("worker_num={} epoch_send={} epoch_receive={} total_send={} total_receive={}"
