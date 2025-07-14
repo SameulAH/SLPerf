@@ -67,7 +67,7 @@ class ClientManager(MessageManager):
                                               self.handle_message_model_param_from_server)
 
     def handle_message_semaphore(self, msg_params):
-        elf.log.info("Client {} received test semaphore from server. Starting evaluation...".format(self.rank))
+        self.log.info("Client {} received test semaphore from server. Starting evaluation...".format(self.rank))
         # no point in checking the semaphore message
         self.log.info("client{} recv sema".format(self.rank))
         self.trainer.train_mode()
