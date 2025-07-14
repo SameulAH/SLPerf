@@ -23,6 +23,7 @@ class cifar10Partition(abstractPartition):
         self.log = Log("cifar10Partition", parse)
 
     def partition_data(self):
+        self.log.info(f"Using partition_alpha: {self.parse['partition_alpha']}")
         partition_method = self.parse['partition_method']
         if partition_method == 'homo':
             return self.homo
@@ -38,6 +39,7 @@ class cifar10Partition(abstractPartition):
             return self.base_on_class_intersection
 
     def homo(self, load_data):
+        self.log.info(f"Using homo_partition: {self.parse['partition_alpha']}")  
         if self.parse["variants_type"] == "TaskAgnostic":
             return self.task_agnostic_homo(load_data)
         self.log.info("homo")
@@ -59,6 +61,7 @@ class cifar10Partition(abstractPartition):
         return X_train, y_train, X_test, y_test, net_dataidx_map, traindata_cls_counts
 
     def hetero(self, load_data):
+        self.log.info(f"Using hetero_partition: {self.parse['partition_alpha']}")  
         self.log.info("hetero")
         X_train, y_train, X_test, y_test = load_data()
         # class_num = len(np.unique(y_train))
@@ -101,10 +104,11 @@ class cifar10Partition(abstractPartition):
         return X_train, y_train, X_test, y_test, net_dataidx_map, traindata_cls_counts
 
     def base_on_class(self, load_data):
+        self.log.info(f"Using base_on_class_partition: {self.parse['partition_alpha']}")  
         n_nets = self.parse["client_number"]
         self.log.info("base_on_class")
         X_train, y_train, X_test, y_test = load_data()
-        # self.log.info(type(X_train))
+        self.log.info(type(X_train))
         K = len(np.unique(y_train))
         net_dataidx_map = {}
         if n_nets > K:
@@ -164,12 +168,18 @@ class cifar10Partition(abstractPartition):
                     net_dataidx_map[i] = net_dataidx_map[i][0: min]
             traindata_cls_counts = record_net_data_stats(y_train, net_dataidx_map)
             self.log.info("Train class counts per client:")
+            #for client_id, class_counts in traindata_cls_counts.items():
+            #    self.log.info(f"Client {client_id}: {class_counts}")
             for client_id, class_counts in traindata_cls_counts.items():
-                self.log.info(f"Client {client_id}: {class_counts}")
+                num_classes = len(class_counts)
+                total_samples = sum(class_counts.values())
+                formatted_class_counts = {int(k): int(v) for k, v in class_counts.items()}
+                self.log.info(f"Client {client_id}: {formatted_class_counts} | #classes: {num_classes}, #samples: {total_samples}")
 
         return X_train, y_train, X_test, y_test, net_dataidx_map, traindata_cls_counts
 
     def base_on_attribute(self, load_data):
+        self.log.info(f"Using base_on_attribute_partition: {self.parse['partition_alpha']}")  
         n_nets = self.parse["client_number"]
         self.log.info("base_on_class")
         X_train, y_train, X_test, y_test = load_data()

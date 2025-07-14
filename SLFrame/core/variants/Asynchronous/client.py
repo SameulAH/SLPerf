@@ -17,12 +17,16 @@ class SplitNNClient():
         self.node_right = 1 if self.rank == self.MAX_RANK else self.rank + 1
         self.epoch_count = 0
         self.batch_idx = 0
+        
         self.MAX_EPOCH_PER_NODE = args["epochs"]
         self.SERVER_RANK = args["server_rank"]
         self.lr = args["lr"]
         self.server_state = "A"
         self.acts_last = None
         self.labels_last = None
+        self.device = args["device"]
+        self.model = args["client_model"].to(args["device"])
+       
         # self.optimizer = optim.Adam(self.model.parameters(),
         #                             lr=args["lr"],
         #                             betas=(0.9, 0.999),
@@ -42,6 +46,9 @@ class SplitNNClient():
         self.batch_idx = 0
 
     def forward_pass(self):
+        self.log.info(f"Client {self.rank} starting forward pass.")
+        #self.model = self.model.to(device)
+        self.model = self.model.to(self.device)
         inputs, labels = next(self.dataloader)
 
         inputs, labels = inputs.to(self.device), labels.to(self.device)

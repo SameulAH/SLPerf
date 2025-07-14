@@ -2,7 +2,7 @@ from mpi4py import MPI
 from .message_define import MyMessage
 from ...communication.msg_manager import MessageManager
 from ...communication.message import Message
-import logging
+import logging 
 
 
 class ServerManager(MessageManager):    

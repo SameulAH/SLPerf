@@ -68,7 +68,7 @@ class cifar10Controller():
     def load_partition_data(self, process_id):
         X_train, y_train, X_test, y_test, net_dataidx_map, traindata_cls_counts = self.partition_data()
         class_num = len(np.unique(y_train))
-        # self.log.info("traindata_cls_counts = " + str(traindata_cls_counts))
+        self.log.info("traindata_cls_counts = " + str(traindata_cls_counts))
         train_data_num = sum([len(net_dataidx_map[r]) for r in range(self.parse["client_number"])])
 
         # get global test data
