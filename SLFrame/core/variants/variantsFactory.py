@@ -45,6 +45,11 @@ class variantsFactory():
         #     from ..variants.asyVanilla.client import SplitNNClient
         #     from ..variants.asyVanilla.server_manager import ServerManager
         #     from ..variants.asyVanilla.client_manager import ClientManager
+        elif self.variantsType == "VanillaPSL":
+            from ..variants.VanillaPSL.server import SplitNNServer
+            from ..variants.VanillaPSL.client import SplitNNClient
+            from ..variants.VanillaPSL.server_manager import ServerManager
+            from ..variants.VanillaPSL.client_manager import ClientManager
         elif self.variantsType == "vertical":
             from ..variants.vertical.server import SplitNNServer
             from ..variants.vertical.client import SplitNNClient

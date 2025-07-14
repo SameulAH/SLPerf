@@ -14,7 +14,7 @@ from Parse.parseFactory import parseFactory, YAML
 ### Added  ##################################
 from Parse.parseFactory import parseFactory
 import os
-from core.model.models import german_LR_client, german_LR_server, LeNetClientNetwork1,  LeNetServerNetwork1,\
+from core.model.models import german_LR_client, german_LR_server, LeNetClientNetwork,  LeNetServerNetwork,\
     adult_LR_client, adult_LR_server, LeNetComplete
 
 from core.model.resnet import ResNet_client,ResNet_server
@@ -62,11 +62,11 @@ def init_training_device(process_ID, fl_worker_num, gpu_num_per_machine):
 
 if __name__ == '__main__':
     args = parseFactory(fileType=YAML).factory()
-    # client_model = LeNetClientNetwork1()
-    # server_model = LeNetServerNetwork1()
+    client_model = LeNetClientNetwork()
+    server_model = LeNetServerNetwork()
     
-    client_model = ResNet_client()
-    server_model = ResNet_server()
+    #client_model = ResNet_client()
+    #server_model = ResNet_server()
     
     
     args.load('./config.yaml')

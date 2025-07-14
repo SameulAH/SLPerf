@@ -65,8 +65,10 @@ if __name__ == '__main__':
     # client_model = CNNSplitClient()
     # server_model = CNNSplitServer()
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    client_model = ResNet_client()
-    server_model = ResNet_server()
+#    client_model = ResNet_client()
+#    server_model = ResNet_server()
+    client_model = LeNetClientNetwork()
+    server_model = LeNetServerNetwork()
     
     
     args.load('./config.yaml')

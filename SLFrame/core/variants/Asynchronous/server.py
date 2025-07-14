@@ -10,9 +10,11 @@ from ...log.Log import Log
 class SplitNNServer():
     def __init__(self, args):
         self.log = Log(self.__class__.__name__, args)
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.model = args["server_model"].to(self.device)
         self.args = args
         self.comm = args["comm"]
-        self.model = args["server_model"]
+        # self.model = args["server_model"]
         self.MAX_RANK = args["max_rank"]
         self.loss_thred = args["thred"]
 
@@ -52,33 +54,68 @@ class SplitNNServer():
         self.phase = "validation"
         self.reset_local_params()
 
+    # def forward_pass(self, acts, labels):
+    #     self.acts = acts.to(self.device)
+    #     self.labels = labels.to(self.device)
+    #     # self.acts = acts
+    #     self.optimizer.zero_grad()
+    #     self.acts.retain_grad()
+    #     logits = self.model(acts)
+    #     _, predictions = logits.max(1)
+    #     self.loss = self.criterion(logits, labels)
+    #     self.total += labels.size(0)
+    #     self.correct += predictions.eq(labels).sum().item()
+
+    #     self.total_loss += self.loss
+    #     if self.step % self.log_step == 0 and self.phase == "train":
+    #         acc = self.correct / self.total
+    #         self.log.info("phase={} acc={} loss={} epoch={} and step={}"
+    #                       .format("train", acc, self.loss.item(), self.epoch, self.step))
+
+    #         # 用log记录一下准确率之类的信息
+    #     if self.phase == "validation":
+    #         # self.log.info("phase={} acc={} loss={} epoch={} and step={}"
+    #         #               .format("train", acc, self.loss.item(), self.epoch, self.step))
+    #         self.val_loss += self.loss.item()
+    #         # torch.save(self.model, self.args["model_save_path"].format("server", self.epoch, ""))
+    #     self.step += 1
     def forward_pass(self, acts, labels):
-        self.acts = acts
-        self.optimizer.zero_grad()
-        self.acts.retain_grad()
-        logits = self.model(acts)
-        _, predictions = logits.max(1)
-        self.loss = self.criterion(logits, labels)
-        self.total += labels.size(0)
-        self.correct += predictions.eq(labels).sum().item()
+        self.acts = acts.to(self.device)
+        self.labels = labels.to(self.device)
 
-        self.total_loss += self.loss
-        if self.step % self.log_step == 0 and self.phase == "train":
-            acc = self.correct / self.total
-            self.log.info("phase={} acc={} loss={} epoch={} and step={}"
-                          .format("train", acc, self.loss.item(), self.epoch, self.step))
+        if self.phase == "train":
+            self.optimizer.zero_grad()
+            self.acts.retain_grad()
+            logits = self.model(self.acts)
+            _, predictions = logits.max(1)
+            self.loss = self.criterion(logits, self.labels)
+            self.total += labels.size(0)
+            self.correct += predictions.eq(self.labels).sum().item()
 
-            # 用log记录一下准确率之类的信息
-        if self.phase == "validation":
-            # self.log.info("phase={} acc={} loss={} epoch={} and step={}"
-            #               .format("train", acc, self.loss.item(), self.epoch, self.step))
-            self.val_loss += self.loss.item()
-            # torch.save(self.model, self.args["model_save_path"].format("server", self.epoch, ""))
-        self.step += 1
+            self.total_loss += self.loss.item()
+
+            if self.step % self.log_step == 0:
+                acc = self.correct / self.total
+                self.log.info(f"phase=train acc={acc:.4f} loss={self.loss.item():.4f} epoch={self.epoch} step={self.step}")
+
+            self.step += 1
+
+        else:  # validation phase
+            with torch.no_grad():
+                logits = self.model(self.acts)
+                _, predictions = logits.max(1)
+                self.loss = self.criterion(logits, self.labels)
+                self.total += labels.size(0)
+                self.correct += predictions.eq(self.labels).sum().item()
+
+                self.val_loss += self.loss.item()
+                self.step += 1
 
     def backward_pass(self):
-        self.loss.backward(retain_graph=True)
+        # self.loss.backward(retain_graph=True)
+        self.loss.backward() 
         self.optimizer.step()
+        torch.cuda.empty_cache()
         return self.acts.grad
 
     def validation_over(self):

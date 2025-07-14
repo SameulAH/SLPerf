@@ -95,32 +95,7 @@
 
 
 
-# ################## Vanilla setup Non-IID
 
-
-dataDir: ./data/
-dataset: cifar10
-device: gpu
-gpu_num_per_server: 1
-download: true
-partition_method: base_on_class
-partition_alpha: 0.3
-variants_type: SplitFed
-lr: 0.01
-max_rank: 2
-# partition_method: homo
-partition_method: base_on_class
-partition_alpha: 0.3
-variants_type: SplitFed
-server_rank: 0
-model: ResNet56 
-split_layer: 1
-seed: 0
-
-save_model_epoch: 50
-
-
-################# 
 
 
 
@@ -273,3 +248,210 @@ save_model_epoch: 50
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+#IID Steup
+# # ################## Vanilla setup IID
+# dataDir: ./data/
+# dataset: cifar10
+# device: gpu
+# gpu_num_per_server: 1
+# download: true
+# batch_size: 32
+# epochs: 100
+# log_step: 30
+# lr: 0.01
+# max_rank: 2
+# partition_method: homo
+# variants_type: vanilla  
+# server_rank: 0
+# model: ResNet56 
+# split_layer: 1
+# seed: 0
+# save_model_epoch: 50
+
+# # # ################## Vanilla setup IID - MINST
+# dataDir: ./data/
+# dataset: mnist
+# device: gpu
+# gpu_num_per_server: 1
+# download: true
+# batch_size: 32
+# epochs: 100
+# log_step: 30
+# lr: 0.01
+# max_rank: 2
+# partition_method: homo
+# variants_type: vanilla 
+# partition_alpha: 9999999999
+# server_rank: 0
+# model: ResNet56 
+# split_layer: 1
+# seed: 0
+# save_model_epoch: 50
+
+
+
+
+###### .PSL setup IID
+# # ################## Vanilla setup IID
+# dataDir: ./data/
+# dataset: cifar10
+# device: gpu
+# gpu_num_per_server: 1
+# download: true
+# batch_size: 32
+# epochs: 100
+# log_step: 30
+# lr: 0.01
+# max_rank: 2
+# partition_method: homo
+# variants_type: VanillaPSL  
+# partition_alpha: 1
+# server_rank: 0
+# model: ResNet56 
+# split_layer: 1
+# seed: 0
+# save_model_epoch: 50
+
+
+#######################
+
+
+
+
+
+
+
+#Non-IID setup
+# ################## ################## ##################
+
+
+# ################## Vanilla setup NON-IID MINST
+dataDir: ./data/
+dataset: mnist
+device: gpu
+gpu_num_per_server: 1
+download: true
+batch_size: 32
+epochs: 100
+log_step: 50
+lr: 0.01
+max_rank: 2
+partition_method: base_on_class
+variants_type: SplitFed   
+partition_alpha: 0.3
+server_rank: 0
+model: LetNet 
+split_layer: 1
+seed: 0
+
+
+# ################## Vanilla setup NON-IID
+# # General settings
+# dataDir: ./data/
+# dataset: cifar10
+# device: gpu
+# gpu_num_per_server: 1
+# download: true
+# batch_size: 32
+# epochs: 100
+# log_step: 30
+# lr: 0.01
+# max_rank: 2
+# partition_method: base_on_class
+# variants_type: vanilla   
+# partition_alpha: 0
+# seed: 0
+# server_rank: 0
+# model: ResNet56
+# split_layer: 1
+# thred: 0.10
+
+# partition_method_attributes: 7
+# class_number_per_client: 4
+
+# client_split: [1]  
+
+
+# ################## SplitFed2 setup NON-IID
+# General settings
+# ################## SplitFed setup Non-IID
+
+
+#dataDir: ./data/
+#dataset: cifar10
+#device: gpu
+#gpu_num_per_server: 1
+#download: true
+#partition_method: base_on_class
+#partition_alpha: 0.3
+#variants_type: SplitFed
+#lr: 0.01
+#max_rank: 2
+#partition_method: base_on_class
+#batch_size: 32
+#epochs: 300
+#log_step: 10
+#server_rank: 0
+#model: ResNet56 
+#split_layer: 1
+#seed: 0
+#save_model_epoch: 50
+
+
+################# 
+
+###### .PSL setup IID
+
+# dataDir: ./data/
+# dataset: cifar10
+# device: gpu
+# gpu_num_per_server: 1
+# download: true
+# batch_size: 32
+# epochs: 100
+# log_step: 30
+# lr: 0.01
+# max_rank: 2
+# partition_method: base_on_class
+# variants_type: Asynchronous
+# partition_alpha: 0
+# server_rank: 0
+# model: ResNet56 
+# split_layer: 1
+# seed: 0
+# save_model_epoch: 50
+
+
+###### uSHAPED setup NON-IID
+
+#dataDir: ./data/
+#dataset: cifar10
+#device: gpu
+#gpu_num_per_server: 1
+#download: true
+#batch_size: 32
+#epochs: 100
+#log_step: 30
+#lr: 0.01
+#max_rank: 2
+#partition_method: base_on_class
+#variants_type: parallel_U_Shape
+#partition_alpha: 0
+#server_rank: 0
+#model: ResNet56 
+#split_layer: 1
+#seed: 0
+#save_model_epoch: 50

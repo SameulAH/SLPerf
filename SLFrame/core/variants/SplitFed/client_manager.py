@@ -1,3 +1,4 @@
+#client_manager.py
 import logging
 import torch
 import time
@@ -5,6 +6,8 @@ from .message_define import MyMessage
 from ...communication.msg_manager import MessageManager
 from ...communication.message import Message
 from ...log.Log import Log
+import core.model.models
+torch.serialization.add_safe_globals([core.model.models.LeNetClientNetwork])
 
 
 class ClientManager(MessageManager):
@@ -21,14 +24,15 @@ class ClientManager(MessageManager):
         self.round_idx = 0
 
     def run(self):
+        logging.info(f"Client {self.rank} is starting a training session.")
         if self.rank == 1:
-            logging.info("{} begin run_forward_pass".format(self.trainer.rank))
+            self.log.info("{} begin run_forward_pass".format(self.trainer.rank))
             self.run_forward_pass()
         super(ClientManager, self).run()
 
     def run_forward_pass(self):
         acts, labels = self.trainer.forward_pass()
-        logging.info("{} run_forward_pass".format(self.trainer.rank))
+        self.log.info("{} run_forward_pass".format(self.trainer.rank))
         self.send_activations_and_labels_to_server(acts, labels, self.trainer.SERVER_RANK)
         self.trainer.batch_idx += 1
 
@@ -63,17 +67,19 @@ class ClientManager(MessageManager):
                                               self.handle_message_model_param_from_server)
 
     def handle_message_semaphore(self, msg_params):
+        elf.log.info("Client {} received test semaphore from server. Starting evaluation...".format(self.rank))
         # no point in checking the semaphore message
-        logging.warning("client{} recv sema".format(self.rank))
+        self.log.info("client{} recv sema".format(self.rank))
         self.trainer.train_mode()
-        # self.trainer.model.load_state_dict(torch.load(self.args["model_tmp_path"]))
+        self.trainer.model.load_state_dict(torch.load(self.args["model_tmp_path"]))
         # self.trainer.model = torch.load(self.args["model_tmp_path"])
+        self.trainer.model = torch.load(self.args["model_tmp_path"], weights_only=False)
         self.run_forward_pass()
 
     def handle_message_gradients(self, msg_params):
         grads = msg_params.get(MyMessage.MSG_ARG_KEY_GRADS)
         self.trainer.backward_pass(grads)
-        logging.warning("batch: {} len {}".format(self.trainer.batch_idx, len(self.trainer.trainloader)))
+        self.log.info("batch: {} len {}".format(self.trainer.batch_idx, len(self.trainer.trainloader)))
         if self.trainer.batch_idx == len(self.trainer.trainloader):
             self.send_model_param_to_fed_server(0)
             if self.trainer.rank != self.trainer.MAX_RANK:
@@ -85,7 +91,7 @@ class ClientManager(MessageManager):
             # while True:
             #     if self.com_manager.q_receiver.qsize() > 0:
             #         msg_params = self.com_manager.q_receiver.get()
-            #         logging.info(msg_params)
+            #         self.log.info(msg_params)
             #
             #         self.com_manager.notify(msg_params)
             #         break
@@ -118,7 +124,7 @@ class ClientManager(MessageManager):
         self.send_message(message)
 
     def send_validation_over_to_server(self, receive_id):
-        logging.warning("client {} send vali over to server{}".format(self.rank, self.trainer.SERVER_RANK))
+        self.log.info("client {} send vali over to server{}".format(self.rank, self.trainer.SERVER_RANK))
         message = Message(MyMessage.MSG_TYPE_C2S_VALIDATION_OVER, self.rank, receive_id)
         self.send_message(message)
 
@@ -134,11 +140,22 @@ class ClientManager(MessageManager):
         if self.trainer.rank == 1:
             self.run_eval()
 
+#    def send_model_param_to_fed_server(self, receive_id):
+#        message = Message(MyMessage.MSG_TYPE_C2S_SEND_MODEL, self.rank, receive_id)
+#        message.add_params(MyMessage.MSG_ARG_KEY_MODEL, self.trainer.model.state_dict())
+#        message.add_params(MyMessage.MSG_AGR_KEY_SAMPLE_NUM, self.trainer.local_sample_number)
+#        self.send_message(message)
     def send_model_param_to_fed_server(self, receive_id):
+        model_params = self.trainer.model.state_dict()
+        self.log.info(f"Client {self.rank} is sending weights to server.")
+        for key, val in model_params.items():
+            logging.debug(f"Client {self.rank} - {key}: {val.detach().cpu().numpy()}")
+
         message = Message(MyMessage.MSG_TYPE_C2S_SEND_MODEL, self.rank, receive_id)
-        message.add_params(MyMessage.MSG_ARG_KEY_MODEL, self.trainer.model.state_dict())
+        message.add_params(MyMessage.MSG_ARG_KEY_MODEL, model_params)
         message.add_params(MyMessage.MSG_AGR_KEY_SAMPLE_NUM, self.trainer.local_sample_number)
         self.send_message(message)
+
 
     def handle_message_test_semaphore(self, msg_params):
         self.run_eval()

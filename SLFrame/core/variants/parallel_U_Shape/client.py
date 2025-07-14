@@ -7,15 +7,45 @@ from ...log.Log import Log
 
 class SplitNNClient():
 
+    # def __init__(self, args):
+    #     self.comm = args["comm"]
+    #     self.model = args["client_model"][0]
+    #     self.model_2 = args["client_model"][1]
+    #     self.optimizer = optim.SGD(self.model.parameters(), args["lr"], momentum=0.9, weight_decay=5e-4)
+    #     self.optimizer_2 = optim.SGD(self.model_2.parameters(), args["lr"], momentum=0.9, weight_decay=5e-4)
+    #     self.criterion = nn.CrossEntropyLoss()
+
+    #     self.device = args["device"]
+
+    #     self.trainloader = args["trainloader"]
+    #     self.testloader = args["testloader"]
+
+    #     self.rank = args["rank"]
+    #     self.MAX_RANK = args["max_rank"]
+    #     self.node_left = self.MAX_RANK if self.rank == 1 else self.rank - 1
+    #     self.node_right = 1 if self.rank == self.MAX_RANK else self.rank + 1
+    #     self.SERVER_RANK = args["server_rank"]
+
+    #     self.epoch_count = 0
+    #     self.batch_idx = 0
+    #     self.MAX_EPOCH_PER_NODE = 3
+    #     self.dataloader = iter(self.trainloader)
+    #     self.phase = "train"
+
+    #     self.log = Log(self.__class__.__name__, args)
+    #     self.log_step = args["log_step"] if args["log_step"] else 50  # 经过多少步就记录一次log
+    #     self.args = args
+
     def __init__(self, args):
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.device = args["device"]  
         self.comm = args["comm"]
-        self.model = args["client_model"][0]
-        self.model_2 = args["client_model"][1]
+        self.model = args["client_model"].to(self.device)
+        self.model_2 = args["client_model_2"].to(self.device)
         self.optimizer = optim.SGD(self.model.parameters(), args["lr"], momentum=0.9, weight_decay=5e-4)
         self.optimizer_2 = optim.SGD(self.model_2.parameters(), args["lr"], momentum=0.9, weight_decay=5e-4)
         self.criterion = nn.CrossEntropyLoss()
 
-        self.device = args["device"]
 
         self.trainloader = args["trainloader"]
         self.testloader = args["testloader"]
@@ -33,8 +63,9 @@ class SplitNNClient():
         self.phase = "train"
 
         self.log = Log(self.__class__.__name__, args)
-        self.log_step = args["log_step"] if args["log_step"] else 50  # 经过多少步就记录一次log
+        self.log_step = args["log_step"] if args["log_step"] else 50
         self.args = args
+
 
     def reset_local_params(self):
         self.total = 0

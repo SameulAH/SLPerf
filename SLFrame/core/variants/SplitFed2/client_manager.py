@@ -26,6 +26,7 @@ class ClientManager(MessageManager):
 
     def run(self):
         # logging.info("{} begin run_forward_pass".format(self.trainer.rank))
+        
         self.run_forward_pass()
         super(ClientManager, self).run()
 

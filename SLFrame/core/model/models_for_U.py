@@ -116,7 +116,7 @@ class LeNetClientNetworkPart21(nn.Module):
 
     def forward(self, x):
         return self.block3(x)
-
+    
 
 
 class LeNetServerNetwork_U1(nn.Module):

@@ -1,3 +1,4 @@
+#servermanager.py
 from mpi4py import MPI
 from .message_define import MyMessage
 from ...communication.msg_manager import MessageManager
@@ -18,6 +19,7 @@ class ServerManager(MessageManager):
         # logging.warning("server rank{} args{}".format(self.rank,args["rank"]))
 
     def run(self):
+        logging.info(f"Server {self.rank} is starting a training session.")
         super().run()
 
     def send_grads_to_client(self, receive_id, grads):
@@ -37,36 +39,58 @@ class ServerManager(MessageManager):
         self.register_message_receive_handler(MyMessage.MSG_TYPE_C2S_SEND_MODEL,
                                               self.handle_message_model_param)
 
+#    def handle_message_acts(self, msg_params):
+#        acts, labels = msg_params.get(MyMessage.MSG_ARG_KEY_ACTS)
+#        sender = msg_params.get(MyMessage.MSG_ARG_KEY_SENDER)
+#        self.trainer.forward_pass(acts, labels)
+#        if self.trainer.phase == "train":
+#            grads = self.trainer.backward_pass()
+#            self.send_grads_to_client(sender, grads)
     def handle_message_acts(self, msg_params):
-        acts, labels = msg_params.get(MyMessage.MSG_ARG_KEY_ACTS)
         sender = msg_params.get(MyMessage.MSG_ARG_KEY_SENDER)
+        self.log.info(f"Server received forward from Client {sender}")
+        acts, labels = msg_params.get(MyMessage.MSG_ARG_KEY_ACTS)
         self.trainer.forward_pass(acts, labels)
+        self.log.info(f"Server completed forward pass for Client {sender}")
+        
         if self.trainer.phase == "train":
+            self.log.info("Server in training phase.")
             grads = self.trainer.backward_pass()
+            self.log.info(f"Server sending back grads to Client {sender}")
             self.send_grads_to_client(sender, grads)
 
     def handle_message_validation_mode(self, msg_params):
-        logging.warning("server recv vali mode")
+        ##
+        self.log.info("Server switched to validation.")
         self.trainer.eval_mode()
 
     def handle_message_validation_over(self, msg_params):
         # logging.warning("over")
+        ###
+        self.log.info("Server finished validation.")
         self.trainer.validation_over()
 
     def handle_message_finish_protocol(self):
+        ###
+        self.log.info("Server received finish signal.")
         self.finish()
 
     def handle_message_model_param(self, msg_params):
         sender = msg_params.get(MyMessage.MSG_ARG_KEY_SENDER)
+        ####
+        self.log.info(f"Server received model from Client {sender}")
         model_param = msg_params.get(MyMessage.MSG_ARG_KEY_MODEL)
         sample_number = msg_params.get(MyMessage.MSG_AGR_KEY_SAMPLE_NUM)
         self.trainer.sum_sample_number += sample_number
         self.trainer.model_param_dict[sender] = (sample_number, model_param)
+        self.log.info(f"Client {sender} sample size:{sample_number}")
 
         # self.sender_list[sender] = True
         # self.trainer.client_sample_dict[sender] = sample_number
         self.trainer.model_param_num += 1
         if self.trainer.model_param_num == self.trainer.MAX_RANK:
+            client_ids = list(self.trainer.model_param_dict.keys())
+            logging.info(f"Server {self.rank} is performing FedAvg aggregation for round {self.round_idx} with clients: {client_ids}")
             # self.log.info(self.sender_list)
             for key in self.trainer.model_param_dict.keys():
                 logging.info("key: ".format(key))
@@ -87,6 +111,7 @@ class ServerManager(MessageManager):
             self.trainer.sum_sample_number = 0
             for idx in range(1, self.trainer.MAX_RANK + 1):
                 self.send_model_param_to_fed_client(idx, model_avg)
+            self.round_idx += 1
 
     def send_model_param_to_fed_client(self, receive_id, model_avg_param):
         message = Message(MyMessage.MSG_TYPE_S2C_MODEL, self.rank, receive_id)
