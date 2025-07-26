@@ -340,7 +340,7 @@
 
 # ################## Vanilla setup NON-IID MINST
 dataDir: ./data/
-dataset: mnist
+dataset: cifar10
 device: gpu
 gpu_num_per_server: 1
 download: true
@@ -350,10 +350,10 @@ log_step: 50
 lr: 0.01
 max_rank: 2
 partition_method: base_on_class
-variants_type: SplitFed   
+variants_type: SplitFed
 partition_alpha: 0.3
 server_rank: 0
-model: LetNet 
+model: ResNet110
 split_layer: 1
 seed: 0
 

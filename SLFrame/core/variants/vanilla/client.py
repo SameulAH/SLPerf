@@ -1,7 +1,7 @@
 import torch.optim as optim
 import logging
 from ...log.Log import Log
-
+import torch
 
 class SplitNNClient():
 
@@ -20,6 +20,7 @@ class SplitNNClient():
         self.batch_idx = 0
         self.MAX_EPOCH_PER_NODE = args["epochs"]
         self.SERVER_RANK = args["server_rank"]
+        
         self.optimizer = optim.SGD(self.model.parameters(), args["lr"], momentum=0.9,
                                    weight_decay=5e-4)
         
@@ -97,3 +98,30 @@ class SplitNNClient():
         self.val_loss = 0
         self.step = 0
         self.batch_idx = 0
+        
+    def local_validate(self):
+        self.log.info(f"Client {self.rank} running local validation on client-side model.")
+        self.model.eval()
+        dataloader = torch.utils.data.DataLoader(self.testloader.dataset, batch_size=self.args["batch_size"], shuffle=False)
+        correct = 0
+        total = 0
+
+        with torch.no_grad():
+            for inputs, labels in dataloader:
+                inputs = inputs.to(self.device)
+                labels = labels.to(self.device)
+
+                outputs = self.model(inputs)  # smashed features
+                # Optional: Use a linear classifier head for local proxy evaluation
+                if self.args.get("local_val_head"):
+                    logits = self.args["local_val_head"](outputs)
+                    _, predicted = logits.max(1)
+                    correct += predicted.eq(labels).sum().item()
+                    total += labels.size(0)
+
+        if total > 0:
+            acc = 100.0 * correct / total
+            self.log.info(f"[Local Client {self.rank}] Accuracy on local validation: {acc:.2f}%")
+            return acc
+        else:
+            return None

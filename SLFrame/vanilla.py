@@ -17,7 +17,7 @@ import os
 from core.model.models import german_LR_client, german_LR_server, LeNetClientNetwork,  LeNetServerNetwork,\
     adult_LR_client, adult_LR_server, LeNetComplete
 
-from core.model.resnet import ResNet_client,ResNet_server
+from core.model.resnet import ResNetClient, ResNetServer,ResNet_client,ResNet_server
 
 
 def init_training_device(process_ID, fl_worker_num, gpu_num_per_machine):
@@ -62,11 +62,13 @@ def init_training_device(process_ID, fl_worker_num, gpu_num_per_machine):
 
 if __name__ == '__main__':
     args = parseFactory(fileType=YAML).factory()
-    client_model = LeNetClientNetwork()
-    server_model = LeNetServerNetwork()
+    #client_model = LeNetClientNetwork()
+    #server_model = LeNetServerNetwork()
     
-    #client_model = ResNet_client()
-    #server_model = ResNet_server()
+    # client_model = ResNet_client()
+    # server_model = ResNet_server()
+    client_model = ResNetClient()
+    server_model = ResNetServer()
     
     
     args.load('./config.yaml')

@@ -12,11 +12,14 @@ class model_factory():
 
     def model_complete(self, parse):
         model_name = parse['model']
+        print(model_name)
 
         if model_name == "LeNet":
             return LeNetComplete()
         elif model_name == "ResNet56":
             return ResNet()
+        elif model_name == "ResNet110":
+            return ResNet110()
 
     def create(self):
         return nn.Sequential(*nn.ModuleList(self.model.children())[:self.split_layer]), \
