@@ -65,8 +65,8 @@ class yamlParse(parse):
                 d = yaml.load(f, Loader=yaml.FullLoader)
             setParseAttribute(self, d)
 
-            # self.log = Log("yamlParse", self)
-            # self.log.info("load config successfully!")
+            self.log = Log("yamlParse", self)
+            self.log.info("load config successfully!")
 
             return d
         except Exception as e:

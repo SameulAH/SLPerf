@@ -14,3 +14,4 @@ torchvision
 
 ## model run
 #mpiexec -n N python variantX.py
+# /SLFrame$ source slprf/bin/activate

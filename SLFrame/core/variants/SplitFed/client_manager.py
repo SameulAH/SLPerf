@@ -7,8 +7,16 @@ from ...communication.msg_manager import MessageManager
 from ...communication.message import Message
 from ...log.Log import Log
 import core.model.models
-torch.serialization.add_safe_globals([core.model.models.LeNetClientNetwork])
+import torch.serialization
+import torch
+import torch.nn as nn
+import torch.serialization
 
+    # allowlist Sequential globally
+torch.serialization.add_safe_globals([nn.Sequential, nn.Conv2d, nn.MaxPool2d, nn.ReLU, nn.Linear])
+torch.serialization.add_safe_globals([nn.Sequential, nn.Conv2d, nn.MaxPool2d, nn.ReLU, nn.Linear])
+
+    ####################
 
 class ClientManager(MessageManager):
     """
@@ -73,7 +81,7 @@ class ClientManager(MessageManager):
         self.trainer.train_mode()
         self.trainer.model.load_state_dict(torch.load(self.args["model_tmp_path"]))
         # self.trainer.model = torch.load(self.args["model_tmp_path"])
-        self.trainer.model = torch.load(self.args["model_tmp_path"], weights_only=False)
+        self.trainer.model = torch.load(self.args["model_tmp_path"], weights_only=True)
         self.run_forward_pass()
 
     def handle_message_gradients(self, msg_params):
