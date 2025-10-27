@@ -339,23 +339,23 @@
 
 
 # ################## Vanilla setup NON-IID MINST
-dataDir: ./data/
-dataset: cifar10
-device: gpu
-gpu_num_per_server: 1
-download: true
-batch_size: 32
-epochs: 100
-log_step: 50
-lr: 0.01
-max_rank: 2
-partition_method: base_on_class
-variants_type: SplitFed
-partition_alpha: 0.3
-server_rank: 0
-model: ResNet110
-split_layer: 1
-seed: 0
+# dataDir: ./data/
+# dataset: cifar10
+# device: gpu
+# gpu_num_per_server: 1
+# download: true
+# batch_size: 32
+# epochs: 100
+# log_step: 50
+# lr: 0.01
+# max_rank: 2
+# partition_method: base_on_class
+# variants_type: SplitFed
+# partition_alpha: 0.3
+# server_rank: 0
+# model: ResNet110
+# split_layer: 1
+# seed: 0
 
 
 # ################## Vanilla setup NON-IID
@@ -454,4 +454,41 @@ seed: 0
 #model: ResNet56 
 #split_layer: 1
 #seed: 0
-#save_model_epoch: 50
+#save_model_epoch: 
+#
+
+
+
+
+#cora dataset
+
+# ---------- Data ----------
+dataDir: ./data/
+dataset: cora
+download: true
+
+# ---------- Runtime / Hardware ----------
+device: cuda:0          # use "cpu" if no GPU is available
+gpu_num_per_server: 1
+server_rank: 0
+comm_log_level: 1        # 0=silent, 1=info, 2=debug
+
+# ---------- Federation ----------
+variants_type: splitfed_gnn
+num_clients: 10          # total clients; mpiexec needs num_clients + 1 procs
+batch_size: 128
+epochs: 200
+local_epochs: 1
+lr: 0.01
+seed: 42
+
+# ---------- Partitioning ----------
+partition_type: dirichlet      # options: iid | dirichlet | community | degree
+partition_method: dirichlet    # keep in sync with partition_type for legacy code
+dirichlet_alpha: 0.5     # used only when partition_type=dirichlet
+
+# ---------- Model (GCN) ----------
+model_args:
+  hidden_dim: 128
+  dropout: 0.5
+  cut: c1

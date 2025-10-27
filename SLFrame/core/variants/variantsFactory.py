@@ -75,6 +75,11 @@ class variantsFactory():
             from ..variants.SplitFed2.client import SplitNNClient
             from ..variants.SplitFed2.server_manager import ServerManager
             from ..variants.SplitFed2.client_manager import ClientManager
+        elif self.variantsType in ("splitfed_gnn", "SplitFed_GNN"):
+            from ..variants.SplitFed_GNN.server import SplitNNServer
+            from ..variants.SplitFed_GNN.client import SplitNNClient
+            from ..variants.SplitFed_GNN.server_manager import ServerManager
+            from ..variants.SplitFed_GNN.client_manager import ClientManager
         elif self.variantsType == "synchronization":
             from ..variants.synchronization.server import SplitNNServer
             from ..variants.synchronization.client import SplitNNClient

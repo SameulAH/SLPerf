@@ -1,0 +1,14 @@
+prefix=/home/ismail/mpich-install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libfabric
+Description: OFI-WG libfabric
+URL: https://github.com/ofiwg/libfabric.git
+Version: 1.15.2
+Requires:
+Cflags: -I${includedir}
+Libs: -L${libdir} -lfabric 
+Libs.private:  -latomic -lpthread -ldl -lcudart -lcuda
+Requires.private:

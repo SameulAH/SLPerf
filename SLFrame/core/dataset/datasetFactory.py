@@ -6,7 +6,7 @@ from .controller.adultController import adultController
 from .controller.germanController import germanController
 from .controller.fashionmnistController import fashionmnistController
 from .controller.cheXpertController import cheXpertController
-# from .controller.coraController import coraController
+from .controller.coraController import coraController
 # from .controller.molhivController import molhivController
 # from .controller.shakespeareController import shakespeareController
 
@@ -33,15 +33,15 @@ class datasetFactory(abstractDatasetFactory):
 
             return controller
 
-        create_controller = compile('{}Controller(self.{})'.format(self.parse.dataset, "parse"),
-                                    './core/dataset/{}/{}Controller.py'.format(self.parse.dataset, self.parse.dataset),
-                                    'eval')
-        # self.log.info('{}Controller({})'.format(self.parse.dataset, "parse"))
-        # if self.parse["dataset"] == "fashionmnist":
-        #     create_controller = compile('{}Controller(self.{})'.format("mnist", "parse"),
-        #                                 './core/dataset/{}/{}Controller.py'.format("mnist",
-        #                                                                            "mnist"),
-        #                                 'eval')
+        dataset_name = self.parse["dataset"]
+        if dataset_name == "cora":
+            return coraController(self.parse)
+
+        create_controller = compile(
+            "{}Controller(self.{})".format(dataset_name, "parse"),
+            "./core/dataset/{}/{}Controller.py".format(dataset_name, dataset_name),
+            "eval",
+        )
         controller = eval(create_controller)
 
         return controller

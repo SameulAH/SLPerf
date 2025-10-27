@@ -1,0 +1,24 @@
+dataDir: ./data/
+dataset: cora
+variants_type: splitfed_gnn
+download: true
+
+# Training settings
+batch_size: 64
+epochs: 200
+local_epochs: 1
+lr: 0.01
+seed: 42
+comm_log_level: 1
+
+# Federation / partitioning
+num_clients: 10
+partition_type: iid   # choices: iid | dirichlet | community | degree
+partition_method: iid
+dirichlet_alpha: 0.5
+
+# Model hyper-parameters
+model_args:
+  hidden_dim: 128
+  dropout: 0.5
+  cut: c1

@@ -3,6 +3,7 @@ from core.log.Log import Log
 
 from .basePartitionFactory import abstractPartitionFactory
 from .cifar10Partition import cifar10Partition
+from .coraPartition import coraPartition
 
 
 class partitionFactory(abstractPartitionFactory):
@@ -19,9 +20,13 @@ class partitionFactory(abstractPartitionFactory):
         # if partition_method in method_list:
         #     return getattr(partition_method_list, partition_method)
 
+        if dataset == 'cora':
+            partition = coraPartition(self.parse).partition_data()
+            return partition
+
         if dataset == 'cifar10' or dataset == "mnist" or dataset == "adult" or dataset == 'german' \
                 or dataset == "fashionmnist" or dataset == "cheXpert" or isinstance(dataset, list) \
-                or dataset == 'cora' or dataset == 'molhiv':
+                or dataset == 'molhiv':
             partition = cifar10Partition(self.parse).partition_data()
             return partition
         else:
