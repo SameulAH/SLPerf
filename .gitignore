@@ -2,3 +2,4 @@ SLFrame/model_save/acts
 core.*
 *.pyc
 *.gz
+*/env/*
